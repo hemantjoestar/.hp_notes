@@ -1,0 +1,46 @@
+
+=== References ===
+- https://egghead.io/courses/introduction-to-smart-contracts-with-ethereum-and-solidity-0a40bba0
+
+Lectures
+- Install and Initialize a Foundry Application
+  - `forge init <project-name>`
+  - `lib` folder into include 3rd party functionality
+- Write a Smart Contract in Solidity
+- Set Up and Test a Smart Contract in Solidity
+  - `forge test`
+  - `forge test --match-test`
+  - {{file:~/vimwiki/screen-grabs/11858339_scrot.png}}
+  - `setUp` function
+  - prefix test
+- Constrained and Fuzzed Inputs
+  - `vm.assume`
+  - `testFail` forge will expect Assertion to fail, no need for `assert` condition
+  - Failing test check considered Anti pattern
+- Identify Anti-patterns
+  - `forge test -vvvv` attach debugger
+  - `vm.expectRevert()`
+  - to catch vm errors inported from stdlib
+  - `vm.expectRevert(stdError.arithmeticError)`
+- Anvil
+- Deploy
+  - {{file:~/vimwiki/screen-grabs/14080441_scrot.png}}
+  - `c` as in create
+  - Solidity can have multiple contracts in same file. Select specific using `:contract-name`
+- Inspect ABI
+  - use `cast`
+  - `forge inspect <contract-name> abi`
+- Read Data From Your Smart Contract
+  - `cast call <args>`
+  - {{file:~/vimwiki/screen-grabs/16249932_scrot.png}}
+  - only `eth_chainId` and `eth_call`
+- Write Data To Your Smart Contract
+  - `cast send <args>` needs pvt-keys
+  - {{file:~/vimwiki/screen-grabs/12410148_scrot.png}}
+- Send a Transaction With Arguments
+  - please note specific format
+  - {{file:~/vimwiki/screen-grabs/1264864_scrot.png}}
+- MetaMask
+- Use Ropsten as a Test Faucet
+- Use Ropsten as a Test Faucet
+  - extra arg `--rpc-url`

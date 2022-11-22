@@ -1,0 +1,17 @@
+:secp256k1:bls:crypto:
+
+= cryptography =
+
+Entry : 2022-10-14
+
+=== References ===
+- 
+
+=== Notes ===
+
+secp256k1
+- https://github.com/itzmeanjan/secp256k1
+
+BLS12-381
+- https://hackmd.io/@benjaminion/bls12-381
+- https://github.com/yi-sun/circom-pairing/blob/master/python/bls12-381.ipynb

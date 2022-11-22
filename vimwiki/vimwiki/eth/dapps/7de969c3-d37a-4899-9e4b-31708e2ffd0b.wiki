@@ -1,0 +1,10 @@
+:dapps:eth:
+
+= factional-nft =
+
+Entry : 2022-08-10
+
+=== References ===
+- https://www.youtube.com/watch?v=_2ZJ5HBEfUk
+
+=== Notes ===

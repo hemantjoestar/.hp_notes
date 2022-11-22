@@ -1,0 +1,233 @@
+:python:
+
+= python-basics =
+
+Entry : 2022-08-24
+
+=== References ===
+- 
+
+=== Notes ===
+- noob habits
+  - use fstrings over manual string formatting
+  - use context managers as much as possible ex. manually closing and opening file
+  - use context manager over try finally
+  - mutable default arguements, they are dfeined when functions are defined not run
+{{{python
+def append(n, l=[]):
+  l.append(n)
+  return l
+
+l1.append(0) # [0]
+l2.append(1) # [0,1] WRONG
+
+def append(n, l=None):
+  if l is None:
+    l = []
+  l.append(n)
+  return l
+  
+l1.append(0) # [0]
+l2.append(1) # [1] 
+  }}}
+  - use comprehension
+    - dict, list, set and generators
+  - type checking using `==`, problems cause of inheritance, use `isIstance()`
+  - is over ==
+  - if bool and if length , jsut check var
+  - `for v in a`, no need for `for v in range(len(a))`
+  - use `enumerate` to get indices and elements at same time
+  - synchronizing variable
+{{{python
+for i in range(len(a)):
+  av=a[i]
+  bv=b[i]
+  
+for av, bv in zip(a)
+for av, bv in enumerate(zip(a))
+}}}
+  - dicts bydefualt loop over keys, dont use `d.keys()`
+  - if looping and need copy `for i in list(d.keys())`
+  - `dict.keys()` items are key value pairs
+  - use `time.perf_counter()`
+  - use `log` vs `print`
+  - {{file:~/vimwiki/screen-grabs/6500625_scrot.png}}
+  - `import *` only in interactive sessions
+  - use packages
+ 
+- list
+  - `[]`
+  - bunch of data types : `['sting_1', 1, False]`
+  - use `in`
+  - slice `list[2:4]`
+  - `insert` item in specific index
+  - `slice` insert multiple items at specific index
+  - `append` to add new items to list
+  - `extend` to join lists `list.extend([new_1,new_2])`
+  - `+=` also works
+  - `push, pop`
+  - advanced sort `list.sort(key=<..>)`
+  - modifies existing list know because of reference type
+  - just print sor but dont modify `print(sorted(list, key=...))`
+- tuple
+  - lists but immutable, almost all functions extended
+  - `()` insted of []
+  - `tuple.index("..")`
+  - since immuateabl;e use `sorted`
+- dict
+  - `{}`
+  - `dict.get("key", <deafult-value>)` returns `none` if key not present
+  - `pop, popitem, in, dict.keys()` can be typecast into `list()`
+  - `dict.copy()`
+- sets
+  - dictionaries without keys, unique entries, quite close to mathematical sets
+  - `{}`
+  - `& and |` ==> `intersection and union`
+  - subset, superset
+  - `list(set)` allows `in`
+- 
+
+operators
+- is: identity aka same `objects`
+- in: membership operator in list or sequences
+  - `"au" in "Beau"` 
+- any: global operator, if any value of the `iterable` is true
+  - `any([val_1, val_2])`
+- all: global operator, if all value of the `iterable` is true
+- boolean operators : not and or
+  - Falsey: [], False, ''
+  - or returns the value of the first operand not Falsey, `False or [] => []`
+  - if x is false then y else x
+  - and evalutes second arg only if first one is true
+  - if x is false, then x else y
+
+Multiline string
+{{{python
+print('''
+string_1
+    ''')
+  }}}
+strings have bunch of utility functions. all return new string object
+
+- check `type`
+- Enums: reaable names bound to constant value
+{{{python
+from enum import Enum
+class State(Enum):
+  ENUM_0 = 0
+  ENUM_1 = 1
+ 
+print(State.ENUM_0.value)
+print(State.ENUM_0.value)
+print(list(State))
+
+ }}}
+
+- user input
+  - `input("enter stuff")`
+- Closures
+  - `nonlocal` inner to access outside vars
+{{{python
+def count():
+  count = 0
+  
+  def inc():
+    nonlocal count
+    ++count
+  
+  inc()
+  
+count()
+  }}}
+  
+  - practical example
+{{{python
+
+def count():
+  count = 0
+  
+  def inc():
+    nonlocal count
+    ++count
+  
+  return inc
+  
+increment = count() #holds inc
+increment() #calls inc()
+increment()
+increment()
+  }}}
+
+- Objects
+  - everything in python is an object
+  - have attributes and methods
+  - 
+- Classes
+  - define methods on class requires `def fn-name(self)`
+  - `self` helps to point to current instance
+  - `def __init__(self,var1, var2)`
+  - inheritance
+    - `class inheriting-class(base-class):`
+- Modules
+  - every python file with mdoerate complexity is a module
+  - typically in python one file acts as entry and other files expose functions we can call
+  - `import` and `from x import y`
+  - for sub folders, empty file *named* `__init__.py`
+  - tells python folder has modules
+    - `from x import y`
+    - `from x.y import z`
+- Python std lib
+  - modules: math, re, json, datetime, sqlite3, os, random, statistics, requests, http, urllib
+  - `import module-name`
+- args from command line
+{{{python
+  import sys
+  sys.argv[1]
+  }}}
+  - better
+{{{python
+  import argparse
+  argparse.ArguementParser(description="..")
+  parser.add_arguement('-c','--color', metavar='color', required=True, choices={choice1, choice2})
+  parser.parse_args().color
+}}}
+- Lambda Functions
+  - `lamba <arguement>:<expression-using-the-arg>`
+  - has to return a value
+  - assigment
+    - `multiply = lambda a,b : a*b \r multiply(2,4)`
+- Map, Filter, Reduce
+  -  global
+  - Map : run a function on an iterable, to return iter
+{{{python
+  nums=[1,2,3]
+  double =  lambda a:2*a
+  def double(a):
+    return 2*a
+  result = map(double, nums) #returns map object
+  result = map(lambda a:2*a,nums)
+  print(list(result))
+}}}
+  - Filter : run a function on an iterable, to return iter with some items removed
+    - *function called must return bool* aka. Filtering function
+    - result = filter(lambda n:n%2 == 0,nums)
+  - Reduce: calculate or return a value of a iterable
+    - example wasnt nice
+- Decorators
+- docstrings
+- Annotations
+- Exceptions
+  - try catch finally expect
+  - raise and then catch
+  - Extend Exception class
+- List compressions
+- Polymorphisms
+- Operator Overloading
+- range
+  - returns a list
+- enumerate
+  - returns item and index
+  - `for index,item in enumerate(list)`
+- `id` global function
+  - inspect location in memory
+

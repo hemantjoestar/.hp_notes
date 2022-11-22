@@ -1,0 +1,12 @@
+:send:eth:evm:ether:call:send:transfer:
+
+= send-ether =
+
+Entry : 2022-09-06
+
+=== References ===
+- https://kushgoyal.com/ethereum-solidity-how-use-call-delegatecall/
+
+=== Notes ===
+- Solidity
+{{file:~/vimwiki/screen-grabs/8743098_scrot.png}}

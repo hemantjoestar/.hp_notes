@@ -1,0 +1,23 @@
+- https://docs.zkopru.network/
+- https://medium.com/privacy-scaling-explorations/zkopru-wat-y-wen-f5026903cf39
+- gas-efficient private transactions
+- zkSNARK allow verifying the correctness of computations without having to execute them and without revealing their inputs
+- make individual transfers private
+- used for scaling and privacy
+- Optimistic rollups sit in parallel to the main Ethereum chain on layer 2
+- improvements in scalability because they don’t do any computation on-chain by default
+- after a transaction, they propose only a stateroot to mainnet and transaction data is stored as calldata, which doesn’t grow the state and therefore has reduced gas cost
+- optimistic UTXO based rollup
+- For zk-transactions directly on the main Ethereum chain, it would be necessary to use a SNARK-friendly hash function to construct a Merkle tree, which is very expensive
+- Using an optimistic rollup, we can update the SNARK friendly Merkle tree at a low cost off chain
+
+- view and transfer their assets on L2, represented behind the scenes as UTXOs
+- For a transfer, the sender needs the Zkopru address of the recipient
+- user can use their Ethereum private key to generate a corresponding address in the Zkopru 
+- wallet generates a zkp that proves the integrity of the system after the transfer without revealing any details and sends the transaction to the Zkopru coordinator
+- coordinator has included the transaction (for a fee) the funds are considered private
+- Like other optimistic rollups, Zkopru requires the user to wait for 7 days for withdrawals to be finalized
+- doesn’t want to wait that long can use the instant withdrawal mechanism
+- to make an instant withdrawal, they can make a request to another user to advance the funds in exchange for a fee
+- The user who advances the funds keeps the fee but takes on any risk of the transaction being invalidated by a fraud proof
+- Transactions become cheaper in bulk and depend on the number of UTXOs used

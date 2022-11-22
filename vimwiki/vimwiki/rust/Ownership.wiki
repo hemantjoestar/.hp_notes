@@ -1,0 +1,1 @@
+https://depth-first.com/articles/2020/01/27/rust-ownership-by-example/

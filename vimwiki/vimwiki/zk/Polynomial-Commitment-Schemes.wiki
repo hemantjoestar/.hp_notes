@@ -1,0 +1,7 @@
+
+=== References ===
+KZG
+- twitter haym
+- [[https://hackmd.io/@tompocock/Hk2A7BD6U|Kate Commitments: A Primer]]
+- Dan boneh zk whiteboard lecture 2
+  - nice insights in commentary.. must have notes 

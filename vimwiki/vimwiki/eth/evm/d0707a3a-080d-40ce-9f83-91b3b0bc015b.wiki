@@ -1,0 +1,14 @@
+:bloom_filters:rlp:eth:evm:events:
+
+= evm-internals =
+
+Entry : 2022-08-05
+
+=== References ===
+- https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy-16e
+
+=== Notes ===
+
+- RLP
+  - https://medium.com/coinmonks/data-structure-in-ethereum-episode-1-recursive-length-prefix-rlp-encoding-decoding-d1016832f919
+  - 

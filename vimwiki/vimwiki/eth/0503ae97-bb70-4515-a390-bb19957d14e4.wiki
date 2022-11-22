@@ -1,0 +1,14 @@
+:eth:
+
+= hitchhikers-guide-to-ethereum =
+
+Entry : 2022-10-10
+
+=== References ===
+- 
+
+=== Notes ===
+=== ETH2.0 ===
+- [[Block-Proposals]]
+- [[Time-Slots-Epochs]]
+

@@ -1,0 +1,20 @@
+:eth:evm:precompiles:
+
+= precompiles =
+
+Entry : 2022-09-08
+
+=== References ===
+- https://ethereum.stackexchange.com/questions/441/what-is-the-identity-function-and-what-are-its-uses
+- https://ethereum.stackexchange.com/questions/15479/list-of-pre-compiled-contracts/15483#15483
+- https://ethereum.stackexchange.com/questions/76760/what-s-the-identity-0x4-precompile
+- https://ethereum.stackexchange.com/questions/35528/calling-precompiled-contracts-from-a-pure-function
+- https://medium.com/@rbkhmrcr/precompiles-solidity-e5d29bd428c4
+- https://medium.com/klaytn/toward-ethereum-equivalence-2-changes-in-precompiled-contract-addresses-a314d9db2927
+- https://docs.klaytn.foundation/smart-contract/precompiled-contracts
+- https://blog.qtum.org/precompiled-contracts-and-confidential-assets-55f2b47b231d
+- 
+
+=== Notes ===
+
+0x04 precompile copies a chunk of memory

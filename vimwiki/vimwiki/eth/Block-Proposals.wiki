@@ -1,0 +1,13 @@
+
+
+- once every 12 secs
+- EVM is attached to a consensus mechanism, which is responsible for communicating between nodes
+ - select a leader (block proposer)
+ - allow a proposer to submit a change to the EVM (block) to the network
+ - allow the network to confirm the block was valid
+ - provide credibly security guarantees
+- Slot: 12 seconds, during which the block proposer (should) broadcast their block
+- Epoch: 32 slots = 6.4 minutes
+- Randomness via RANDAO
+- 
+ 

@@ -1,0 +1,38 @@
+:tooling:make:
+
+= makefile =
+
+Entry : 2022-08-07
+
+=== References ===
+- 
+
+=== Notes ===
+
+Nice
+- https://swcarpentry.github.io/make-novice/reference.html
+- https://makefiletutorial.com/#top
+
+Useful shorts
+- To use a Makefile with a different name, use the -f flag e.g.
+`make -f build-files/analyze.mk`
+- To see the actions Make will run when building a target, without running the actions, use the --dry-run flag e.g.
+`make --dry-run isles.dat`
+- `NAME := VALUE` that can be refered by ${NAME} or $(NAME)
+- `NAME ?= VALUE` Assign VALUE to the variable NAME if it’s not yet defined.
+  - `make BUILD=RELEASE ENVIRONMENT=PRODUCTION`
+- alias `NAME = VALUE`
+  - right hand side will be evaluated every time variable is accessed
+  - `v1 := $(shell ls); v2 = $(shell ls)`
+  - Both variables hold the result of the shell ls command execution, but v1 will be evaluated only once, and will never show any new files.
+
+
+
+
+
+Python specific
+- https://medium.com/aigent/makefiles-for-python-and-beyond-5cf28349bf05
+- https://antonz.org/makefile-automation/
+- https://medium.com/aigent/makefiles-for-python-and-beyond-5cf28349bf05
+- https://stackabuse.com/how-to-write-a-makefile-automating-python-setup-compilation-and-testing/
+- https://gist.github.com/MarkWarneke/2e26d7caef237042e9374ebf564517ad

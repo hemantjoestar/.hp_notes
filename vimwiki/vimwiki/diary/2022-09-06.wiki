@@ -1,0 +1,2 @@
+[[/eth/evm/fd677601-dc1b-486a-bd0e-34657a92b230|selfdestruct]]
+[[/eth/evm/4618cc83-204e-46ef-99a5-619d0d2387f5|send-ether]]

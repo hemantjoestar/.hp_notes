@@ -1,0 +1,14 @@
+:eth:zkopru:dapps:
+
+= privacy-and-scaling-explorations-ethereum =
+
+Entry : 2022-10-14
+
+=== References ===
+- https://appliedzkp.org/ 
+
+=== Notes ===
+
+[[zkopru]]
+[[BLS-Wallet]]
+  

@@ -1,0 +1,27 @@
+:enumerable:nft:next:721:eth:
+
+= erc-721 =
+
+Entry : 2022-08-20
+
+=== References ===
+- https://www.youtube.com/watch?v=hL5uPgEAuIo
+- https://github.com/nftchance/nft-airdrop
+
+=== Notes ===
+
+==== Enumreable ====
+- OZ implementation, optional extension since large gas overhead
+- 3 methods
+- default mapping in 721 `tokenID => address, address -> token_count/balances`
+- not enough to create seamless expereince of fetching user tokens, also tokenIds need not be sequential
+- `tokenOfOwnerByIndex` to be used along with `balanceOf`
+- bunch of extra data structures
+  - {{file:~/vimwiki/screen-grabs/8490778_scrot.png}}
+  - {{file:~/vimwiki/screen-grabs/8404222_scrot.png}}
+  - {{file:~/vimwiki/screen-grabs/10560714_scrot.png}}
+  - {{file:~/vimwiki/screen-grabs/8364733_scrot.png}}
+  - {{file:~/vimwiki/screen-grabs/7221005_scrot.png}}
+- Update during tranfers is complicated
+  - {{file:~/vimwiki/screen-grabs/11146147_scrot.png}}
+  - {{file:~/vimwiki/screen-grabs/5999383_scrot.png}}

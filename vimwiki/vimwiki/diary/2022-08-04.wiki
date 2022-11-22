@@ -1,0 +1,2 @@
+[[/tooling/vimwiki/6dfabff7-6b4d-4d1f-b9ff-11c8c6ee696f|vimiwiki-templates]]
+[[/python/b275da86-4070-4d0c-aded-221409ea54d6|python-advanced]]

@@ -1,0 +1,18 @@
+:create_forwarder_to:solidity:vyper:eth:proxy:1167:
+
+= erc-1167 =
+
+Entry : 2022-08-10
+
+=== References ===
+- https://www.youtube.com/watch?v=9xqoK2nKkM4
+- https://www.youtube.com/watch?v=zUtnYtxjOrc
+- https://www.youtube.com/watch?v=7H7GVI1gsTc
+- https://swende.se/blog/EVM-Assembly-trick.html
+- https://www.youtube.com/watch?v=kWUDTZhxKZI
+- https://github.com/Uniswap/v1-contracts/blob/master/contracts/uniswap_factory.vy
+- https://vyper.readthedocs.io/en/latest/built-in-functions.html?highlight=create_forwarder_to#chain-interaction
+- https://medium.com/coinmonks/diving-into-smart-contracts-minimal-proxy-eip-1167-3c4e7f1a41b8
+- 
+
+=== Notes ===

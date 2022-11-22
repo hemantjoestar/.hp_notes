@@ -1,0 +1,66 @@
+:resources:vyper:eth:contracts:rewrite:next:
+
+= vyper-resources =
+
+Entry : 2022-08-03
+
+=== References ===
+- https://www.vyperexamples.com/ 
+- https://twitter.com/pcaversaccio/status/1555510362333712386
+- https://twitter.com/sw0nt/status/1555722917622824961
+- https://twitter.com/emilianobonassi/status/1557431315045273601
+
+=== Notes ===
+
+- possible steps
+  - Get the bytecode deployed to an addres
+  - Find the ABI from a block explorer (Ethercan or similar) for a well-known address
+  - local fork from a live chain
+  - Using a websocket, create a notification subscription using eth_subscribe
+  - Create a contract object using an ABI
+  - Execute a state-changing transaction using a contract object
+  - Retrieve pending transactions (mempool)
+  - Retrieve data held in storage at a particular address
+  - Set up and operate a node
+  - Simulate transactions using eth_call
+  - Generate and manipulate calldata
+  - Automate above
+
+- Snippets
+  - https://discord.com/channels/969926564286459934/979456795506524170/1017271185857327164
+  - 
+  - 
+- Excercise
+  - multicall
+  - [[https://www.youtube.com/watch?v=vXu5GeLP6A8|Uniswap V3]]
+  - https://github.com/z0r0z/zolidity/blob/main/src/utils/Refunded.sol
+
+- Boss people shared
+  - https://github.com/banteg/staking-deposit
+  - https://github.com/Jeiwan/flash-loans-comparison
+  - https://github.com/curvefi/curve-gas-estimates
+  - 
+
+- More Insights and details
+  - gas forwarding
+  - `send` vs `call`
+
+- Challenges
+  - {{https://medium.com/superfluid-blog/call-for-participation-an-on-chain-sorting-program-contest-aa4c01e688a|An On-Chain Sorting Program Contest}}
+  - https://github.com/JoshuaTrujillo15/offensive_vyper
+
+- Existing Rewrite 
+  - https://github.com/pandadefi/uni_snake
+  - https://github.com/0xClandestine/UniswapV2-vyper
+  - https://github.com/Artpedia-io/SnakePedia
+  - [[https://solidity-by-example.org/ |Applications, Hacks Defi]]
+  - 
+
+- To Rewrite
+  - https://github.com/m1guelpf/connect4-sol
+  - https://github.com/m1guelpf/lil-web3
+  - https://github.com/m1guelpf/erc721-drop
+  - https://github.com/m1guelpf/zorb-fridge
+  - https://github.com/w1nt3r-eth/hot-chain-svg
+  - https://github.com/w1nt3r-eth/EIP712-whitelisting
+  

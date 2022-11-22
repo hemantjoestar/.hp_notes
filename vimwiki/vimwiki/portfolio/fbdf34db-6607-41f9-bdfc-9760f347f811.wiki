@@ -1,0 +1,148 @@
+:portfolio:
+
+%% autocmd BufWritePre <buffer> silent:Vimwiki2HTML
+%% autocmd BufWritePre <buffer> :Vimwiki2HTML
+%% Vimwiki2HTMLBrowse, template has autoloader
+
+to mimic as much as possible
+https://standardresume.co/r/rootulp
+
+%title Hemants Resume
+%% %template resume-iterate
+
+= resume-and-webpage =
+
+Entry : 2022-08-02
+
+== Opportunities interested in ==
+- Protocol Development and Incentive Design, cadCAD
+- ZK Games and Tooling, circom
+- Persistent, Multiplayer, Online Games blockchain integration
+== Languages ==
+- Vyper
+- Solidity
+- Python
+== Tooling ==
+- Brownie
+- Foundry
+- EVM chains
+== Experience ==
+=== GuardianLink, Appstars Applications Pvt. Ltd, Blockchain App Factory Pvt. Ltd ===
+==== Blockchain Application Engineer , February '21 - , Chennai ====
+- Decentralized NFT marketplace for EVM chains
+  - Proposed architecture and technical implementation
+  - Customizations and feature implementations
+- Curated NFT Launchpad and Marketplace
+  - Proposed architecture and technical implementation
+  - GuardianLink Launchpad, Marketplace  and User Profile UI and UX
+  - Technical POC for premier Launchpad clients, support critical decisions and make recommendations
+  % - Discord Bot
+- Play2Earn Game Mechanics
+  - Cricket Game in-game asset tokenization and  incentive mechanism integration into gameplay and marketplace
+  - Car Racing in-game asset generation pipeline for Smart contracts, Marketplace and AR
+- NFT Asset Generation and Management Pipeline
+  - Asset Ideation, technical feasibility and ERC protocol implementation with roadmap considerations
+  - composite generator, Metadata, rarity and IPFS upload
+- Blockchain Application Engineer
+  - Application technical design, decentralised protocol integration, protocol cloning feasibility
+  - Raffling and merkle drop for NFT launch
+  - Decentralized NFT marketplace architecture and features, Regenerative Art generator engine 
+- Research Analyst
+  -  Catch up with bleeding-edge research, popular implementations, new technologies in Smart contract ecosystem
+  - Protocol research and integration evaluation for constant improvement in product offering 
+  - Follow developments in the NFT space, industry participants and anticipate trends
+  - Marketing and SEO inputs
+- Pre Sales Techincal Consultant/Support
+  - Client requirement ideation, design recommendation and technical solutions provider
+  - Product customization and Roadmap proposals
+
+=== Previous Experience Chronological ===
+
+[[#CPDM, IISC Bengaluru]]<br/>
+[[#Cell Propulsion Pvt. Ltd.]]<br/>
+[[#Freelance]]<br/>
+[[#E2 Infosystems Pvt. Ltd.]]<br/>
+[[#Accelya Solutions India Ltd.]]<br/>
+[[#IIT-Bombay]]<br/>
+[[#Enercon India Ltd.]]<br/>
+
+== Education ==
+*Master of Technology: IIT-Bombay Control and Computing: Dept. of Electrical Engg.*<br/>GPA: 8.04. July ’11 - July ’14
+
+Thesis : Polynomial matrix null space computation
+- BlockQR and SVD on GPU using OpenCL and clAMDBLAS
+- Block Toeplitz solutions in  Scipy
+*Bachelor of Technology: NIT-Nagpur Electrical Engineering.* <br/> GPA: 6.61. July ’06 - May ’10
+
+==Publication==
+*Forming Behavior of thin foils, p.p. 493-498, 2013, Zurich, Switzerland* <br/>International Deep Drawing Research Group Conference. <br/> Hemant Puthran, Sanket V. Joshi, K. Narasimhan
+
+
+=== Previous Experience ===
+
+==== CPDM, IISC Bengaluru ====
+Embedded Software Engineer , October '20 -  March '21 , Bengaluru
+- Type 1 Diabetes Insulin Pump Firmware Development and Actuating Hardware Procurement
+  - Test benches, device driver development, documentation in preparation for clinical  trails of Mechanical Delivery Mechanism
+
+==== Cell Propulsion Pvt. Ltd. ==== 
+Embedded Software Engineer , March '19 -  October '20 , Bangalore
+- Battery Management System
+  - 10KW:48V:14S and 6KW:60V:18S battery pack BMS firmware
+  - NXP S32K144 as primary platform and integration with multiple customer peripherals
+  - Driver development for NXP 33771 Battery Cell Controller
+  - TDD}: Python scripting within GDB, Workflow}: ITM logging and parsing, Peripheral simulation}: Raspberry Pi 
+- Command, Flow and Logging unit for BMTC bus ICE to Electric Drive  retrofit
+  - Command: Battery, Charger, DC Auxiliary systems, Radiator, Motor Drives for Coolant over CAN bus
+  - Flow: Startup, Shutdown, Emergency shutdown, Throttle relay
+  - Logging: Real time visualization of system parameters and Logging over Bluetooth $\approx$ 1.5 Mb/s 
+  - Electric Vehicle Telematics Platform for Fleet Management
+- Retrofit for electric scooter on STM32 platform, tight integration with Android app. over BLE 4.0
+  - Integrating vehicle metrics over 4G facilitating continuous monitoring and backup logging 
+  - Custom bootloader for wireless  firmware update
+- Power Distribution for Electric Moped
+  - Battery switch-over between main \& emergency based of CAN bus. Dashboard for vehicle metrics
+
+
+==== Freelance ==== 
+Software Developer , March '17 - October '18 , Mumbai
+- Asterisk Telephony Dashboard
+  - Solution provided for dashboard(ReactJS) and back end(ReactPHP)
+  - Filtering and publishing of Asterisk events from AMI(management interface) and ARI(REST interface) to Dashboard
+  - Event driven, non-blocking,  minimal webserver hosting the client and  providing config. and logging utility for admin
+  - Complete functionality out of file folder, facilitating easy non technical onsite installation of application, bash scripting to automatically revive  application incase of crash
+
+==== E2 Infosystems Pvt. Ltd. ==== 
+Developer Analyst , Oct. '15 - March '17 , Chennai
+- Legacy Application Redesign and Rewrite for iOS
+  - Emphasis on separation of concerns, reusability, maintainence, feature extensibility of Java based hybrid web app.
+  - Feature development in JavaScript and native iOS, leveraging each’s strengths for robustness and flexibility
+  - Primitive protocol and workflow for communication and synchronization between the iOS h/w layer and JS app.
+  - Replaced various Java templating frameworks with ReactJS
+  - Enhanced development workflow and optimal production build generation using Webpack
+- Web App
+  - Sole developer for client(AngularJS) and back end(Laravel)
+  - Chat feature over web-sockets leveraging XMPP protocol on OpenFire
+  - Implemented JSON Web Tokens for verfiying requests, maintaining user state to tend towards stateless back end
+- WordPress App
+  - Plugin and Theme Development to manage website data, tightly integrated with WordPress API's \& inbuilt functionality
+  - Developed rudimentary console and schema to dynamically customize page layout and content
+  - Effective solution by facilitating easy maintenance of more than 1200 existing webpages
+
+==== Accelya Solutions India Ltd. ====
+iOS Developer , June '14 - Oct. '15, Mumbai
+- Functional enhancements and fixes to Finesse MBS, Audit MIS and iBrochures
+
+==== IIT-Bombay ====
+Research Assistant , July '11 - June '14 , Mumbai
+- Control Systems lab incharge for Masters and Bachelors courses
+- Designed experiments to mirror real world applications during Dev. boards and DAQ cards 
+- Single Axis Test Platform and Thrust Measuring Stand to engineer a quad-copter platform 
+- Augmented of-the-shelf ESC firmware for improved granularity in BLDC speed control
+
+
+==== Enercon India Ltd. ==== 
+Field Engineer, June '10 - June '11, Saundatti, Karnataka
+- Electrical Supervisor designing site installation grid layout, coordinating installation of electric equipment
+- Model: E53, 800KW
+- ISO quality inspection and  state utility grid commissioning of windturbines

@@ -1,0 +1,36 @@
+:vimwiki:template:tooling:
+
+= vimiwiki-templates =
+
+Entry : 2022-08-04
+
+=== References ===
+- https://github.com/zweifisch/vimwiki-assets
+- https://mykb.dieminger.ch/docs/vimwiki.html
+- https://gist.github.com/maikeldotuk/54a91c21ed9623705fdce7bab2989742
+- https://www.rosipov.com/blog/custom-templates-in-vimwiki/
+- https://github.com/rahul13ramesh/Dark-Vimwiki-Template
+- 
+
+=== Notes ===
+
+
+Straightforward
+- template based .. Default templates .. can personalise
+- use below to quickly iterate
+{{{
+
+%% autocmd BufWritePre <buffer> silent:Vimwiki2HTML
+%% autocmd BufWritePre <buffer> :Vimwiki2HTML
+
+%title Hemants Resume
+%template resume-iterate
+
+  }}}
+- requires `resume-iterate.tpl` .. need to configure if `.html` to be used
+- nice resources attached
+- Complete custom setup script would be great since bash utilities would be available, not used now,lot of flexibity with vimwiki sending a bunch of stuff as input args
+- refer to `custom_wiki2html` configuration
+
+[[https://tyjak.github.io/Vimwiki2html.html| i believe proper way to do vw settings]]
+

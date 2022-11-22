@@ -1,0 +1,11 @@
+:vim:tooling:statusline:
+
+= vim-statusline =
+
+Entry : 2022-08-19
+
+=== References ===
+- https://shapeshed.com/vim-statuslines/#:~:text=The%20statusline%20in%20Vim%20is,is%20more%20than%20one%20window.
+- 
+
+=== Notes ===

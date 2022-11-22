@@ -1,0 +1,39 @@
+
+=== References ===
+- https://www.youtube.com/watch?v=nFn4_nA_yk8
+- https://www.youtube.com/watch?v=bs9tlDFWWdQ
+
+Fucking difficult to comprehend for me
+
+
+Event Loop
+- periodically check on stuff already running
+- Synchronous
+- {{file:~/vimwiki/screen-grabs/4988828_scrot.png}}
+- Asynchronous
+  1. `import asyncio, aiohttp` modules also have to support async
+  2. Declare function that contains code to be executed async prepend `async`
+  3. get Event Loop  Handler/ Checker `asyncio.get_event_loop()`
+  4. Attach function to Checker `<checker>.run_until_complete(<function>())`
+  5. `.close()`
+  6. 3-5 --> `asyncio.run(<function>())`
+  7. {{file:~/vimwiki/screen-grabs/1752373_scrot.png}}
+  8. Bunch of `await` in multiple places
+  9. Concept of *co routines*
+  10. Tasks: Rapid fire generate bunch of co routines, list
+  11. I think this crucial `await.asyncio.gather(*tasks)`
+  12. * derefences the list has nothing to do with async, syntactic sugar 
+  13. {{file:~/vimwiki/screen-grabs/15397096_scrot.png}}
+  14. In specific example, preferable to use context  manager
+{{{python
+session = aiohttp.ClientSession()
+...
+session.close()
+
+with aiohttp.ClientSession as session:
+# auto closed
+
+async with ...
+
+}}}
+- 

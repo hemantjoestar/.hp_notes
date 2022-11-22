@@ -1,0 +1,1197 @@
+time 1659462645
+new [description:"resume and webpage" diary_entry:"N" entry:"1659462645" modified:"1659462645" status:"pending" uuid:"fbdf34db-6607-41f9-bdfc-9760f347f811"]
+---
+time 1659462663
+old [description:"resume and webpage" diary_entry:"N" entry:"1659462645" modified:"1659462645" status:"pending" uuid:"fbdf34db-6607-41f9-bdfc-9760f347f811"]
+new [description:"resume and webpage" diary_entry:"N" entry:"1659462645" modified:"1659462663" project:"portfolio" status:"pending" uuid:"fbdf34db-6607-41f9-bdfc-9760f347f811"]
+---
+time 1659462666
+old [description:"resume and webpage" diary_entry:"N" entry:"1659462645" modified:"1659462663" project:"portfolio" status:"pending" uuid:"fbdf34db-6607-41f9-bdfc-9760f347f811"]
+new [description:"resume and webpage" diary_entry:"N" entry:"1659462645" modified:"1659462666" project:"portfolio" status:"pending" tmp_value_holder:"resume" uuid:"fbdf34db-6607-41f9-bdfc-9760f347f811"]
+---
+time 1659462666
+old [description:"resume and webpage" diary_entry:"N" entry:"1659462645" modified:"1659462666" project:"portfolio" status:"pending" tmp_value_holder:"resume" uuid:"fbdf34db-6607-41f9-bdfc-9760f347f811"]
+new [description:"resume-and-webpage" diary_entry:"N" entry:"1659462645" modified:"1659462666" project:"portfolio" status:"pending" tmp_value_holder:"resume" uuid:"fbdf34db-6607-41f9-bdfc-9760f347f811"]
+---
+time 1659462666
+old [description:"resume-and-webpage" diary_entry:"N" entry:"1659462645" modified:"1659462666" project:"portfolio" status:"pending" tmp_value_holder:"resume" uuid:"fbdf34db-6607-41f9-bdfc-9760f347f811"]
+new [description:"resume-and-webpage" diary_entry:"Y" entry:"1659462645" modified:"1659462666" project:"portfolio" status:"pending" tmp_value_holder:"resume" uuid:"fbdf34db-6607-41f9-bdfc-9760f347f811"]
+---
+time 1659462666
+old [description:"resume-and-webpage" diary_entry:"Y" entry:"1659462645" modified:"1659462666" project:"portfolio" status:"pending" tmp_value_holder:"resume" uuid:"fbdf34db-6607-41f9-bdfc-9760f347f811"]
+new [description:"resume-and-webpage" diary_entry:"Y" entry:"1659462645" modified:"1659462666" project:"portfolio" status:"pending" tags:"portfolio" tags_portfolio:"x" tmp_value_holder:"resume" uuid:"fbdf34db-6607-41f9-bdfc-9760f347f811"]
+---
+time 1659506972
+new [description:"vyper resources" diary_entry:"N" entry:"1659506972" modified:"1659506972" status:"pending" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+---
+time 1659507012
+old [description:"vyper resources" diary_entry:"N" entry:"1659506972" modified:"1659506972" status:"pending" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+new [description:"vyper resources" diary_entry:"N" entry:"1659506972" modified:"1659507012" project:"eth.vyper" status:"pending" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+---
+time 1659507014
+old [description:"vyper resources" diary_entry:"N" entry:"1659506972" modified:"1659507012" project:"eth.vyper" status:"pending" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+new [description:"vyper resources" diary_entry:"N" entry:"1659506972" modified:"1659507014" project:"eth.vyper" status:"pending" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+---
+time 1659507014
+old [description:"vyper resources" diary_entry:"N" entry:"1659506972" modified:"1659507014" project:"eth.vyper" status:"pending" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+new [description:"vyper-resources" diary_entry:"N" entry:"1659506972" modified:"1659507014" project:"eth.vyper" status:"pending" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+---
+time 1659507014
+old [description:"vyper-resources" diary_entry:"N" entry:"1659506972" modified:"1659507014" project:"eth.vyper" status:"pending" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+new [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1659507014" project:"eth.vyper" status:"pending" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+---
+time 1659507014
+old [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1659507014" project:"eth.vyper" status:"pending" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+new [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1659507014" project:"eth.vyper" status:"pending" tags:"eth,vyper" tags_eth:"x" tags_vyper:"x" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+---
+time 1659507549
+old [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1659507014" project:"eth.vyper" status:"pending" tags:"eth,vyper" tags_eth:"x" tags_vyper:"x" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+new [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1659507549" project:"eth.vyper" status:"pending" tags:"eth,resources,vyper" tags_eth:"x" tags_resources:"x" tags_vyper:"x" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+---
+time 1659508157
+new [description:"python blockchain courses" diary_entry:"N" entry:"1659508157" modified:"1659508157" project:"eth.python" status:"pending" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+---
+time 1659508519
+old [description:"python blockchain courses" diary_entry:"N" entry:"1659508157" modified:"1659508157" project:"eth.python" status:"pending" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+new [description:"python blockchain courses" diary_entry:"N" entry:"1659508157" modified:"1659508519" project:"eth.python" status:"pending" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+---
+time 1659508519
+old [description:"python blockchain courses" diary_entry:"N" entry:"1659508157" modified:"1659508519" project:"eth.python" status:"pending" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+new [description:"python-blockchain-courses" diary_entry:"N" entry:"1659508157" modified:"1659508519" project:"eth.python" status:"pending" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+---
+time 1659508519
+old [description:"python-blockchain-courses" diary_entry:"N" entry:"1659508157" modified:"1659508519" project:"eth.python" status:"pending" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+new [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659508519" project:"eth.python" status:"pending" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+---
+time 1659508519
+old [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659508519" project:"eth.python" status:"pending" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+new [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659508519" project:"eth.python" status:"pending" tags:"eth,python" tags_eth:"x" tags_python:"x" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+---
+time 1659528187
+new [description:"vim surround" diary_entry:"N" entry:"1659528187" modified:"1659528187" project:"tooling.vim" status:"pending" uuid:"e8a8eb59-a3b3-4f2d-917f-b8c7c6f64c67"]
+---
+time 1659528197
+old [description:"vim surround" diary_entry:"N" entry:"1659528187" modified:"1659528187" project:"tooling.vim" status:"pending" uuid:"e8a8eb59-a3b3-4f2d-917f-b8c7c6f64c67"]
+new [description:"vim surround" diary_entry:"N" entry:"1659528187" modified:"1659528197" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"e8a8eb59-a3b3-4f2d-917f-b8c7c6f64c67"]
+---
+time 1659528197
+old [description:"vim surround" diary_entry:"N" entry:"1659528187" modified:"1659528197" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"e8a8eb59-a3b3-4f2d-917f-b8c7c6f64c67"]
+new [description:"vim-surround" diary_entry:"N" entry:"1659528187" modified:"1659528197" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"e8a8eb59-a3b3-4f2d-917f-b8c7c6f64c67"]
+---
+time 1659528197
+old [description:"vim-surround" diary_entry:"N" entry:"1659528187" modified:"1659528197" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"e8a8eb59-a3b3-4f2d-917f-b8c7c6f64c67"]
+new [description:"vim-surround" diary_entry:"Y" entry:"1659528187" modified:"1659528197" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"e8a8eb59-a3b3-4f2d-917f-b8c7c6f64c67"]
+---
+time 1659528197
+old [description:"vim-surround" diary_entry:"Y" entry:"1659528187" modified:"1659528197" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"e8a8eb59-a3b3-4f2d-917f-b8c7c6f64c67"]
+new [description:"vim-surround" diary_entry:"Y" entry:"1659528187" modified:"1659528197" project:"tooling.vim" status:"pending" tags:"tooling,vim" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim" uuid:"e8a8eb59-a3b3-4f2d-917f-b8c7c6f64c67"]
+---
+time 1659531623
+old [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659508519" project:"eth.python" status:"pending" tags:"eth,python" tags_eth:"x" tags_python:"x" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+new [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659531623" project:"eth.python" status:"pending" tags:"PatrickAlphaC,brownie,chainlink,eth,python" tags_PatrickAlphaC:"x" tags_brownie:"x" tags_chainlink:"x" tags_eth:"x" tags_python:"x" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+---
+time 1659589260
+new [description:"vimiwiki-templates" diary_entry:"N" entry:"1659589260" modified:"1659589260" project:"tooling.vimwiki" status:"pending" uuid:"6dfabff7-6b4d-4d1f-b9ff-11c8c6ee696f"]
+---
+time 1659589263
+old [description:"vimiwiki-templates" diary_entry:"N" entry:"1659589260" modified:"1659589260" project:"tooling.vimwiki" status:"pending" uuid:"6dfabff7-6b4d-4d1f-b9ff-11c8c6ee696f"]
+new [description:"vimiwiki-templates" diary_entry:"N" entry:"1659589260" modified:"1659589263" project:"tooling.vimwiki" status:"pending" tmp_value_holder:"vimiwiki-templates" uuid:"6dfabff7-6b4d-4d1f-b9ff-11c8c6ee696f"]
+---
+time 1659589263
+old [description:"vimiwiki-templates" diary_entry:"N" entry:"1659589260" modified:"1659589263" project:"tooling.vimwiki" status:"pending" tmp_value_holder:"vimiwiki-templates" uuid:"6dfabff7-6b4d-4d1f-b9ff-11c8c6ee696f"]
+new [description:"vimiwiki-templates" diary_entry:"Y" entry:"1659589260" modified:"1659589263" project:"tooling.vimwiki" status:"pending" tmp_value_holder:"vimiwiki-templates" uuid:"6dfabff7-6b4d-4d1f-b9ff-11c8c6ee696f"]
+---
+time 1659589263
+old [description:"vimiwiki-templates" diary_entry:"Y" entry:"1659589260" modified:"1659589263" project:"tooling.vimwiki" status:"pending" tmp_value_holder:"vimiwiki-templates" uuid:"6dfabff7-6b4d-4d1f-b9ff-11c8c6ee696f"]
+new [description:"vimiwiki-templates" diary_entry:"Y" entry:"1659589260" modified:"1659589263" project:"tooling.vimwiki" status:"pending" tags:"tooling,vimwiki" tags_tooling:"x" tags_vimwiki:"x" tmp_value_holder:"vimiwiki-templates" uuid:"6dfabff7-6b4d-4d1f-b9ff-11c8c6ee696f"]
+---
+time 1659620075
+new [description:"python advanced" diary_entry:"N" entry:"1659620075" modified:"1659620075" project:"python" status:"pending" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+---
+time 1659620105
+old [description:"python advanced" diary_entry:"N" entry:"1659620075" modified:"1659620075" project:"python" status:"pending" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+new [description:"python advanced" diary_entry:"N" entry:"1659620075" modified:"1659620105" project:"python" status:"pending" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+---
+time 1659620105
+old [description:"python advanced" diary_entry:"N" entry:"1659620075" modified:"1659620105" project:"python" status:"pending" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+new [description:"python-advanced" diary_entry:"N" entry:"1659620075" modified:"1659620105" project:"python" status:"pending" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+---
+time 1659620105
+old [description:"python-advanced" diary_entry:"N" entry:"1659620075" modified:"1659620105" project:"python" status:"pending" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+new [description:"python-advanced" diary_entry:"Y" entry:"1659620075" modified:"1659620105" project:"python" status:"pending" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+---
+time 1659620105
+old [description:"python-advanced" diary_entry:"Y" entry:"1659620075" modified:"1659620105" project:"python" status:"pending" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+new [description:"python-advanced" diary_entry:"Y" entry:"1659620075" modified:"1659620105" project:"python" status:"pending" tags:"python" tags_python:"x" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+---
+time 1659703037
+new [description:"Evm internals" diary_entry:"N" entry:"1659703037" modified:"1659703037" project:"eth.evm" status:"pending" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+---
+time 1659703042
+old [description:"Evm internals" diary_entry:"N" entry:"1659703037" modified:"1659703037" project:"eth.evm" status:"pending" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+new [description:"Evm internals" diary_entry:"N" entry:"1659703037" modified:"1659703042" project:"eth.evm" status:"pending" tmp_value_holder:"Evm" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+---
+time 1659703042
+old [description:"Evm internals" diary_entry:"N" entry:"1659703037" modified:"1659703042" project:"eth.evm" status:"pending" tmp_value_holder:"Evm" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+new [description:"evm-internals" diary_entry:"N" entry:"1659703037" modified:"1659703042" project:"eth.evm" status:"pending" tmp_value_holder:"Evm" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+---
+time 1659703042
+old [description:"evm-internals" diary_entry:"N" entry:"1659703037" modified:"1659703042" project:"eth.evm" status:"pending" tmp_value_holder:"Evm" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+new [description:"evm-internals" diary_entry:"Y" entry:"1659703037" modified:"1659703042" project:"eth.evm" status:"pending" tmp_value_holder:"Evm" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+---
+time 1659703042
+old [description:"evm-internals" diary_entry:"Y" entry:"1659703037" modified:"1659703042" project:"eth.evm" status:"pending" tmp_value_holder:"Evm" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+new [description:"evm-internals" diary_entry:"Y" entry:"1659703037" modified:"1659703042" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"Evm" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+---
+time 1659723307
+old [description:"vimiwiki-templates" diary_entry:"Y" entry:"1659589260" modified:"1659589263" project:"tooling.vimwiki" status:"pending" tags:"tooling,vimwiki" tags_tooling:"x" tags_vimwiki:"x" tmp_value_holder:"vimiwiki-templates" uuid:"6dfabff7-6b4d-4d1f-b9ff-11c8c6ee696f"]
+new [description:"vimiwiki-templates" diary_entry:"Y" entry:"1659589260" modified:"1659723307" project:"tooling.vimwiki" status:"pending" tags:"template,tooling,vimwiki" tags_template:"x" tags_tooling:"x" tags_vimwiki:"x" tmp_value_holder:"vimiwiki-templates" uuid:"6dfabff7-6b4d-4d1f-b9ff-11c8c6ee696f"]
+---
+time 1659724647
+new [description:"vim epic" diary_entry:"N" entry:"1659724647" modified:"1659724647" project:"tooling.vim" status:"pending" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+---
+time 1659724653
+old [description:"vim epic" diary_entry:"N" entry:"1659724647" modified:"1659724647" project:"tooling.vim" status:"pending" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+new [description:"vim epic" diary_entry:"N" entry:"1659724647" modified:"1659724653" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+---
+time 1659724653
+old [description:"vim epic" diary_entry:"N" entry:"1659724647" modified:"1659724653" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+new [description:"vim-epic" diary_entry:"N" entry:"1659724647" modified:"1659724653" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+---
+time 1659724653
+old [description:"vim-epic" diary_entry:"N" entry:"1659724647" modified:"1659724653" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+new [description:"vim-epic" diary_entry:"Y" entry:"1659724647" modified:"1659724653" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+---
+time 1659724653
+old [description:"vim-epic" diary_entry:"Y" entry:"1659724647" modified:"1659724653" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+new [description:"vim-epic" diary_entry:"Y" entry:"1659724647" modified:"1659724653" project:"tooling.vim" status:"pending" tags:"tooling,vim" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+---
+time 1659726652
+new [description:"solidity resources" diary_entry:"N" entry:"1659726652" modified:"1659726652" project:"eth.solidity" status:"pending" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+---
+time 1659726656
+old [description:"solidity resources" diary_entry:"N" entry:"1659726652" modified:"1659726652" project:"eth.solidity" status:"pending" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+new [description:"solidity resources" diary_entry:"N" entry:"1659726652" modified:"1659726656" project:"eth.solidity" status:"pending" tmp_value_holder:"solidity" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+---
+time 1659726656
+old [description:"solidity resources" diary_entry:"N" entry:"1659726652" modified:"1659726656" project:"eth.solidity" status:"pending" tmp_value_holder:"solidity" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+new [description:"solidity-resources" diary_entry:"N" entry:"1659726652" modified:"1659726656" project:"eth.solidity" status:"pending" tmp_value_holder:"solidity" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+---
+time 1659726656
+old [description:"solidity-resources" diary_entry:"N" entry:"1659726652" modified:"1659726656" project:"eth.solidity" status:"pending" tmp_value_holder:"solidity" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+new [description:"solidity-resources" diary_entry:"Y" entry:"1659726652" modified:"1659726656" project:"eth.solidity" status:"pending" tmp_value_holder:"solidity" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+---
+time 1659726656
+old [description:"solidity-resources" diary_entry:"Y" entry:"1659726652" modified:"1659726656" project:"eth.solidity" status:"pending" tmp_value_holder:"solidity" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+new [description:"solidity-resources" diary_entry:"Y" entry:"1659726652" modified:"1659726656" project:"eth.solidity" status:"pending" tags:"eth,solidity" tags_eth:"x" tags_solidity:"x" tmp_value_holder:"solidity" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+---
+time 1659800075
+new [description:"cc0" diary_entry:"N" entry:"1659800075" modified:"1659800075" project:"eth.nft" status:"pending" uuid:"27bc67ff-6db0-4dc5-a290-6a9eba9dac76"]
+---
+time 1659800077
+old [description:"cc0" diary_entry:"N" entry:"1659800075" modified:"1659800075" project:"eth.nft" status:"pending" uuid:"27bc67ff-6db0-4dc5-a290-6a9eba9dac76"]
+new [description:"cc0" diary_entry:"N" entry:"1659800075" modified:"1659800077" project:"eth.nft" status:"pending" tmp_value_holder:"cc0" uuid:"27bc67ff-6db0-4dc5-a290-6a9eba9dac76"]
+---
+time 1659800077
+old [description:"cc0" diary_entry:"N" entry:"1659800075" modified:"1659800077" project:"eth.nft" status:"pending" tmp_value_holder:"cc0" uuid:"27bc67ff-6db0-4dc5-a290-6a9eba9dac76"]
+new [description:"cc0" diary_entry:"Y" entry:"1659800075" modified:"1659800077" project:"eth.nft" status:"pending" tmp_value_holder:"cc0" uuid:"27bc67ff-6db0-4dc5-a290-6a9eba9dac76"]
+---
+time 1659800077
+old [description:"cc0" diary_entry:"Y" entry:"1659800075" modified:"1659800077" project:"eth.nft" status:"pending" tmp_value_holder:"cc0" uuid:"27bc67ff-6db0-4dc5-a290-6a9eba9dac76"]
+new [description:"cc0" diary_entry:"Y" entry:"1659800075" modified:"1659800077" project:"eth.nft" status:"pending" tags:"eth,nft" tags_eth:"x" tags_nft:"x" tmp_value_holder:"cc0" uuid:"27bc67ff-6db0-4dc5-a290-6a9eba9dac76"]
+---
+time 1659801404
+old [description:"cc0" diary_entry:"Y" entry:"1659800075" modified:"1659800077" project:"eth.nft" status:"pending" tags:"eth,nft" tags_eth:"x" tags_nft:"x" tmp_value_holder:"cc0" uuid:"27bc67ff-6db0-4dc5-a290-6a9eba9dac76"]
+new [description:"cc0" diary_entry:"Y" entry:"1659800075" modified:"1659801404" project:"eth.nft" status:"pending" tags:"cc0,eth,nft" tags_cc0:"x" tags_eth:"x" tags_nft:"x" tmp_value_holder:"cc0" uuid:"27bc67ff-6db0-4dc5-a290-6a9eba9dac76"]
+---
+time 1659808407
+new [description:"vim-spell" diary_entry:"N" entry:"1659808407" modified:"1659808407" project:"tooling.vim" status:"pending" uuid:"ec0fc069-8e2b-4162-9cb0-e70f00c67f51"]
+---
+time 1659808414
+old [description:"vim-spell" diary_entry:"N" entry:"1659808407" modified:"1659808407" project:"tooling.vim" status:"pending" uuid:"ec0fc069-8e2b-4162-9cb0-e70f00c67f51"]
+new [description:"vim-spell" diary_entry:"N" entry:"1659808407" modified:"1659808414" project:"tooling.vim" status:"pending" tmp_value_holder:"vim-spell" uuid:"ec0fc069-8e2b-4162-9cb0-e70f00c67f51"]
+---
+time 1659808414
+old [description:"vim-spell" diary_entry:"N" entry:"1659808407" modified:"1659808414" project:"tooling.vim" status:"pending" tmp_value_holder:"vim-spell" uuid:"ec0fc069-8e2b-4162-9cb0-e70f00c67f51"]
+new [description:"vim-spell" diary_entry:"Y" entry:"1659808407" modified:"1659808414" project:"tooling.vim" status:"pending" tmp_value_holder:"vim-spell" uuid:"ec0fc069-8e2b-4162-9cb0-e70f00c67f51"]
+---
+time 1659808414
+old [description:"vim-spell" diary_entry:"Y" entry:"1659808407" modified:"1659808414" project:"tooling.vim" status:"pending" tmp_value_holder:"vim-spell" uuid:"ec0fc069-8e2b-4162-9cb0-e70f00c67f51"]
+new [description:"vim-spell" diary_entry:"Y" entry:"1659808407" modified:"1659808414" project:"tooling.vim" status:"pending" tags:"tooling,vim" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim-spell" uuid:"ec0fc069-8e2b-4162-9cb0-e70f00c67f51"]
+---
+time 1659809034
+old [description:"vim-spell" diary_entry:"Y" entry:"1659808407" modified:"1659808414" project:"tooling.vim" status:"pending" tags:"tooling,vim" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim-spell" uuid:"ec0fc069-8e2b-4162-9cb0-e70f00c67f51"]
+new [description:"vim-spell" diary_entry:"Y" entry:"1659808407" modified:"1659809034" project:"tooling.vim" status:"pending" tags:"spell,tooling,vim" tags_spell:"x" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim-spell" uuid:"ec0fc069-8e2b-4162-9cb0-e70f00c67f51"]
+---
+time 1659810209
+old [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1659507549" project:"eth.vyper" status:"pending" tags:"eth,resources,vyper" tags_eth:"x" tags_resources:"x" tags_vyper:"x" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+new [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1659810209" project:"eth.vyper" status:"pending" tags:"contracts,eth,resources,rewrite,vyper" tags_contracts:"x" tags_eth:"x" tags_resources:"x" tags_rewrite:"x" tags_vyper:"x" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+---
+time 1659868840
+old [description:"solidity-resources" diary_entry:"Y" entry:"1659726652" modified:"1659726656" project:"eth.solidity" status:"pending" tags:"eth,solidity" tags_eth:"x" tags_solidity:"x" tmp_value_holder:"solidity" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+new [description:"solidity-resources" diary_entry:"Y" entry:"1659726652" modified:"1659868840" project:"eth.solidity" status:"pending" tags:"eth,exploits,solidity" tags_eth:"x" tags_exploits:"x" tags_solidity:"x" tmp_value_holder:"solidity" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+---
+time 1659875278
+new [description:"zk resources" diary_entry:"N" entry:"1659875278" modified:"1659875278" project:"zk" status:"pending" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+---
+time 1659875283
+old [description:"zk resources" diary_entry:"N" entry:"1659875278" modified:"1659875278" project:"zk" status:"pending" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+new [description:"zk resources" diary_entry:"N" entry:"1659875278" modified:"1659875283" project:"zk" status:"pending" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+---
+time 1659875283
+old [description:"zk resources" diary_entry:"N" entry:"1659875278" modified:"1659875283" project:"zk" status:"pending" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+new [description:"zk-resources" diary_entry:"N" entry:"1659875278" modified:"1659875283" project:"zk" status:"pending" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+---
+time 1659875283
+old [description:"zk-resources" diary_entry:"N" entry:"1659875278" modified:"1659875283" project:"zk" status:"pending" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+new [description:"zk-resources" diary_entry:"Y" entry:"1659875278" modified:"1659875283" project:"zk" status:"pending" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+---
+time 1659875283
+old [description:"zk-resources" diary_entry:"Y" entry:"1659875278" modified:"1659875283" project:"zk" status:"pending" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+new [description:"zk-resources" diary_entry:"Y" entry:"1659875278" modified:"1659875283" project:"zk" status:"pending" tags:"zk" tags_zk:"x" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+---
+time 1659884384
+new [description:"makefile" diary_entry:"N" entry:"1659884384" modified:"1659884384" project:"tooling.make" status:"pending" uuid:"bcaca7d2-54e3-44df-a4a1-a1664d892aa1"]
+---
+time 1659884513
+old [description:"makefile" diary_entry:"N" entry:"1659884384" modified:"1659884384" project:"tooling.make" status:"pending" uuid:"bcaca7d2-54e3-44df-a4a1-a1664d892aa1"]
+new [description:"makefile" diary_entry:"N" entry:"1659884384" modified:"1659884513" project:"tooling.make" status:"pending" tmp_value_holder:"makefile" uuid:"bcaca7d2-54e3-44df-a4a1-a1664d892aa1"]
+---
+time 1659884513
+old [description:"makefile" diary_entry:"N" entry:"1659884384" modified:"1659884513" project:"tooling.make" status:"pending" tmp_value_holder:"makefile" uuid:"bcaca7d2-54e3-44df-a4a1-a1664d892aa1"]
+new [description:"makefile" diary_entry:"Y" entry:"1659884384" modified:"1659884513" project:"tooling.make" status:"pending" tmp_value_holder:"makefile" uuid:"bcaca7d2-54e3-44df-a4a1-a1664d892aa1"]
+---
+time 1659884513
+old [description:"makefile" diary_entry:"Y" entry:"1659884384" modified:"1659884513" project:"tooling.make" status:"pending" tmp_value_holder:"makefile" uuid:"bcaca7d2-54e3-44df-a4a1-a1664d892aa1"]
+new [description:"makefile" diary_entry:"Y" entry:"1659884384" modified:"1659884513" project:"tooling.make" status:"pending" tags:"make,tooling" tags_make:"x" tags_tooling:"x" tmp_value_holder:"makefile" uuid:"bcaca7d2-54e3-44df-a4a1-a1664d892aa1"]
+---
+time 1659894454
+old [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659531623" project:"eth.python" status:"pending" tags:"PatrickAlphaC,brownie,chainlink,eth,python" tags_PatrickAlphaC:"x" tags_brownie:"x" tags_chainlink:"x" tags_eth:"x" tags_python:"x" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+new [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659894454" project:"eth.python" status:"pending" tags:"PatrickAlphaC,brownie,chainlink,eth,patrickalphac,python" tags_PatrickAlphaC:"x" tags_brownie:"x" tags_chainlink:"x" tags_eth:"x" tags_patrickalphac:"x" tags_python:"x" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+---
+time 1659951201
+new [description:"eip-712" diary_entry:"N" entry:"1659951201" modified:"1659951201" project:"eth.erc" status:"pending" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+---
+time 1659951204
+old [description:"eip-712" diary_entry:"N" entry:"1659951201" modified:"1659951201" project:"eth.erc" status:"pending" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+new [description:"eip-712" diary_entry:"N" entry:"1659951201" modified:"1659951204" project:"eth.erc" status:"pending" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+---
+time 1659951204
+old [description:"eip-712" diary_entry:"N" entry:"1659951201" modified:"1659951204" project:"eth.erc" status:"pending" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+new [description:"eip-712" diary_entry:"Y" entry:"1659951201" modified:"1659951204" project:"eth.erc" status:"pending" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+---
+time 1659951204
+old [description:"eip-712" diary_entry:"Y" entry:"1659951201" modified:"1659951204" project:"eth.erc" status:"pending" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+new [description:"eip-712" diary_entry:"Y" entry:"1659951201" modified:"1659951204" project:"eth.erc" status:"pending" tags:"erc,eth" tags_erc:"x" tags_eth:"x" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+---
+time 1659952075
+old [description:"eip-712" diary_entry:"Y" entry:"1659951201" modified:"1659951204" project:"eth.erc" status:"pending" tags:"erc,eth" tags_erc:"x" tags_eth:"x" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+new [description:"+712" diary_entry:"Y" entry:"1659951201" modified:"1659952075" project:"eth.erc" status:"pending" tags:"erc,eth" tags_erc:"x" tags_eth:"x" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+---
+time 1659953330
+old [description:"+712" diary_entry:"Y" entry:"1659951201" modified:"1659952075" project:"eth.erc" status:"pending" tags:"erc,eth" tags_erc:"x" tags_eth:"x" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+new [description:"erc-712" diary_entry:"Y" entry:"1659951201" modified:"1659953330" project:"eth.erc" status:"pending" tags:"erc,eth" tags_erc:"x" tags_eth:"x" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+---
+time 1659953339
+old [description:"erc-712" diary_entry:"Y" entry:"1659951201" modified:"1659953330" project:"eth.erc" status:"pending" tags:"erc,eth" tags_erc:"x" tags_eth:"x" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+new [description:"eip-712" diary_entry:"Y" entry:"1659951201" modified:"1659953339" project:"eth.erc" status:"pending" tags:"erc,eth" tags_erc:"x" tags_eth:"x" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+---
+time 1659958793
+new [description:"eip-1271" diary_entry:"N" entry:"1659958793" modified:"1659958793" project:"eth.erc" status:"pending" uuid:"3030e50d-93d4-413c-bc11-f8e2f47d5709"]
+---
+time 1659958925
+new [description:"erc-20 permit" diary_entry:"N" entry:"1659958925" modified:"1659958925" project:"eth.erc" status:"pending" uuid:"93134706-a4cf-49be-a6b3-65bf4a417476"]
+---
+time 1659958943
+old [description:"erc-20 permit" diary_entry:"N" entry:"1659958925" modified:"1659958925" project:"eth.erc" status:"pending" uuid:"93134706-a4cf-49be-a6b3-65bf4a417476"]
+new [description:"erc-20 permit" diary_entry:"N" entry:"1659958925" modified:"1659958943" project:"eth.erc" status:"pending" tmp_value_holder:"erc-20" uuid:"93134706-a4cf-49be-a6b3-65bf4a417476"]
+---
+time 1659958943
+old [description:"erc-20 permit" diary_entry:"N" entry:"1659958925" modified:"1659958943" project:"eth.erc" status:"pending" tmp_value_holder:"erc-20" uuid:"93134706-a4cf-49be-a6b3-65bf4a417476"]
+new [description:"erc-20-permit" diary_entry:"N" entry:"1659958925" modified:"1659958943" project:"eth.erc" status:"pending" tmp_value_holder:"erc-20" uuid:"93134706-a4cf-49be-a6b3-65bf4a417476"]
+---
+time 1659958943
+old [description:"erc-20-permit" diary_entry:"N" entry:"1659958925" modified:"1659958943" project:"eth.erc" status:"pending" tmp_value_holder:"erc-20" uuid:"93134706-a4cf-49be-a6b3-65bf4a417476"]
+new [description:"erc-20-permit" diary_entry:"Y" entry:"1659958925" modified:"1659958943" project:"eth.erc" status:"pending" tmp_value_holder:"erc-20" uuid:"93134706-a4cf-49be-a6b3-65bf4a417476"]
+---
+time 1659958943
+old [description:"erc-20-permit" diary_entry:"Y" entry:"1659958925" modified:"1659958943" project:"eth.erc" status:"pending" tmp_value_holder:"erc-20" uuid:"93134706-a4cf-49be-a6b3-65bf4a417476"]
+new [description:"erc-20-permit" diary_entry:"Y" entry:"1659958925" modified:"1659958943" project:"eth.erc" status:"pending" tags:"erc,eth" tags_erc:"x" tags_eth:"x" tmp_value_holder:"erc-20" uuid:"93134706-a4cf-49be-a6b3-65bf4a417476"]
+---
+time 1659959017
+new [description:"meta-transactions" diary_entry:"N" entry:"1659959017" modified:"1659959017" project:"eth.solidity" status:"pending" uuid:"890d472e-2d10-4b01-88c9-183254317989"]
+---
+time 1659959034
+old [description:"meta-transactions" diary_entry:"N" entry:"1659959017" modified:"1659959017" project:"eth.solidity" status:"pending" uuid:"890d472e-2d10-4b01-88c9-183254317989"]
+new [description:"meta-transactions" diary_entry:"N" entry:"1659959017" modified:"1659959034" project:"eth.solidity" status:"pending" tmp_value_holder:"meta-transactions" uuid:"890d472e-2d10-4b01-88c9-183254317989"]
+---
+time 1659959034
+old [description:"meta-transactions" diary_entry:"N" entry:"1659959017" modified:"1659959034" project:"eth.solidity" status:"pending" tmp_value_holder:"meta-transactions" uuid:"890d472e-2d10-4b01-88c9-183254317989"]
+new [description:"meta-transactions" diary_entry:"Y" entry:"1659959017" modified:"1659959034" project:"eth.solidity" status:"pending" tmp_value_holder:"meta-transactions" uuid:"890d472e-2d10-4b01-88c9-183254317989"]
+---
+time 1659970829
+new [description:"git branch" diary_entry:"N" entry:"1659970829" modified:"1659970829" project:"tooling.git" status:"pending" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+---
+time 1659970834
+old [description:"git branch" diary_entry:"N" entry:"1659970829" modified:"1659970829" project:"tooling.git" status:"pending" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+new [description:"git branch" diary_entry:"N" entry:"1659970829" modified:"1659970834" project:"tooling.git" status:"pending" tmp_value_holder:"git" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+---
+time 1659970834
+old [description:"git branch" diary_entry:"N" entry:"1659970829" modified:"1659970834" project:"tooling.git" status:"pending" tmp_value_holder:"git" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+new [description:"git-branch" diary_entry:"N" entry:"1659970829" modified:"1659970834" project:"tooling.git" status:"pending" tmp_value_holder:"git" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+---
+time 1659970834
+old [description:"git-branch" diary_entry:"N" entry:"1659970829" modified:"1659970834" project:"tooling.git" status:"pending" tmp_value_holder:"git" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+new [description:"git-branch" diary_entry:"Y" entry:"1659970829" modified:"1659970834" project:"tooling.git" status:"pending" tmp_value_holder:"git" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+---
+time 1659970834
+old [description:"git-branch" diary_entry:"Y" entry:"1659970829" modified:"1659970834" project:"tooling.git" status:"pending" tmp_value_holder:"git" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+new [description:"git-branch" diary_entry:"Y" entry:"1659970829" modified:"1659970834" project:"tooling.git" status:"pending" tags:"git,tooling" tags_git:"x" tags_tooling:"x" tmp_value_holder:"git" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+---
+time 1659978057
+old [description:"eip-712" diary_entry:"Y" entry:"1659951201" modified:"1659953339" project:"eth.erc" status:"pending" tags:"erc,eth" tags_erc:"x" tags_eth:"x" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+new [description:"eip-712" diary_entry:"Y" entry:"1659951201" modified:"1659978057" project:"eth.erc" status:"pending" tags:"d#712,erc,eth" tags_d#712:"x" tags_erc:"x" tags_eth:"x" tmp_value_holder:"eip-712" uuid:"6af9a7cb-46d1-4498-8777-371b30353de9"]
+---
+time 1659983063
+old [description:"git-branch" diary_entry:"Y" entry:"1659970829" modified:"1659970834" project:"tooling.git" status:"pending" tags:"git,tooling" tags_git:"x" tags_tooling:"x" tmp_value_holder:"git" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+new [description:"git-branch" diary_entry:"Y" entry:"1659970829" modified:"1659983063" project:"tooling.git" status:"pending" tags:"branch,git,tooling" tags_branch:"x" tags_git:"x" tags_tooling:"x" tmp_value_holder:"git" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+---
+time 1659984224
+old [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659894454" project:"eth.python" status:"pending" tags:"PatrickAlphaC,brownie,chainlink,eth,patrickalphac,python" tags_PatrickAlphaC:"x" tags_brownie:"x" tags_chainlink:"x" tags_eth:"x" tags_patrickalphac:"x" tags_python:"x" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+new [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659984224" project:"eth.python" status:"pending" tags:"PatrickAlphaC,brownie,chainlink,eth,python" tags_PatrickAlphaC:"x" tags_brownie:"x" tags_chainlink:"x" tags_eth:"x" tags_python:"x" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+---
+time 1659984251
+old [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659984224" project:"eth.python" status:"pending" tags:"PatrickAlphaC,brownie,chainlink,eth,python" tags_PatrickAlphaC:"x" tags_brownie:"x" tags_chainlink:"x" tags_eth:"x" tags_python:"x" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+new [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659984251" project:"eth.python" status:"pending" tags:"brownie,chainlink,eth,python" tags_brownie:"x" tags_chainlink:"x" tags_eth:"x" tags_python:"x" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+---
+time 1659984253
+old [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659984251" project:"eth.python" status:"pending" tags:"brownie,chainlink,eth,python" tags_brownie:"x" tags_chainlink:"x" tags_eth:"x" tags_python:"x" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+new [description:"python-blockchain-courses" diary_entry:"Y" entry:"1659508157" modified:"1659984253" project:"eth.python" status:"pending" tags:"brownie,chainlink,eth,patrickalphac,python" tags_brownie:"x" tags_chainlink:"x" tags_eth:"x" tags_patrickalphac:"x" tags_python:"x" tmp_value_holder:"python" uuid:"d040572f-0670-4607-a803-05ec39695767"]
+---
+time 1659984651
+new [description:"git gold" diary_entry:"N" entry:"1659984651" modified:"1659984651" project:"tooling.git" status:"pending" uuid:"90a68058-68a8-4a15-8aa1-e8ade0c025aa"]
+---
+time 1660029220
+old [description:"python-advanced" diary_entry:"Y" entry:"1659620075" modified:"1659620105" project:"python" status:"pending" tags:"python" tags_python:"x" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+new [description:"python-advanced" diary_entry:"Y" entry:"1659620075" modified:"1660029220" project:"python" status:"pending" tags:"decorators,generators,python" tags_decorators:"x" tags_generators:"x" tags_python:"x" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+---
+time 1660040076
+old [description:"python-advanced" diary_entry:"Y" entry:"1659620075" modified:"1660029220" project:"python" status:"pending" tags:"decorators,generators,python" tags_decorators:"x" tags_generators:"x" tags_python:"x" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+new [description:"python-advanced" diary_entry:"Y" entry:"1659620075" modified:"1660040076" project:"python" status:"pending" tags:"decorators,generators,iterable,iterators,python" tags_decorators:"x" tags_generators:"x" tags_iterable:"x" tags_iterators:"x" tags_python:"x" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+---
+time 1660040587
+new [description:"vimwiki-useful" diary_entry:"N" entry:"1660040587" modified:"1660040587" project:"tooling.vimwiki" status:"pending" uuid:"0544d4a6-dc68-4282-b5a2-05677b358215"]
+---
+time 1660040589
+old [description:"vimwiki-useful" diary_entry:"N" entry:"1660040587" modified:"1660040587" project:"tooling.vimwiki" status:"pending" uuid:"0544d4a6-dc68-4282-b5a2-05677b358215"]
+new [description:"vimwiki-useful" diary_entry:"N" entry:"1660040587" modified:"1660040589" project:"tooling.vimwiki" status:"pending" tmp_value_holder:"vimwiki-useful" uuid:"0544d4a6-dc68-4282-b5a2-05677b358215"]
+---
+time 1660040590
+old [description:"vimwiki-useful" diary_entry:"N" entry:"1660040587" modified:"1660040589" project:"tooling.vimwiki" status:"pending" tmp_value_holder:"vimwiki-useful" uuid:"0544d4a6-dc68-4282-b5a2-05677b358215"]
+new [description:"vimwiki-useful" diary_entry:"Y" entry:"1660040587" modified:"1660040590" project:"tooling.vimwiki" status:"pending" tmp_value_holder:"vimwiki-useful" uuid:"0544d4a6-dc68-4282-b5a2-05677b358215"]
+---
+time 1660040590
+old [description:"vimwiki-useful" diary_entry:"Y" entry:"1660040587" modified:"1660040590" project:"tooling.vimwiki" status:"pending" tmp_value_holder:"vimwiki-useful" uuid:"0544d4a6-dc68-4282-b5a2-05677b358215"]
+new [description:"vimwiki-useful" diary_entry:"Y" entry:"1660040587" modified:"1660040590" project:"tooling.vimwiki" status:"pending" tags:"tooling,vimwiki" tags_tooling:"x" tags_vimwiki:"x" tmp_value_holder:"vimwiki-useful" uuid:"0544d4a6-dc68-4282-b5a2-05677b358215"]
+---
+time 1660040899
+old [description:"vimwiki-useful" diary_entry:"Y" entry:"1660040587" modified:"1660040590" project:"tooling.vimwiki" status:"pending" tags:"tooling,vimwiki" tags_tooling:"x" tags_vimwiki:"x" tmp_value_holder:"vimwiki-useful" uuid:"0544d4a6-dc68-4282-b5a2-05677b358215"]
+new [description:"vimwiki-useful" diary_entry:"Y" entry:"1660040587" modified:"1660040899" project:"tooling.vimwiki" status:"pending" tags:"nested_syntax,preformatted_text,syntax_highlight,tooling,vimwiki" tags_nested_syntax:"x" tags_preformatted_text:"x" tags_syntax_highlight:"x" tags_tooling:"x" tags_vimwiki:"x" tmp_value_holder:"vimwiki-useful" uuid:"0544d4a6-dc68-4282-b5a2-05677b358215"]
+---
+time 1660044638
+old [description:"python-advanced" diary_entry:"Y" entry:"1659620075" modified:"1660040076" project:"python" status:"pending" tags:"decorators,generators,iterable,iterators,python" tags_decorators:"x" tags_generators:"x" tags_iterable:"x" tags_iterators:"x" tags_python:"x" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+new [description:"python-advanced" diary_entry:"Y" entry:"1659620075" modified:"1660044638" project:"python" status:"pending" tags:"context_managers,decorators,generators,iterable,iterators,python" tags_context_managers:"x" tags_decorators:"x" tags_generators:"x" tags_iterable:"x" tags_iterators:"x" tags_python:"x" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+---
+time 1660114440
+new [description:"gnosis-safe" diary_entry:"N" entry:"1660114440" modified:"1660114440" project:"eth.dapps" status:"pending" uuid:"8002d006-1219-45b7-a057-71682a04c23a"]
+---
+time 1660114446
+old [description:"gnosis-safe" diary_entry:"N" entry:"1660114440" modified:"1660114440" project:"eth.dapps" status:"pending" uuid:"8002d006-1219-45b7-a057-71682a04c23a"]
+new [description:"gnosis-safe" diary_entry:"N" entry:"1660114440" modified:"1660114446" project:"eth.dapps" status:"pending" tmp_value_holder:"gnosis-safe" uuid:"8002d006-1219-45b7-a057-71682a04c23a"]
+---
+time 1660114446
+old [description:"gnosis-safe" diary_entry:"N" entry:"1660114440" modified:"1660114446" project:"eth.dapps" status:"pending" tmp_value_holder:"gnosis-safe" uuid:"8002d006-1219-45b7-a057-71682a04c23a"]
+new [description:"gnosis-safe" diary_entry:"Y" entry:"1660114440" modified:"1660114446" project:"eth.dapps" status:"pending" tmp_value_holder:"gnosis-safe" uuid:"8002d006-1219-45b7-a057-71682a04c23a"]
+---
+time 1660114446
+old [description:"gnosis-safe" diary_entry:"Y" entry:"1660114440" modified:"1660114446" project:"eth.dapps" status:"pending" tmp_value_holder:"gnosis-safe" uuid:"8002d006-1219-45b7-a057-71682a04c23a"]
+new [description:"gnosis-safe" diary_entry:"Y" entry:"1660114440" modified:"1660114446" project:"eth.dapps" status:"pending" tags:"dapps,eth" tags_dapps:"x" tags_eth:"x" tmp_value_holder:"gnosis-safe" uuid:"8002d006-1219-45b7-a057-71682a04c23a"]
+---
+time 1660114543
+new [description:"factional-nft" diary_entry:"N" entry:"1660114543" modified:"1660114543" project:"eth.dapps" status:"pending" uuid:"7de969c3-d37a-4899-9e4b-31708e2ffd0b"]
+---
+time 1660114544
+old [description:"factional-nft" diary_entry:"N" entry:"1660114543" modified:"1660114543" project:"eth.dapps" status:"pending" uuid:"7de969c3-d37a-4899-9e4b-31708e2ffd0b"]
+new [description:"factional-nft" diary_entry:"N" entry:"1660114543" modified:"1660114544" project:"eth.dapps" status:"pending" tmp_value_holder:"factional-nft" uuid:"7de969c3-d37a-4899-9e4b-31708e2ffd0b"]
+---
+time 1660114545
+old [description:"factional-nft" diary_entry:"N" entry:"1660114543" modified:"1660114544" project:"eth.dapps" status:"pending" tmp_value_holder:"factional-nft" uuid:"7de969c3-d37a-4899-9e4b-31708e2ffd0b"]
+new [description:"factional-nft" diary_entry:"Y" entry:"1660114543" modified:"1660114545" project:"eth.dapps" status:"pending" tmp_value_holder:"factional-nft" uuid:"7de969c3-d37a-4899-9e4b-31708e2ffd0b"]
+---
+time 1660114545
+old [description:"factional-nft" diary_entry:"Y" entry:"1660114543" modified:"1660114545" project:"eth.dapps" status:"pending" tmp_value_holder:"factional-nft" uuid:"7de969c3-d37a-4899-9e4b-31708e2ffd0b"]
+new [description:"factional-nft" diary_entry:"Y" entry:"1660114543" modified:"1660114545" project:"eth.dapps" status:"pending" tags:"dapps,eth" tags_dapps:"x" tags_eth:"x" tmp_value_holder:"factional-nft" uuid:"7de969c3-d37a-4899-9e4b-31708e2ffd0b"]
+---
+time 1660114755
+new [description:"contract upgrades" diary_entry:"N" entry:"1660114755" modified:"1660114755" project:"eth.solidity" status:"pending" uuid:"c2825be7-b8c0-474f-b760-9dc23b7fea33"]
+---
+time 1660114774
+old [description:"contract upgrades" diary_entry:"N" entry:"1660114755" modified:"1660114755" project:"eth.solidity" status:"pending" uuid:"c2825be7-b8c0-474f-b760-9dc23b7fea33"]
+new [description:"contract upgrades" diary_entry:"N" entry:"1660114755" modified:"1660114774" project:"eth.solidity" status:"pending" tmp_value_holder:"contract" uuid:"c2825be7-b8c0-474f-b760-9dc23b7fea33"]
+---
+time 1660114774
+old [description:"contract upgrades" diary_entry:"N" entry:"1660114755" modified:"1660114774" project:"eth.solidity" status:"pending" tmp_value_holder:"contract" uuid:"c2825be7-b8c0-474f-b760-9dc23b7fea33"]
+new [description:"contract-upgrades" diary_entry:"N" entry:"1660114755" modified:"1660114774" project:"eth.solidity" status:"pending" tmp_value_holder:"contract" uuid:"c2825be7-b8c0-474f-b760-9dc23b7fea33"]
+---
+time 1660114774
+old [description:"contract-upgrades" diary_entry:"N" entry:"1660114755" modified:"1660114774" project:"eth.solidity" status:"pending" tmp_value_holder:"contract" uuid:"c2825be7-b8c0-474f-b760-9dc23b7fea33"]
+new [description:"contract-upgrades" diary_entry:"Y" entry:"1660114755" modified:"1660114774" project:"eth.solidity" status:"pending" tmp_value_holder:"contract" uuid:"c2825be7-b8c0-474f-b760-9dc23b7fea33"]
+---
+time 1660114774
+old [description:"contract-upgrades" diary_entry:"Y" entry:"1660114755" modified:"1660114774" project:"eth.solidity" status:"pending" tmp_value_holder:"contract" uuid:"c2825be7-b8c0-474f-b760-9dc23b7fea33"]
+new [description:"contract-upgrades" diary_entry:"Y" entry:"1660114755" modified:"1660114774" project:"eth.solidity" status:"pending" tags:"eth,solidity" tags_eth:"x" tags_solidity:"x" tmp_value_holder:"contract" uuid:"c2825be7-b8c0-474f-b760-9dc23b7fea33"]
+---
+time 1660114881
+new [description:"erc-1167" diary_entry:"N" entry:"1660114881" modified:"1660114881" project:"eth.solidity" status:"pending" uuid:"29f58a7f-1ff4-456b-b424-cba82d46e027"]
+---
+time 1660114883
+old [description:"erc-1167" diary_entry:"N" entry:"1660114881" modified:"1660114881" project:"eth.solidity" status:"pending" uuid:"29f58a7f-1ff4-456b-b424-cba82d46e027"]
+new [description:"erc-1167" diary_entry:"N" entry:"1660114881" modified:"1660114883" project:"eth.solidity" status:"pending" tmp_value_holder:"erc-1167" uuid:"29f58a7f-1ff4-456b-b424-cba82d46e027"]
+---
+time 1660114883
+old [description:"erc-1167" diary_entry:"N" entry:"1660114881" modified:"1660114883" project:"eth.solidity" status:"pending" tmp_value_holder:"erc-1167" uuid:"29f58a7f-1ff4-456b-b424-cba82d46e027"]
+new [description:"erc-1167" diary_entry:"Y" entry:"1660114881" modified:"1660114883" project:"eth.solidity" status:"pending" tmp_value_holder:"erc-1167" uuid:"29f58a7f-1ff4-456b-b424-cba82d46e027"]
+---
+time 1660114883
+old [description:"erc-1167" diary_entry:"Y" entry:"1660114881" modified:"1660114883" project:"eth.solidity" status:"pending" tmp_value_holder:"erc-1167" uuid:"29f58a7f-1ff4-456b-b424-cba82d46e027"]
+new [description:"erc-1167" diary_entry:"Y" entry:"1660114881" modified:"1660114883" project:"eth.solidity" status:"pending" tags:"eth,solidity" tags_eth:"x" tags_solidity:"x" tmp_value_holder:"erc-1167" uuid:"29f58a7f-1ff4-456b-b424-cba82d46e027"]
+---
+time 1660118103
+old [description:"erc-1167" diary_entry:"Y" entry:"1660114881" modified:"1660114883" project:"eth.solidity" status:"pending" tags:"eth,solidity" tags_eth:"x" tags_solidity:"x" tmp_value_holder:"erc-1167" uuid:"29f58a7f-1ff4-456b-b424-cba82d46e027"]
+new [description:"erc-1167" diary_entry:"Y" entry:"1660114881" modified:"1660118103" project:"eth.solidity" status:"pending" tags:"d#1167,eth,solidity" tags_d#1167:"x" tags_eth:"x" tags_solidity:"x" tmp_value_holder:"erc-1167" uuid:"29f58a7f-1ff4-456b-b424-cba82d46e027"]
+---
+time 1660121862
+old [description:"vim-surround" diary_entry:"Y" entry:"1659528187" modified:"1659528197" project:"tooling.vim" status:"pending" tags:"tooling,vim" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim" uuid:"e8a8eb59-a3b3-4f2d-917f-b8c7c6f64c67"]
+new [description:"vim-surround" diary_entry:"Y" entry:"1659528187" modified:"1660121862" project:"tooling.vim" status:"pending" tags:"tooling,vim,vim_surround" tags_tooling:"x" tags_vim:"x" tags_vim_surround:"x" tmp_value_holder:"vim" uuid:"e8a8eb59-a3b3-4f2d-917f-b8c7c6f64c67"]
+---
+time 1660121976
+old [description:"vim-epic" diary_entry:"Y" entry:"1659724647" modified:"1659724653" project:"tooling.vim" status:"pending" tags:"tooling,vim" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+new [description:"vim-epic" diary_entry:"Y" entry:"1659724647" modified:"1660121976" project:"tooling.vim" status:"pending" tags:"read,tooling,vim" tags_read:"x" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+---
+time 1660373241
+old [description:"vim-epic" diary_entry:"Y" entry:"1659724647" modified:"1660121976" project:"tooling.vim" status:"pending" tags:"read,tooling,vim" tags_read:"x" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+new [description:"vim-epic" diary_entry:"Y" entry:"1659724647" modified:"1660373241" project:"tooling.vim" status:"pending" tags:"commands,read,tooling,vim" tags_commands:"x" tags_read:"x" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim" uuid:"e8caa42a-6779-4ebd-9484-667e7e52c7c5"]
+---
+time 1660582817
+old [description:"git gold" diary_entry:"N" entry:"1659984651" modified:"1659984651" project:"tooling.git" status:"pending" uuid:"90a68058-68a8-4a15-8aa1-e8ade0c025aa"]
+new [description:"git gold" diary_entry:"N" entry:"1659984651" modified:"1660582817" project:"tooling.git" status:"pending" tmp_value_holder:"git" uuid:"90a68058-68a8-4a15-8aa1-e8ade0c025aa"]
+---
+time 1660582817
+old [description:"git gold" diary_entry:"N" entry:"1659984651" modified:"1660582817" project:"tooling.git" status:"pending" tmp_value_holder:"git" uuid:"90a68058-68a8-4a15-8aa1-e8ade0c025aa"]
+new [description:"git-gold" diary_entry:"N" entry:"1659984651" modified:"1660582817" project:"tooling.git" status:"pending" tmp_value_holder:"git" uuid:"90a68058-68a8-4a15-8aa1-e8ade0c025aa"]
+---
+time 1660582817
+old [description:"git-gold" diary_entry:"N" entry:"1659984651" modified:"1660582817" project:"tooling.git" status:"pending" tmp_value_holder:"git" uuid:"90a68058-68a8-4a15-8aa1-e8ade0c025aa"]
+new [description:"git-gold" diary_entry:"Y" entry:"1659984651" modified:"1660582817" project:"tooling.git" status:"pending" tmp_value_holder:"git" uuid:"90a68058-68a8-4a15-8aa1-e8ade0c025aa"]
+---
+time 1660582817
+old [description:"git-gold" diary_entry:"Y" entry:"1659984651" modified:"1660582817" project:"tooling.git" status:"pending" tmp_value_holder:"git" uuid:"90a68058-68a8-4a15-8aa1-e8ade0c025aa"]
+new [description:"git-gold" diary_entry:"Y" entry:"1659984651" modified:"1660582817" project:"tooling.git" status:"pending" tags:"git,tooling" tags_git:"x" tags_tooling:"x" tmp_value_holder:"git" uuid:"90a68058-68a8-4a15-8aa1-e8ade0c025aa"]
+---
+time 1660635817
+old [description:"git-branch" diary_entry:"Y" entry:"1659970829" modified:"1659983063" project:"tooling.git" status:"pending" tags:"branch,git,tooling" tags_branch:"x" tags_git:"x" tags_tooling:"x" tmp_value_holder:"git" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+new [description:"git-branch" diary_entry:"Y" entry:"1659970829" modified:"1660635817" project:"tooling.git" status:"pending" tags:"branch,checkout,delete,git,log,switch,tooling" tags_branch:"x" tags_checkout:"x" tags_delete:"x" tags_git:"x" tags_log:"x" tags_switch:"x" tags_tooling:"x" tmp_value_holder:"git" uuid:"35f87e99-4449-483c-a50f-3fcbc10bd1fa"]
+---
+time 1660637944
+old [description:"git-gold" diary_entry:"Y" entry:"1659984651" modified:"1660582817" project:"tooling.git" status:"pending" tags:"git,tooling" tags_git:"x" tags_tooling:"x" tmp_value_holder:"git" uuid:"90a68058-68a8-4a15-8aa1-e8ade0c025aa"]
+new [description:"git-gold" diary_entry:"Y" entry:"1659984651" modified:"1660637944" project:"tooling.git" status:"pending" tags:"cherry_pick,git,interactive_rebase,rebase,reflog,restore,tooling" tags_cherry_pick:"x" tags_git:"x" tags_interactive_rebase:"x" tags_rebase:"x" tags_reflog:"x" tags_restore:"x" tags_tooling:"x" tmp_value_holder:"git" uuid:"90a68058-68a8-4a15-8aa1-e8ade0c025aa"]
+---
+time 1660911625
+new [description:"vim statuline" diary_entry:"N" entry:"1660911625" modified:"1660911625" project:"tooling.vim" status:"pending" uuid:"06d4ad0f-0502-4b5b-b85a-dc935a8c3cd8"]
+---
+time 1660911632
+old [description:"vim statuline" diary_entry:"N" entry:"1660911625" modified:"1660911625" project:"tooling.vim" status:"pending" uuid:"06d4ad0f-0502-4b5b-b85a-dc935a8c3cd8"]
+new [description:"vim statuline" diary_entry:"N" entry:"1660911625" modified:"1660911632" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"06d4ad0f-0502-4b5b-b85a-dc935a8c3cd8"]
+---
+time 1660911632
+old [description:"vim statuline" diary_entry:"N" entry:"1660911625" modified:"1660911632" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"06d4ad0f-0502-4b5b-b85a-dc935a8c3cd8"]
+new [description:"vim-statuline" diary_entry:"N" entry:"1660911625" modified:"1660911632" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"06d4ad0f-0502-4b5b-b85a-dc935a8c3cd8"]
+---
+time 1660911633
+old [description:"vim-statuline" diary_entry:"N" entry:"1660911625" modified:"1660911632" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"06d4ad0f-0502-4b5b-b85a-dc935a8c3cd8"]
+new [description:"vim-statuline" diary_entry:"Y" entry:"1660911625" modified:"1660911633" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"06d4ad0f-0502-4b5b-b85a-dc935a8c3cd8"]
+---
+time 1660911633
+old [description:"vim-statuline" diary_entry:"Y" entry:"1660911625" modified:"1660911633" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"06d4ad0f-0502-4b5b-b85a-dc935a8c3cd8"]
+new [description:"vim-statuline" diary_entry:"Y" entry:"1660911625" modified:"1660911633" project:"tooling.vim" status:"pending" tags:"tooling,vim" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim" uuid:"06d4ad0f-0502-4b5b-b85a-dc935a8c3cd8"]
+---
+time 1660912010
+old [description:"vim-statuline" diary_entry:"Y" entry:"1660911625" modified:"1660911633" project:"tooling.vim" status:"pending" tags:"tooling,vim" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim" uuid:"06d4ad0f-0502-4b5b-b85a-dc935a8c3cd8"]
+new [description:"vim-statusline" diary_entry:"Y" entry:"1660911625" modified:"1660912010" project:"tooling.vim" status:"pending" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim" uuid:"06d4ad0f-0502-4b5b-b85a-dc935a8c3cd8"]
+---
+time 1660978921
+new [description:"erc 721" diary_entry:"N" entry:"1660978921" modified:"1660978921" project:"eth.nft" status:"pending" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+---
+time 1660978929
+old [description:"erc 721" diary_entry:"N" entry:"1660978921" modified:"1660978921" project:"eth.nft" status:"pending" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+new [description:"erc 721" diary_entry:"N" entry:"1660978921" modified:"1660978929" project:"eth.nft" status:"pending" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+---
+time 1660978929
+old [description:"erc 721" diary_entry:"N" entry:"1660978921" modified:"1660978929" project:"eth.nft" status:"pending" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+new [description:"erc-721" diary_entry:"N" entry:"1660978921" modified:"1660978929" project:"eth.nft" status:"pending" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+---
+time 1660978929
+old [description:"erc-721" diary_entry:"N" entry:"1660978921" modified:"1660978929" project:"eth.nft" status:"pending" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+new [description:"erc-721" diary_entry:"Y" entry:"1660978921" modified:"1660978929" project:"eth.nft" status:"pending" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+---
+time 1660978929
+old [description:"erc-721" diary_entry:"Y" entry:"1660978921" modified:"1660978929" project:"eth.nft" status:"pending" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+new [description:"erc-721" diary_entry:"Y" entry:"1660978921" modified:"1660978929" project:"eth.nft" status:"pending" tags:"eth,nft" tags_eth:"x" tags_nft:"x" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+---
+time 1660981823
+old [description:"erc-721" diary_entry:"Y" entry:"1660978921" modified:"1660978929" project:"eth.nft" status:"pending" tags:"eth,nft" tags_eth:"x" tags_nft:"x" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+new [description:"erc-721" diary_entry:"Y" entry:"1660978921" modified:"1660981823" project:"eth.nft" status:"pending" tags:"d#721,enumerable,eth,nft" tags_d#721:"x" tags_enumerable:"x" tags_eth:"x" tags_nft:"x" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+---
+time 1661021238
+new [description:"eip-1559" diary_entry:"N" entry:"1661021238" modified:"1661021238" project:"eth.evm" status:"pending" uuid:"26e2b6c2-d32f-4216-8980-7b767e84c1a6"]
+---
+time 1661021245
+old [description:"eip-1559" diary_entry:"N" entry:"1661021238" modified:"1661021238" project:"eth.evm" status:"pending" uuid:"26e2b6c2-d32f-4216-8980-7b767e84c1a6"]
+new [description:"eip-1559" diary_entry:"N" entry:"1661021238" modified:"1661021245" project:"eth.evm" status:"pending" tmp_value_holder:"eip-1559" uuid:"26e2b6c2-d32f-4216-8980-7b767e84c1a6"]
+---
+time 1661021245
+old [description:"eip-1559" diary_entry:"N" entry:"1661021238" modified:"1661021245" project:"eth.evm" status:"pending" tmp_value_holder:"eip-1559" uuid:"26e2b6c2-d32f-4216-8980-7b767e84c1a6"]
+new [description:"eip-1559" diary_entry:"Y" entry:"1661021238" modified:"1661021245" project:"eth.evm" status:"pending" tmp_value_holder:"eip-1559" uuid:"26e2b6c2-d32f-4216-8980-7b767e84c1a6"]
+---
+time 1661021245
+old [description:"eip-1559" diary_entry:"Y" entry:"1661021238" modified:"1661021245" project:"eth.evm" status:"pending" tmp_value_holder:"eip-1559" uuid:"26e2b6c2-d32f-4216-8980-7b767e84c1a6"]
+new [description:"eip-1559" diary_entry:"Y" entry:"1661021238" modified:"1661021245" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"eip-1559" uuid:"26e2b6c2-d32f-4216-8980-7b767e84c1a6"]
+---
+time 1661063889
+old [description:"erc-20-permit" diary_entry:"Y" entry:"1659958925" modified:"1659958943" project:"eth.erc" status:"pending" tags:"erc,eth" tags_erc:"x" tags_eth:"x" tmp_value_holder:"erc-20" uuid:"93134706-a4cf-49be-a6b3-65bf4a417476"]
+new [description:"erc-20-permit" diary_entry:"Y" entry:"1659958925" modified:"1661063889" project:"eth.erc" status:"pending" tags:"d#2612,erc,eth,permit" tags_d#2612:"x" tags_erc:"x" tags_eth:"x" tags_permit:"x" tmp_value_holder:"erc-20" uuid:"93134706-a4cf-49be-a6b3-65bf4a417476"]
+---
+time 1661068785
+new [description:"ecrecover" diary_entry:"N" entry:"1661068785" modified:"1661068785" project:"eth.evm" status:"pending" uuid:"3e94d9e7-ebdf-4b4c-8e6a-014b71bda9d6"]
+---
+time 1661068787
+old [description:"ecrecover" diary_entry:"N" entry:"1661068785" modified:"1661068785" project:"eth.evm" status:"pending" uuid:"3e94d9e7-ebdf-4b4c-8e6a-014b71bda9d6"]
+new [description:"ecrecover" diary_entry:"N" entry:"1661068785" modified:"1661068787" project:"eth.evm" status:"pending" tmp_value_holder:"ecrecover" uuid:"3e94d9e7-ebdf-4b4c-8e6a-014b71bda9d6"]
+---
+time 1661068787
+old [description:"ecrecover" diary_entry:"N" entry:"1661068785" modified:"1661068787" project:"eth.evm" status:"pending" tmp_value_holder:"ecrecover" uuid:"3e94d9e7-ebdf-4b4c-8e6a-014b71bda9d6"]
+new [description:"ecrecover" diary_entry:"Y" entry:"1661068785" modified:"1661068787" project:"eth.evm" status:"pending" tmp_value_holder:"ecrecover" uuid:"3e94d9e7-ebdf-4b4c-8e6a-014b71bda9d6"]
+---
+time 1661068787
+old [description:"ecrecover" diary_entry:"Y" entry:"1661068785" modified:"1661068787" project:"eth.evm" status:"pending" tmp_value_holder:"ecrecover" uuid:"3e94d9e7-ebdf-4b4c-8e6a-014b71bda9d6"]
+new [description:"ecrecover" diary_entry:"Y" entry:"1661068785" modified:"1661068787" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"ecrecover" uuid:"3e94d9e7-ebdf-4b4c-8e6a-014b71bda9d6"]
+---
+time 1661326410
+new [description:"python-basics" diary_entry:"N" entry:"1661326410" modified:"1661326410" project:"python" status:"pending" uuid:"9601dd81-be5c-451e-99e3-0a557a861920"]
+---
+time 1661326415
+old [description:"erc-721" diary_entry:"Y" entry:"1660978921" modified:"1660981823" project:"eth.nft" status:"pending" tags:"d#721,enumerable,eth,nft" tags_d#721:"x" tags_enumerable:"x" tags_eth:"x" tags_nft:"x" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+new [description:"erc-721" diary_entry:"Y" entry:"1660978921" modified:"1661326415" project:"eth.nft" status:"pending" tags:"d#721,enumerable,eth,next,nft" tags_d#721:"x" tags_enumerable:"x" tags_eth:"x" tags_next:"x" tags_nft:"x" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+---
+time 1661326427
+old [description:"python-basics" diary_entry:"N" entry:"1661326410" modified:"1661326410" project:"python" status:"pending" uuid:"9601dd81-be5c-451e-99e3-0a557a861920"]
+new [description:"python-basics" diary_entry:"N" entry:"1661326410" modified:"1661326427" project:"python" status:"pending" tmp_value_holder:"python-basics" uuid:"9601dd81-be5c-451e-99e3-0a557a861920"]
+---
+time 1661326427
+old [description:"python-basics" diary_entry:"N" entry:"1661326410" modified:"1661326427" project:"python" status:"pending" tmp_value_holder:"python-basics" uuid:"9601dd81-be5c-451e-99e3-0a557a861920"]
+new [description:"python-basics" diary_entry:"Y" entry:"1661326410" modified:"1661326427" project:"python" status:"pending" tmp_value_holder:"python-basics" uuid:"9601dd81-be5c-451e-99e3-0a557a861920"]
+---
+time 1661326427
+old [description:"python-basics" diary_entry:"Y" entry:"1661326410" modified:"1661326427" project:"python" status:"pending" tmp_value_holder:"python-basics" uuid:"9601dd81-be5c-451e-99e3-0a557a861920"]
+new [description:"python-basics" diary_entry:"Y" entry:"1661326410" modified:"1661326427" project:"python" status:"pending" tags:"python" tags_python:"x" tmp_value_holder:"python-basics" uuid:"9601dd81-be5c-451e-99e3-0a557a861920"]
+---
+time 1661365697
+old [description:"zk-resources" diary_entry:"Y" entry:"1659875278" modified:"1659875283" project:"zk" status:"pending" tags:"zk" tags_zk:"x" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+new [description:"zk-resources" diary_entry:"Y" entry:"1659875278" modified:"1661365697" project:"zk" status:"pending" tags:"ludens,parc,zk" tags_ludens:"x" tags_parc:"x" tags_zk:"x" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+---
+time 1661365730
+new [description:"Foundry" diary_entry:"N" entry:"1661365730" modified:"1661365730" project:"eth.foundry" status:"pending" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+---
+time 1661365734
+old [description:"Foundry" diary_entry:"N" entry:"1661365730" modified:"1661365730" project:"eth.foundry" status:"pending" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+new [description:"Foundry" diary_entry:"N" entry:"1661365730" modified:"1661365734" project:"eth.foundry" status:"pending" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+---
+time 1661365734
+old [description:"Foundry" diary_entry:"N" entry:"1661365730" modified:"1661365734" project:"eth.foundry" status:"pending" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+new [description:"foundry" diary_entry:"N" entry:"1661365730" modified:"1661365734" project:"eth.foundry" status:"pending" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+---
+time 1661365734
+old [description:"foundry" diary_entry:"N" entry:"1661365730" modified:"1661365734" project:"eth.foundry" status:"pending" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+new [description:"foundry" diary_entry:"Y" entry:"1661365730" modified:"1661365734" project:"eth.foundry" status:"pending" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+---
+time 1661365734
+old [description:"foundry" diary_entry:"Y" entry:"1661365730" modified:"1661365734" project:"eth.foundry" status:"pending" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+new [description:"foundry" diary_entry:"Y" entry:"1661365730" modified:"1661365734" project:"eth.foundry" status:"pending" tags:"eth,foundry" tags_eth:"x" tags_foundry:"x" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+---
+time 1661488770
+new [description:"account abstraction" diary_entry:"N" entry:"1661488770" modified:"1661488770" project:"eth.erc" status:"pending" uuid:"ca412bc4-b402-4723-9708-a9f873594c5b"]
+---
+time 1661488772
+old [description:"account abstraction" diary_entry:"N" entry:"1661488770" modified:"1661488770" project:"eth.erc" status:"pending" uuid:"ca412bc4-b402-4723-9708-a9f873594c5b"]
+new [description:"account abstraction" diary_entry:"N" entry:"1661488770" modified:"1661488772" project:"eth.erc" status:"pending" tmp_value_holder:"account" uuid:"ca412bc4-b402-4723-9708-a9f873594c5b"]
+---
+time 1661488772
+old [description:"account abstraction" diary_entry:"N" entry:"1661488770" modified:"1661488772" project:"eth.erc" status:"pending" tmp_value_holder:"account" uuid:"ca412bc4-b402-4723-9708-a9f873594c5b"]
+new [description:"account-abstraction" diary_entry:"N" entry:"1661488770" modified:"1661488772" project:"eth.erc" status:"pending" tmp_value_holder:"account" uuid:"ca412bc4-b402-4723-9708-a9f873594c5b"]
+---
+time 1661488772
+old [description:"account-abstraction" diary_entry:"N" entry:"1661488770" modified:"1661488772" project:"eth.erc" status:"pending" tmp_value_holder:"account" uuid:"ca412bc4-b402-4723-9708-a9f873594c5b"]
+new [description:"account-abstraction" diary_entry:"Y" entry:"1661488770" modified:"1661488772" project:"eth.erc" status:"pending" tmp_value_holder:"account" uuid:"ca412bc4-b402-4723-9708-a9f873594c5b"]
+---
+time 1661488772
+old [description:"account-abstraction" diary_entry:"Y" entry:"1661488770" modified:"1661488772" project:"eth.erc" status:"pending" tmp_value_holder:"account" uuid:"ca412bc4-b402-4723-9708-a9f873594c5b"]
+new [description:"account-abstraction" diary_entry:"Y" entry:"1661488770" modified:"1661488772" project:"eth.erc" status:"pending" tags:"erc,eth" tags_erc:"x" tags_eth:"x" tmp_value_holder:"account" uuid:"ca412bc4-b402-4723-9708-a9f873594c5b"]
+---
+time 1661535871
+new [description:"vim makeprg" diary_entry:"N" entry:"1661535871" modified:"1661535871" project:"tooling.vim" status:"pending" uuid:"5380247d-84a5-4114-9661-19065487a21d"]
+---
+time 1661535873
+old [description:"vim makeprg" diary_entry:"N" entry:"1661535871" modified:"1661535871" project:"tooling.vim" status:"pending" uuid:"5380247d-84a5-4114-9661-19065487a21d"]
+new [description:"vim makeprg" diary_entry:"N" entry:"1661535871" modified:"1661535873" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"5380247d-84a5-4114-9661-19065487a21d"]
+---
+time 1661535873
+old [description:"vim makeprg" diary_entry:"N" entry:"1661535871" modified:"1661535873" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"5380247d-84a5-4114-9661-19065487a21d"]
+new [description:"vim-makeprg" diary_entry:"N" entry:"1661535871" modified:"1661535873" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"5380247d-84a5-4114-9661-19065487a21d"]
+---
+time 1661535873
+old [description:"vim-makeprg" diary_entry:"N" entry:"1661535871" modified:"1661535873" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"5380247d-84a5-4114-9661-19065487a21d"]
+new [description:"vim-makeprg" diary_entry:"Y" entry:"1661535871" modified:"1661535873" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"5380247d-84a5-4114-9661-19065487a21d"]
+---
+time 1661535873
+old [description:"vim-makeprg" diary_entry:"Y" entry:"1661535871" modified:"1661535873" project:"tooling.vim" status:"pending" tmp_value_holder:"vim" uuid:"5380247d-84a5-4114-9661-19065487a21d"]
+new [description:"vim-makeprg" diary_entry:"Y" entry:"1661535871" modified:"1661535873" project:"tooling.vim" status:"pending" tags:"tooling,vim" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim" uuid:"5380247d-84a5-4114-9661-19065487a21d"]
+---
+time 1661668012
+new [description:"multicall" diary_entry:"N" entry:"1661668012" modified:"1661668012" project:"eth.evm" status:"pending" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+---
+time 1661668015
+old [description:"multicall" diary_entry:"N" entry:"1661668012" modified:"1661668012" project:"eth.evm" status:"pending" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+new [description:"multicall" diary_entry:"N" entry:"1661668012" modified:"1661668015" project:"eth.evm" status:"pending" tmp_value_holder:"multicall" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+---
+time 1661668015
+old [description:"multicall" diary_entry:"N" entry:"1661668012" modified:"1661668015" project:"eth.evm" status:"pending" tmp_value_holder:"multicall" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+new [description:"multicall" diary_entry:"Y" entry:"1661668012" modified:"1661668015" project:"eth.evm" status:"pending" tmp_value_holder:"multicall" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+---
+time 1661668016
+old [description:"multicall" diary_entry:"Y" entry:"1661668012" modified:"1661668015" project:"eth.evm" status:"pending" tmp_value_holder:"multicall" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+new [description:"multicall" diary_entry:"Y" entry:"1661668012" modified:"1661668016" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"multicall" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+---
+time 1661668198
+old [description:"multicall" diary_entry:"Y" entry:"1661668012" modified:"1661668016" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"multicall" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+new [description:"multicall" diary_entry:"Y" entry:"1661668012" modified:"1661668198" project:"eth.evm" status:"pending" tags:"eth,evm,multicall" tags_eth:"x" tags_evm:"x" tags_multicall:"x" tmp_value_holder:"multicall" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+---
+time 1661757561
+old [description:"foundry" diary_entry:"Y" entry:"1661365730" modified:"1661365734" project:"eth.foundry" status:"pending" tags:"eth,foundry" tags_eth:"x" tags_foundry:"x" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+new [description:"foundry" diary_entry:"Y" entry:"1661365730" modified:"1661757561" project:"eth.foundry" status:"pending" tags:"eth,foundry,tutorials" tags_eth:"x" tags_foundry:"x" tags_tutorials:"x" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+---
+time 1661772853
+old [description:"erc-721" diary_entry:"Y" entry:"1660978921" modified:"1661326415" project:"eth.nft" status:"pending" tags:"d#721,enumerable,eth,next,nft" tags_d#721:"x" tags_enumerable:"x" tags_eth:"x" tags_next:"x" tags_nft:"x" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+new [description:"erc-721" diary_entry:"Y" entry:"1660978921" modified:"1661772853" project:"eth.nft" status:"pending" tags:"d#721,enumerable,eth,nft" tags_d#721:"x" tags_enumerable:"x" tags_eth:"x" tags_nft:"x" tmp_value_holder:"erc" uuid:"42808674-7bc9-46b2-a7b2-1a7885fd6734"]
+---
+time 1661777645
+new [description:"Ethereum Uncensored with Justin Drake" diary_entry:"N" entry:"1661777645" modified:"1661777645" project:"knowledge.dope" status:"pending" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+---
+time 1661777651
+old [description:"Ethereum Uncensored with Justin Drake" diary_entry:"N" entry:"1661777645" modified:"1661777645" project:"knowledge.dope" status:"pending" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+new [description:"Ethereum Uncensored with Justin Drake" diary_entry:"N" entry:"1661777645" modified:"1661777651" project:"knowledge.dope" status:"pending" tmp_value_holder:"Ethereum" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+---
+time 1661777651
+old [description:"Ethereum Uncensored with Justin Drake" diary_entry:"N" entry:"1661777645" modified:"1661777651" project:"knowledge.dope" status:"pending" tmp_value_holder:"Ethereum" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+new [description:"ethereum-uncensored-with-justin-drake" diary_entry:"N" entry:"1661777645" modified:"1661777651" project:"knowledge.dope" status:"pending" tmp_value_holder:"Ethereum" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+---
+time 1661777651
+old [description:"ethereum-uncensored-with-justin-drake" diary_entry:"N" entry:"1661777645" modified:"1661777651" project:"knowledge.dope" status:"pending" tmp_value_holder:"Ethereum" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+new [description:"ethereum-uncensored-with-justin-drake" diary_entry:"Y" entry:"1661777645" modified:"1661777651" project:"knowledge.dope" status:"pending" tmp_value_holder:"Ethereum" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+---
+time 1661777651
+old [description:"ethereum-uncensored-with-justin-drake" diary_entry:"Y" entry:"1661777645" modified:"1661777651" project:"knowledge.dope" status:"pending" tmp_value_holder:"Ethereum" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+new [description:"ethereum-uncensored-with-justin-drake" diary_entry:"Y" entry:"1661777645" modified:"1661777651" project:"knowledge.dope" status:"pending" tags:"dope,knowledge" tags_dope:"x" tags_knowledge:"x" tmp_value_holder:"Ethereum" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+---
+time 1661869767
+old [description:"python-advanced" diary_entry:"Y" entry:"1659620075" modified:"1660044638" project:"python" status:"pending" tags:"context_managers,decorators,generators,iterable,iterators,python" tags_context_managers:"x" tags_decorators:"x" tags_generators:"x" tags_iterable:"x" tags_iterators:"x" tags_python:"x" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+new [description:"python-advanced" diary_entry:"Y" entry:"1659620075" modified:"1661869767" project:"python" status:"pending" tags:"asyncio,context_managers,decorators,generators,iterable,iterators,python" tags_asyncio:"x" tags_context_managers:"x" tags_decorators:"x" tags_generators:"x" tags_iterable:"x" tags_iterators:"x" tags_python:"x" tmp_value_holder:"python" uuid:"b275da86-4070-4d0c-aded-221409ea54d6"]
+---
+time 1662039518
+new [description:"Eth post merge" diary_entry:"N" entry:"1662039518" modified:"1662039518" project:"eth.pos" status:"pending" uuid:"54e9db81-c6f6-4bf8-bddc-cb084478dfd7"]
+---
+time 1662039526
+old [description:"Eth post merge" diary_entry:"N" entry:"1662039518" modified:"1662039518" project:"eth.pos" status:"pending" uuid:"54e9db81-c6f6-4bf8-bddc-cb084478dfd7"]
+new [description:"Eth post merge" diary_entry:"N" entry:"1662039518" modified:"1662039526" project:"eth.pos" status:"pending" tmp_value_holder:"Eth" uuid:"54e9db81-c6f6-4bf8-bddc-cb084478dfd7"]
+---
+time 1662039526
+old [description:"Eth post merge" diary_entry:"N" entry:"1662039518" modified:"1662039526" project:"eth.pos" status:"pending" tmp_value_holder:"Eth" uuid:"54e9db81-c6f6-4bf8-bddc-cb084478dfd7"]
+new [description:"eth-post-merge" diary_entry:"N" entry:"1662039518" modified:"1662039526" project:"eth.pos" status:"pending" tmp_value_holder:"Eth" uuid:"54e9db81-c6f6-4bf8-bddc-cb084478dfd7"]
+---
+time 1662039526
+old [description:"eth-post-merge" diary_entry:"N" entry:"1662039518" modified:"1662039526" project:"eth.pos" status:"pending" tmp_value_holder:"Eth" uuid:"54e9db81-c6f6-4bf8-bddc-cb084478dfd7"]
+new [description:"eth-post-merge" diary_entry:"Y" entry:"1662039518" modified:"1662039526" project:"eth.pos" status:"pending" tmp_value_holder:"Eth" uuid:"54e9db81-c6f6-4bf8-bddc-cb084478dfd7"]
+---
+time 1662039526
+old [description:"eth-post-merge" diary_entry:"Y" entry:"1662039518" modified:"1662039526" project:"eth.pos" status:"pending" tmp_value_holder:"Eth" uuid:"54e9db81-c6f6-4bf8-bddc-cb084478dfd7"]
+new [description:"eth-post-merge" diary_entry:"Y" entry:"1662039518" modified:"1662039526" project:"eth.pos" status:"pending" tags:"eth,pos" tags_eth:"x" tags_pos:"x" tmp_value_holder:"Eth" uuid:"54e9db81-c6f6-4bf8-bddc-cb084478dfd7"]
+---
+time 1662102264
+new [description:"groff" diary_entry:"N" entry:"1662102264" modified:"1662102264" project:"tooling.groff" status:"pending" uuid:"fd27721c-cf0d-4097-b6dc-59b60b7fbd21"]
+---
+time 1662102361
+old [description:"groff" diary_entry:"N" entry:"1662102264" modified:"1662102264" project:"tooling.groff" status:"pending" uuid:"fd27721c-cf0d-4097-b6dc-59b60b7fbd21"]
+new [description:"groff" diary_entry:"N" entry:"1662102264" modified:"1662102361" project:"tooling.groff" status:"pending" tmp_value_holder:"groff" uuid:"fd27721c-cf0d-4097-b6dc-59b60b7fbd21"]
+---
+time 1662102361
+old [description:"groff" diary_entry:"N" entry:"1662102264" modified:"1662102361" project:"tooling.groff" status:"pending" tmp_value_holder:"groff" uuid:"fd27721c-cf0d-4097-b6dc-59b60b7fbd21"]
+new [description:"groff" diary_entry:"Y" entry:"1662102264" modified:"1662102361" project:"tooling.groff" status:"pending" tmp_value_holder:"groff" uuid:"fd27721c-cf0d-4097-b6dc-59b60b7fbd21"]
+---
+time 1662102361
+old [description:"groff" diary_entry:"Y" entry:"1662102264" modified:"1662102361" project:"tooling.groff" status:"pending" tmp_value_holder:"groff" uuid:"fd27721c-cf0d-4097-b6dc-59b60b7fbd21"]
+new [description:"groff" diary_entry:"Y" entry:"1662102264" modified:"1662102361" project:"tooling.groff" status:"pending" tags:"groff,tooling" tags_groff:"x" tags_tooling:"x" tmp_value_holder:"groff" uuid:"fd27721c-cf0d-4097-b6dc-59b60b7fbd21"]
+---
+time 1662104973
+old [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1659810209" project:"eth.vyper" status:"pending" tags:"contracts,eth,resources,rewrite,vyper" tags_contracts:"x" tags_eth:"x" tags_resources:"x" tags_rewrite:"x" tags_vyper:"x" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+new [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1662104973" project:"eth.vyper" status:"pending" tags:"contracts,eth,next,resources,rewrite,vyper" tags_contracts:"x" tags_eth:"x" tags_next:"x" tags_resources:"x" tags_rewrite:"x" tags_vyper:"x" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+---
+time 1662284584
+new [description:"on chain games" diary_entry:"N" entry:"1662284584" modified:"1662284584" project:"knowledge.dope" status:"pending" uuid:"afcfadbd-8904-4a5e-91c4-0fe961a3cdd4"]
+---
+time 1662284592
+old [description:"on chain games" diary_entry:"N" entry:"1662284584" modified:"1662284584" project:"knowledge.dope" status:"pending" uuid:"afcfadbd-8904-4a5e-91c4-0fe961a3cdd4"]
+new [description:"on chain games" diary_entry:"N" entry:"1662284584" modified:"1662284592" project:"knowledge.dope" status:"pending" tmp_value_holder:"on" uuid:"afcfadbd-8904-4a5e-91c4-0fe961a3cdd4"]
+---
+time 1662284592
+old [description:"on chain games" diary_entry:"N" entry:"1662284584" modified:"1662284592" project:"knowledge.dope" status:"pending" tmp_value_holder:"on" uuid:"afcfadbd-8904-4a5e-91c4-0fe961a3cdd4"]
+new [description:"on-chain-games" diary_entry:"N" entry:"1662284584" modified:"1662284592" project:"knowledge.dope" status:"pending" tmp_value_holder:"on" uuid:"afcfadbd-8904-4a5e-91c4-0fe961a3cdd4"]
+---
+time 1662284592
+old [description:"on-chain-games" diary_entry:"N" entry:"1662284584" modified:"1662284592" project:"knowledge.dope" status:"pending" tmp_value_holder:"on" uuid:"afcfadbd-8904-4a5e-91c4-0fe961a3cdd4"]
+new [description:"on-chain-games" diary_entry:"Y" entry:"1662284584" modified:"1662284592" project:"knowledge.dope" status:"pending" tmp_value_holder:"on" uuid:"afcfadbd-8904-4a5e-91c4-0fe961a3cdd4"]
+---
+time 1662284592
+old [description:"on-chain-games" diary_entry:"Y" entry:"1662284584" modified:"1662284592" project:"knowledge.dope" status:"pending" tmp_value_holder:"on" uuid:"afcfadbd-8904-4a5e-91c4-0fe961a3cdd4"]
+new [description:"on-chain-games" diary_entry:"Y" entry:"1662284584" modified:"1662284592" project:"knowledge.dope" status:"pending" tags:"dope,knowledge" tags_dope:"x" tags_knowledge:"x" tmp_value_holder:"on" uuid:"afcfadbd-8904-4a5e-91c4-0fe961a3cdd4"]
+---
+time 1662291443
+old [description:"ethereum-uncensored-with-justin-drake" diary_entry:"Y" entry:"1661777645" modified:"1661777651" project:"knowledge.dope" status:"pending" tags:"dope,knowledge" tags_dope:"x" tags_knowledge:"x" tmp_value_holder:"Ethereum" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+new [description:"ethereum-uncensored-with-justin-drake" diary_entry:"Y" entry:"1661777645" modified:"1662291443" project:"knowledge.dope" status:"pending" tags:"bankless,dope,justin_drake,knowledge" tags_bankless:"x" tags_dope:"x" tags_justin_drake:"x" tags_knowledge:"x" tmp_value_holder:"Ethereum" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+---
+time 1662291479
+old [description:"ethereum-uncensored-with-justin-drake" diary_entry:"Y" entry:"1661777645" modified:"1662291443" project:"knowledge.dope" status:"pending" tags:"bankless,dope,justin_drake,knowledge" tags_bankless:"x" tags_dope:"x" tags_justin_drake:"x" tags_knowledge:"x" tmp_value_holder:"Ethereum" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+new [description:"ethereum-uncensored-with-justin-drake" diary_entry:"Y" entry:"1661777645" modified:"1662291479" project:"knowledge.dope" status:"pending" tags:"bankless,dope,drake,justin,justin_drake,knowledge" tags_bankless:"x" tags_dope:"x" tags_drake:"x" tags_justin:"x" tags_justin_drake:"x" tags_knowledge:"x" tmp_value_holder:"Ethereum" uuid:"4dc9482c-d77e-410b-8aa4-6475bc4319fb"]
+---
+time 1662317767
+new [description:"address" diary_entry:"N" entry:"1662317767" modified:"1662317767" project:"eth.evm" status:"pending" uuid:"9355dd03-e5c9-4106-a0ad-43d408e74378"]
+---
+time 1662317777
+old [description:"address" diary_entry:"N" entry:"1662317767" modified:"1662317767" project:"eth.evm" status:"pending" uuid:"9355dd03-e5c9-4106-a0ad-43d408e74378"]
+new [description:"address" diary_entry:"N" entry:"1662317767" modified:"1662317777" project:"eth.evm" status:"pending" tmp_value_holder:"address" uuid:"9355dd03-e5c9-4106-a0ad-43d408e74378"]
+---
+time 1662317778
+old [description:"address" diary_entry:"N" entry:"1662317767" modified:"1662317777" project:"eth.evm" status:"pending" tmp_value_holder:"address" uuid:"9355dd03-e5c9-4106-a0ad-43d408e74378"]
+new [description:"address" diary_entry:"Y" entry:"1662317767" modified:"1662317778" project:"eth.evm" status:"pending" tmp_value_holder:"address" uuid:"9355dd03-e5c9-4106-a0ad-43d408e74378"]
+---
+time 1662317778
+old [description:"address" diary_entry:"Y" entry:"1662317767" modified:"1662317778" project:"eth.evm" status:"pending" tmp_value_holder:"address" uuid:"9355dd03-e5c9-4106-a0ad-43d408e74378"]
+new [description:"address" diary_entry:"Y" entry:"1662317767" modified:"1662317778" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"address" uuid:"9355dd03-e5c9-4106-a0ad-43d408e74378"]
+---
+time 1662317903
+new [description:"storage" diary_entry:"N" entry:"1662317903" modified:"1662317903" project:"eth.evm" status:"pending" uuid:"f209a3e3-3afb-4733-a760-ab97c70c3af4"]
+---
+time 1662317906
+old [description:"storage" diary_entry:"N" entry:"1662317903" modified:"1662317903" project:"eth.evm" status:"pending" uuid:"f209a3e3-3afb-4733-a760-ab97c70c3af4"]
+new [description:"storage" diary_entry:"N" entry:"1662317903" modified:"1662317906" project:"eth.evm" status:"pending" tmp_value_holder:"storage" uuid:"f209a3e3-3afb-4733-a760-ab97c70c3af4"]
+---
+time 1662317906
+old [description:"storage" diary_entry:"N" entry:"1662317903" modified:"1662317906" project:"eth.evm" status:"pending" tmp_value_holder:"storage" uuid:"f209a3e3-3afb-4733-a760-ab97c70c3af4"]
+new [description:"storage" diary_entry:"Y" entry:"1662317903" modified:"1662317906" project:"eth.evm" status:"pending" tmp_value_holder:"storage" uuid:"f209a3e3-3afb-4733-a760-ab97c70c3af4"]
+---
+time 1662317906
+old [description:"storage" diary_entry:"Y" entry:"1662317903" modified:"1662317906" project:"eth.evm" status:"pending" tmp_value_holder:"storage" uuid:"f209a3e3-3afb-4733-a760-ab97c70c3af4"]
+new [description:"storage" diary_entry:"Y" entry:"1662317903" modified:"1662317906" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"storage" uuid:"f209a3e3-3afb-4733-a760-ab97c70c3af4"]
+---
+time 1662370599
+new [description:"multisig" diary_entry:"N" entry:"1662370599" modified:"1662370599" project:"eth.dapps" status:"pending" uuid:"f01e0b00-b1d8-4fb2-b2fa-1b05613a91d9"]
+---
+time 1662370602
+old [description:"multisig" diary_entry:"N" entry:"1662370599" modified:"1662370599" project:"eth.dapps" status:"pending" uuid:"f01e0b00-b1d8-4fb2-b2fa-1b05613a91d9"]
+new [description:"multisig" diary_entry:"N" entry:"1662370599" modified:"1662370602" project:"eth.dapps" status:"pending" tmp_value_holder:"multisig" uuid:"f01e0b00-b1d8-4fb2-b2fa-1b05613a91d9"]
+---
+time 1662370602
+old [description:"multisig" diary_entry:"N" entry:"1662370599" modified:"1662370602" project:"eth.dapps" status:"pending" tmp_value_holder:"multisig" uuid:"f01e0b00-b1d8-4fb2-b2fa-1b05613a91d9"]
+new [description:"multisig" diary_entry:"Y" entry:"1662370599" modified:"1662370602" project:"eth.dapps" status:"pending" tmp_value_holder:"multisig" uuid:"f01e0b00-b1d8-4fb2-b2fa-1b05613a91d9"]
+---
+time 1662370602
+old [description:"multisig" diary_entry:"Y" entry:"1662370599" modified:"1662370602" project:"eth.dapps" status:"pending" tmp_value_holder:"multisig" uuid:"f01e0b00-b1d8-4fb2-b2fa-1b05613a91d9"]
+new [description:"multisig" diary_entry:"Y" entry:"1662370599" modified:"1662370602" project:"eth.dapps" status:"pending" tags:"dapps,eth" tags_dapps:"x" tags_eth:"x" tmp_value_holder:"multisig" uuid:"f01e0b00-b1d8-4fb2-b2fa-1b05613a91d9"]
+---
+time 1662386499
+old [description:"storage" diary_entry:"Y" entry:"1662317903" modified:"1662317906" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"storage" uuid:"f209a3e3-3afb-4733-a760-ab97c70c3af4"]
+new [description:"storage" diary_entry:"Y" entry:"1662317903" modified:"1662386499" project:"eth.evm" status:"pending" tags:"eth,evm,slot,storage" tags_eth:"x" tags_evm:"x" tags_slot:"x" tags_storage:"x" tmp_value_holder:"storage" uuid:"f209a3e3-3afb-4733-a760-ab97c70c3af4"]
+---
+time 1662386542
+new [description:"data locations" diary_entry:"N" entry:"1662386542" modified:"1662386542" project:"eth.evm" status:"pending" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+---
+time 1662386545
+old [description:"data locations" diary_entry:"N" entry:"1662386542" modified:"1662386542" project:"eth.evm" status:"pending" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+new [description:"data locations" diary_entry:"N" entry:"1662386542" modified:"1662386545" project:"eth.evm" status:"pending" tmp_value_holder:"data" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+---
+time 1662386545
+old [description:"data locations" diary_entry:"N" entry:"1662386542" modified:"1662386545" project:"eth.evm" status:"pending" tmp_value_holder:"data" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+new [description:"data-locations" diary_entry:"N" entry:"1662386542" modified:"1662386545" project:"eth.evm" status:"pending" tmp_value_holder:"data" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+---
+time 1662386545
+old [description:"data-locations" diary_entry:"N" entry:"1662386542" modified:"1662386545" project:"eth.evm" status:"pending" tmp_value_holder:"data" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+new [description:"data-locations" diary_entry:"Y" entry:"1662386542" modified:"1662386545" project:"eth.evm" status:"pending" tmp_value_holder:"data" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+---
+time 1662386545
+old [description:"data-locations" diary_entry:"Y" entry:"1662386542" modified:"1662386545" project:"eth.evm" status:"pending" tmp_value_holder:"data" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+new [description:"data-locations" diary_entry:"Y" entry:"1662386542" modified:"1662386545" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"data" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+---
+time 1662410253
+old [description:"multicall" diary_entry:"Y" entry:"1661668012" modified:"1661668198" project:"eth.evm" status:"pending" tags:"eth,evm,multicall" tags_eth:"x" tags_evm:"x" tags_multicall:"x" tmp_value_holder:"multicall" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+new [description:"multicall" diary_entry:"Y" entry:"1661668012" modified:"1662410253" project:"eth.evm" status:"pending" tags:"eth,evm,multi_call,multi_delegate_call,multicall" tags_eth:"x" tags_evm:"x" tags_multi_call:"x" tags_multi_delegate_call:"x" tags_multicall:"x" tmp_value_holder:"multicall" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+---
+time 1662449079
+old [description:"multicall" diary_entry:"Y" entry:"1661668012" modified:"1662410253" project:"eth.evm" status:"pending" tags:"eth,evm,multi_call,multi_delegate_call,multicall" tags_eth:"x" tags_evm:"x" tags_multi_call:"x" tags_multi_delegate_call:"x" tags_multicall:"x" tmp_value_holder:"multicall" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+new [description:"multicall" diary_entry:"Y" end:"1662449079" entry:"1661668012" modified:"1662449079" project:"eth.evm" status:"completed" tags:"eth,evm,multi_call,multi_delegate_call,multicall" tags_eth:"x" tags_evm:"x" tags_multi_call:"x" tags_multi_delegate_call:"x" tags_multicall:"x" tmp_value_holder:"multicall" uuid:"74bccae5-b549-4f7d-aa8c-fe3f4c08cb42"]
+---
+time 1662450091
+new [description:"selfdestruct" diary_entry:"N" entry:"1662450091" modified:"1662450091" project:"eth.evm" status:"pending" uuid:"fd677601-dc1b-486a-bd0e-34657a92b230"]
+---
+time 1662450093
+old [description:"selfdestruct" diary_entry:"N" entry:"1662450091" modified:"1662450091" project:"eth.evm" status:"pending" uuid:"fd677601-dc1b-486a-bd0e-34657a92b230"]
+new [description:"selfdestruct" diary_entry:"N" entry:"1662450091" modified:"1662450093" project:"eth.evm" status:"pending" tmp_value_holder:"selfdestruct" uuid:"fd677601-dc1b-486a-bd0e-34657a92b230"]
+---
+time 1662450093
+old [description:"selfdestruct" diary_entry:"N" entry:"1662450091" modified:"1662450093" project:"eth.evm" status:"pending" tmp_value_holder:"selfdestruct" uuid:"fd677601-dc1b-486a-bd0e-34657a92b230"]
+new [description:"selfdestruct" diary_entry:"Y" entry:"1662450091" modified:"1662450093" project:"eth.evm" status:"pending" tmp_value_holder:"selfdestruct" uuid:"fd677601-dc1b-486a-bd0e-34657a92b230"]
+---
+time 1662450093
+old [description:"selfdestruct" diary_entry:"Y" entry:"1662450091" modified:"1662450093" project:"eth.evm" status:"pending" tmp_value_holder:"selfdestruct" uuid:"fd677601-dc1b-486a-bd0e-34657a92b230"]
+new [description:"selfdestruct" diary_entry:"Y" entry:"1662450091" modified:"1662450093" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"selfdestruct" uuid:"fd677601-dc1b-486a-bd0e-34657a92b230"]
+---
+time 1662454645
+new [description:"send ether" diary_entry:"N" entry:"1662454645" modified:"1662454645" project:"eth.evm" status:"pending" uuid:"4618cc83-204e-46ef-99a5-619d0d2387f5"]
+---
+time 1662454649
+old [description:"send ether" diary_entry:"N" entry:"1662454645" modified:"1662454645" project:"eth.evm" status:"pending" uuid:"4618cc83-204e-46ef-99a5-619d0d2387f5"]
+new [description:"send ether" diary_entry:"N" entry:"1662454645" modified:"1662454649" project:"eth.evm" status:"pending" tmp_value_holder:"send" uuid:"4618cc83-204e-46ef-99a5-619d0d2387f5"]
+---
+time 1662454649
+old [description:"send ether" diary_entry:"N" entry:"1662454645" modified:"1662454649" project:"eth.evm" status:"pending" tmp_value_holder:"send" uuid:"4618cc83-204e-46ef-99a5-619d0d2387f5"]
+new [description:"send-ether" diary_entry:"N" entry:"1662454645" modified:"1662454649" project:"eth.evm" status:"pending" tmp_value_holder:"send" uuid:"4618cc83-204e-46ef-99a5-619d0d2387f5"]
+---
+time 1662454649
+old [description:"send-ether" diary_entry:"N" entry:"1662454645" modified:"1662454649" project:"eth.evm" status:"pending" tmp_value_holder:"send" uuid:"4618cc83-204e-46ef-99a5-619d0d2387f5"]
+new [description:"send-ether" diary_entry:"Y" entry:"1662454645" modified:"1662454649" project:"eth.evm" status:"pending" tmp_value_holder:"send" uuid:"4618cc83-204e-46ef-99a5-619d0d2387f5"]
+---
+time 1662454649
+old [description:"send-ether" diary_entry:"Y" entry:"1662454645" modified:"1662454649" project:"eth.evm" status:"pending" tmp_value_holder:"send" uuid:"4618cc83-204e-46ef-99a5-619d0d2387f5"]
+new [description:"send-ether" diary_entry:"Y" entry:"1662454645" modified:"1662454649" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"send" uuid:"4618cc83-204e-46ef-99a5-619d0d2387f5"]
+---
+time 1662454880
+old [description:"send-ether" diary_entry:"Y" entry:"1662454645" modified:"1662454649" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"send" uuid:"4618cc83-204e-46ef-99a5-619d0d2387f5"]
+new [description:"send-ether" diary_entry:"Y" entry:"1662454645" modified:"1662454880" project:"eth.evm" status:"pending" tags:"eth,ether,evm,send" tags_eth:"x" tags_ether:"x" tags_evm:"x" tags_send:"x" tmp_value_holder:"send" uuid:"4618cc83-204e-46ef-99a5-619d0d2387f5"]
+---
+time 1662540321
+old [description:"foundry" diary_entry:"Y" entry:"1661365730" modified:"1661757561" project:"eth.foundry" status:"pending" tags:"eth,foundry,tutorials" tags_eth:"x" tags_foundry:"x" tags_tutorials:"x" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+new [description:"foundry" diary_entry:"Y" end:"1662540321" entry:"1661365730" modified:"1662540321" project:"eth.foundry" status:"completed" tags:"eth,foundry,tutorials" tags_eth:"x" tags_foundry:"x" tags_tutorials:"x" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+---
+time 1662540360
+old [description:"erc-1167" diary_entry:"Y" entry:"1660114881" modified:"1660118103" project:"eth.solidity" status:"pending" tags:"d#1167,eth,solidity" tags_d#1167:"x" tags_eth:"x" tags_solidity:"x" tmp_value_holder:"erc-1167" uuid:"29f58a7f-1ff4-456b-b424-cba82d46e027"]
+new [description:"erc-1167" diary_entry:"Y" entry:"1660114881" modified:"1662540360" project:"eth.solidity" status:"pending" tags:"create_forwarder_to,d#1167,eth,proxy,solidity,vyper" tags_create_forwarder_to:"x" tags_d#1167:"x" tags_eth:"x" tags_proxy:"x" tags_solidity:"x" tags_vyper:"x" tmp_value_holder:"erc-1167" uuid:"29f58a7f-1ff4-456b-b424-cba82d46e027"]
+---
+time 1662611644
+old [description:"eip-1559" diary_entry:"Y" entry:"1661021238" modified:"1661021245" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"eip-1559" uuid:"26e2b6c2-d32f-4216-8980-7b767e84c1a6"]
+new [description:"eip-1559" diary_entry:"Y" entry:"1661021238" modified:"1662611644" project:"eth.evm" status:"pending" tags:"d#1559,eth,evm" tags_d#1559:"x" tags_eth:"x" tags_evm:"x" tmp_value_holder:"eip-1559" uuid:"26e2b6c2-d32f-4216-8980-7b767e84c1a6"]
+---
+time 1662619430
+old [description:"storage" diary_entry:"Y" entry:"1662317903" modified:"1662386499" project:"eth.evm" status:"pending" tags:"eth,evm,slot,storage" tags_eth:"x" tags_evm:"x" tags_slot:"x" tags_storage:"x" tmp_value_holder:"storage" uuid:"f209a3e3-3afb-4733-a760-ab97c70c3af4"]
+new [description:"ethereum-types" diary_entry:"Y" entry:"1662317903" modified:"1662619430" project:"eth.evm" status:"pending" tags_eth:"x" tags_evm:"x" tags_slot:"x" tags_storage:"x" tmp_value_holder:"storage" uuid:"f209a3e3-3afb-4733-a760-ab97c70c3af4"]
+---
+time 1662620881
+old [description:"data-locations" diary_entry:"Y" entry:"1662386542" modified:"1662386545" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"data" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+new [description:"data-locations" diary_entry:"Y" entry:"1662386542" modified:"1662620881" project:"eth.evm" status:"pending" tags:"bytes,calldata,eth,evm,mappings,memory,storage" tags_bytes:"x" tags_calldata:"x" tags_eth:"x" tags_evm:"x" tags_mappings:"x" tags_memory:"x" tags_storage:"x" tmp_value_holder:"data" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+---
+time 1662620914
+old [description:"data-locations" diary_entry:"Y" entry:"1662386542" modified:"1662620881" project:"eth.evm" status:"pending" tags:"bytes,calldata,eth,evm,mappings,memory,storage" tags_bytes:"x" tags_calldata:"x" tags_eth:"x" tags_evm:"x" tags_mappings:"x" tags_memory:"x" tags_storage:"x" tmp_value_holder:"data" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+new [description:"ethereum-types" diary_entry:"Y" entry:"1662386542" modified:"1662620914" project:"eth.evm" status:"pending" tags_bytes:"x" tags_calldata:"x" tags_eth:"x" tags_evm:"x" tags_mappings:"x" tags_memory:"x" tags_storage:"x" tmp_value_holder:"data" uuid:"5c372d68-e090-4755-92e3-534eac8a770b"]
+---
+time 1662623968
+new [description:"precompiles" diary_entry:"N" entry:"1662623968" modified:"1662623968" project:"eth.evm" status:"pending" uuid:"8198b290-eb26-4247-898a-8f22973280d0"]
+---
+time 1662623974
+old [description:"precompiles" diary_entry:"N" entry:"1662623968" modified:"1662623968" project:"eth.evm" status:"pending" uuid:"8198b290-eb26-4247-898a-8f22973280d0"]
+new [description:"precompiles" diary_entry:"N" entry:"1662623968" modified:"1662623974" project:"eth.evm" status:"pending" tmp_value_holder:"precompiles" uuid:"8198b290-eb26-4247-898a-8f22973280d0"]
+---
+time 1662623974
+old [description:"precompiles" diary_entry:"N" entry:"1662623968" modified:"1662623974" project:"eth.evm" status:"pending" tmp_value_holder:"precompiles" uuid:"8198b290-eb26-4247-898a-8f22973280d0"]
+new [description:"precompiles" diary_entry:"Y" entry:"1662623968" modified:"1662623974" project:"eth.evm" status:"pending" tmp_value_holder:"precompiles" uuid:"8198b290-eb26-4247-898a-8f22973280d0"]
+---
+time 1662623974
+old [description:"precompiles" diary_entry:"Y" entry:"1662623968" modified:"1662623974" project:"eth.evm" status:"pending" tmp_value_holder:"precompiles" uuid:"8198b290-eb26-4247-898a-8f22973280d0"]
+new [description:"precompiles" diary_entry:"Y" entry:"1662623968" modified:"1662623974" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"precompiles" uuid:"8198b290-eb26-4247-898a-8f22973280d0"]
+---
+time 1662974627
+new [description:"scaling" diary_entry:"N" entry:"1662974627" modified:"1662974627" project:"eth.evm" status:"pending" uuid:"fa31b373-5013-4db8-a0f7-b47364bbf4b6"]
+---
+time 1662974631
+old [description:"scaling" diary_entry:"N" entry:"1662974627" modified:"1662974627" project:"eth.evm" status:"pending" uuid:"fa31b373-5013-4db8-a0f7-b47364bbf4b6"]
+new [description:"scaling" diary_entry:"N" entry:"1662974627" modified:"1662974631" project:"eth.evm" status:"pending" tmp_value_holder:"scaling" uuid:"fa31b373-5013-4db8-a0f7-b47364bbf4b6"]
+---
+time 1662974631
+old [description:"scaling" diary_entry:"N" entry:"1662974627" modified:"1662974631" project:"eth.evm" status:"pending" tmp_value_holder:"scaling" uuid:"fa31b373-5013-4db8-a0f7-b47364bbf4b6"]
+new [description:"scaling" diary_entry:"Y" entry:"1662974627" modified:"1662974631" project:"eth.evm" status:"pending" tmp_value_holder:"scaling" uuid:"fa31b373-5013-4db8-a0f7-b47364bbf4b6"]
+---
+time 1662974631
+old [description:"scaling" diary_entry:"Y" entry:"1662974627" modified:"1662974631" project:"eth.evm" status:"pending" tmp_value_holder:"scaling" uuid:"fa31b373-5013-4db8-a0f7-b47364bbf4b6"]
+new [description:"scaling" diary_entry:"Y" entry:"1662974627" modified:"1662974631" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"scaling" uuid:"fa31b373-5013-4db8-a0f7-b47364bbf4b6"]
+---
+time 1662974720
+old [description:"evm-internals" diary_entry:"Y" entry:"1659703037" modified:"1659703042" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"Evm" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+new [description:"evm-internals" diary_entry:"Y" entry:"1659703037" modified:"1662974720" project:"eth.evm" status:"pending" tags:"bloom_filters,eth,events,evm,rlp" tags_bloom_filters:"x" tags_eth:"x" tags_events:"x" tags_evm:"x" tags_rlp:"x" tmp_value_holder:"Evm" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+---
+time 1663491072
+new [description:"-wowlabz hermez v1" diary_entry:"N" entry:"1663491072" modified:"1663491072" project:"emp.wowlabz" status:"pending" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+---
+time 1663491080
+old [description:"-wowlabz hermez v1" diary_entry:"N" entry:"1663491072" modified:"1663491072" project:"emp.wowlabz" status:"pending" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+new [description:"-wowlabz hermez v1" diary_entry:"N" entry:"1663491072" modified:"1663491080" project:"emp.wowlabz" status:"pending" tmp_value_holder:"-wowlabz" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+---
+time 1663491080
+old [description:"-wowlabz hermez v1" diary_entry:"N" entry:"1663491072" modified:"1663491080" project:"emp.wowlabz" status:"pending" tmp_value_holder:"-wowlabz" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+new [description:"-wowlabz-hermez-v1" diary_entry:"N" entry:"1663491072" modified:"1663491080" project:"emp.wowlabz" status:"pending" tmp_value_holder:"-wowlabz" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+---
+time 1663491080
+old [description:"-wowlabz-hermez-v1" diary_entry:"N" entry:"1663491072" modified:"1663491080" project:"emp.wowlabz" status:"pending" tmp_value_holder:"-wowlabz" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+new [description:"-wowlabz-hermez-v1" diary_entry:"Y" entry:"1663491072" modified:"1663491080" project:"emp.wowlabz" status:"pending" tmp_value_holder:"-wowlabz" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+---
+time 1663491137
+old [description:"-wowlabz-hermez-v1" diary_entry:"Y" entry:"1663491072" modified:"1663491080" project:"emp.wowlabz" status:"pending" tmp_value_holder:"-wowlabz" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+new [description:"hermez-v1" diary_entry:"Y" entry:"1663491072" modified:"1663491137" project:"emp.wowlabz" status:"pending" tmp_value_holder:"-wowlabz" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+---
+time 1663491139
+old [description:"hermez-v1" diary_entry:"Y" entry:"1663491072" modified:"1663491137" project:"emp.wowlabz" status:"pending" tmp_value_holder:"-wowlabz" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+new [description:"hermez-v1" diary_entry:"Y" entry:"1663491072" modified:"1663491139" project:"emp.wowlabz" status:"pending" tags:"emp,wowlabz" tags_emp:"x" tags_wowlabz:"x" tmp_value_holder:"-wowlabz" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+---
+time 1663491287
+old [description:"hermez-v1" diary_entry:"Y" entry:"1663491072" modified:"1663491139" project:"emp.wowlabz" status:"pending" tags:"emp,wowlabz" tags_emp:"x" tags_wowlabz:"x" tmp_value_holder:"-wowlabz" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+new [description:"hermez-v1" diary_entry:"Y" end:"1663491287" entry:"1663491072" modified:"1663491287" project:"emp.wowlabz" status:"deleted" tags:"emp,wowlabz" tags_emp:"x" tags_wowlabz:"x" tmp_value_holder:"-wowlabz" uuid:"243c0fbc-ca1e-4cf0-b205-c0d1674852b5"]
+---
+time 1663571537
+old [description:"scaling" diary_entry:"Y" entry:"1662974627" modified:"1662974631" project:"eth.evm" status:"pending" tags:"eth,evm" tags_eth:"x" tags_evm:"x" tmp_value_holder:"scaling" uuid:"fa31b373-5013-4db8-a0f7-b47364bbf4b6"]
+new [description:"scaling" diary_entry:"Y" entry:"1662974627" modified:"1663571537" project:"eth.evm" status:"pending" tags:"eth,evm,optimistic,rollups" tags_eth:"x" tags_evm:"x" tags_optimistic:"x" tags_rollups:"x" tmp_value_holder:"scaling" uuid:"fa31b373-5013-4db8-a0f7-b47364bbf4b6"]
+---
+time 1663571560
+old [description:"scaling" diary_entry:"Y" entry:"1662974627" modified:"1663571537" project:"eth.evm" status:"pending" tags:"eth,evm,optimistic,rollups" tags_eth:"x" tags_evm:"x" tags_optimistic:"x" tags_rollups:"x" tmp_value_holder:"scaling" uuid:"fa31b373-5013-4db8-a0f7-b47364bbf4b6"]
+new [description:"scaling" diary_entry:"Y" end:"1663571560" entry:"1662974627" modified:"1663571560" project:"eth.evm" status:"deleted" tags:"eth,evm,optimistic,rollups" tags_eth:"x" tags_evm:"x" tags_optimistic:"x" tags_rollups:"x" tmp_value_holder:"scaling" uuid:"fa31b373-5013-4db8-a0f7-b47364bbf4b6"]
+---
+time 1663914746
+new [description:"-wowlabz tornado cash" diary_entry:"N" entry:"1663914746" modified:"1663914746" project:"zk.app" status:"pending" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+---
+time 1663914756
+old [description:"-wowlabz tornado cash" diary_entry:"N" entry:"1663914746" modified:"1663914746" project:"zk.app" status:"pending" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+new [description:"-wowlabz tornado cash" diary_entry:"N" entry:"1663914746" modified:"1663914756" project:"zk.app" status:"pending" tmp_value_holder:"-wowlabz" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+---
+time 1663914756
+old [description:"-wowlabz tornado cash" diary_entry:"N" entry:"1663914746" modified:"1663914756" project:"zk.app" status:"pending" tmp_value_holder:"-wowlabz" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+new [description:"-wowlabz-tornado-cash" diary_entry:"N" entry:"1663914746" modified:"1663914756" project:"zk.app" status:"pending" tmp_value_holder:"-wowlabz" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+---
+time 1663914756
+old [description:"-wowlabz-tornado-cash" diary_entry:"N" entry:"1663914746" modified:"1663914756" project:"zk.app" status:"pending" tmp_value_holder:"-wowlabz" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+new [description:"-wowlabz-tornado-cash" diary_entry:"Y" entry:"1663914746" modified:"1663914756" project:"zk.app" status:"pending" tmp_value_holder:"-wowlabz" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+---
+time 1663914756
+old [description:"-wowlabz-tornado-cash" diary_entry:"Y" entry:"1663914746" modified:"1663914756" project:"zk.app" status:"pending" tmp_value_holder:"-wowlabz" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+new [description:"-wowlabz-tornado-cash" diary_entry:"Y" entry:"1663914746" modified:"1663914756" project:"zk.app" status:"pending" tags:"app,zk" tags_app:"x" tags_zk:"x" tmp_value_holder:"-wowlabz" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+---
+time 1663914786
+old [description:"-wowlabz-tornado-cash" diary_entry:"Y" entry:"1663914746" modified:"1663914756" project:"zk.app" status:"pending" tags:"app,zk" tags_app:"x" tags_zk:"x" tmp_value_holder:"-wowlabz" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+new [description:"tornado-cash" diary_entry:"Y" entry:"1663914746" modified:"1663914786" project:"zk.app" status:"pending" tags_app:"x" tags_zk:"x" tmp_value_holder:"-wowlabz" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+---
+time 1663914795
+new [description:"-wowlabz test" diary_entry:"N" entry:"1663914795" modified:"1663914795" status:"pending" uuid:"49bd9ff8-e20a-4115-b0e4-fa0b0b1894be"]
+---
+time 1663914827
+old [description:"-wowlabz test" diary_entry:"N" entry:"1663914795" modified:"1663914795" status:"pending" uuid:"49bd9ff8-e20a-4115-b0e4-fa0b0b1894be"]
+new [description:"-wowlabz test" diary_entry:"N" end:"1663914827" entry:"1663914795" modified:"1663914827" status:"deleted" uuid:"49bd9ff8-e20a-4115-b0e4-fa0b0b1894be"]
+---
+time 1663941713
+old [description:"tornado-cash" diary_entry:"Y" entry:"1663914746" modified:"1663914786" project:"zk.app" status:"pending" tags:"app,zk" tags_app:"x" tags_zk:"x" tmp_value_holder:"-wowlabz" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+new [description:"tornado-cash" diary_entry:"Y" entry:"1663914746" modified:"1663941713" project:"zk.app" status:"pending" tags:"app,tornado,zk" tags_app:"x" tags_tornado:"x" tags_zk:"x" tmp_value_holder:"-wowlabz" uuid:"10cbe1c2-eae9-48db-9674-65776d4814af"]
+---
+time 1663942015
+new [description:"hermez fork" diary_entry:"N" entry:"1663942015" modified:"1663942015" status:"pending" tags:"wowlabz" tags_wowlabz:"x" uuid:"81e4d81d-f89a-4450-a2fc-beaeda0aef94"]
+---
+time 1663942087
+old [description:"hermez fork" diary_entry:"N" entry:"1663942015" modified:"1663942015" status:"pending" tags:"wowlabz" tags_wowlabz:"x" uuid:"81e4d81d-f89a-4450-a2fc-beaeda0aef94"]
+new [description:"hermez fork" diary_entry:"N" entry:"1663942015" modified:"1663942087" project:"eth.zk.l2" status:"pending" tags_wowlabz:"x" uuid:"81e4d81d-f89a-4450-a2fc-beaeda0aef94"]
+---
+time 1663942090
+old [description:"hermez fork" diary_entry:"N" entry:"1663942015" modified:"1663942087" project:"eth.zk.l2" status:"pending" tags:"wowlabz" tags_wowlabz:"x" uuid:"81e4d81d-f89a-4450-a2fc-beaeda0aef94"]
+new [description:"hermez fork" diary_entry:"N" entry:"1663942015" modified:"1663942090" project:"eth.zk.l2" status:"pending" tags:"wowlabz" tags_wowlabz:"x" tmp_value_holder:"hermez" uuid:"81e4d81d-f89a-4450-a2fc-beaeda0aef94"]
+---
+time 1663942090
+old [description:"hermez fork" diary_entry:"N" entry:"1663942015" modified:"1663942090" project:"eth.zk.l2" status:"pending" tags:"wowlabz" tags_wowlabz:"x" tmp_value_holder:"hermez" uuid:"81e4d81d-f89a-4450-a2fc-beaeda0aef94"]
+new [description:"hermez-fork" diary_entry:"N" entry:"1663942015" modified:"1663942090" project:"eth.zk.l2" status:"pending" tags:"wowlabz" tags_wowlabz:"x" tmp_value_holder:"hermez" uuid:"81e4d81d-f89a-4450-a2fc-beaeda0aef94"]
+---
+time 1663942090
+old [description:"hermez-fork" diary_entry:"N" entry:"1663942015" modified:"1663942090" project:"eth.zk.l2" status:"pending" tags:"wowlabz" tags_wowlabz:"x" tmp_value_holder:"hermez" uuid:"81e4d81d-f89a-4450-a2fc-beaeda0aef94"]
+new [description:"hermez-fork" diary_entry:"Y" entry:"1663942015" modified:"1663942090" project:"eth.zk.l2" status:"pending" tags:"wowlabz" tags_wowlabz:"x" tmp_value_holder:"hermez" uuid:"81e4d81d-f89a-4450-a2fc-beaeda0aef94"]
+---
+time 1663942090
+old [description:"hermez-fork" diary_entry:"Y" entry:"1663942015" modified:"1663942090" project:"eth.zk.l2" status:"pending" tags:"wowlabz" tags_wowlabz:"x" tmp_value_holder:"hermez" uuid:"81e4d81d-f89a-4450-a2fc-beaeda0aef94"]
+new [description:"hermez-fork" diary_entry:"Y" entry:"1663942015" modified:"1663942090" project:"eth.zk.l2" status:"pending" tags:"eth,l2,wowlabz,zk" tags_eth:"x" tags_l2:"x" tags_wowlabz:"x" tags_zk:"x" tmp_value_holder:"hermez" uuid:"81e4d81d-f89a-4450-a2fc-beaeda0aef94"]
+---
+time 1664025983
+old [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1662104973" project:"eth.vyper" status:"pending" tags:"contracts,eth,next,resources,rewrite,vyper" tags_contracts:"x" tags_eth:"x" tags_next:"x" tags_resources:"x" tags_rewrite:"x" tags_vyper:"x" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+new [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1664025983" project:"eth.vyper" status:"pending" tags:"contracts,eth,resources,rewrite,vyper" tags_contracts:"x" tags_eth:"x" tags_resources:"x" tags_rewrite:"x" tags_vyper:"x" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+---
+time 1664028432
+old [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1664025983" project:"eth.vyper" status:"pending" tags:"contracts,eth,resources,rewrite,vyper" tags_contracts:"x" tags_eth:"x" tags_resources:"x" tags_rewrite:"x" tags_vyper:"x" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+new [description:"vyper-resources" diary_entry:"Y" entry:"1659506972" modified:"1664028432" project:"eth.vyper" status:"pending" tags:"contracts,eth,next,resources,rewrite,vyper" tags_contracts:"x" tags_eth:"x" tags_next:"x" tags_resources:"x" tags_rewrite:"x" tags_vyper:"x" tmp_value_holder:"vyper" uuid:"3101c249-aae5-4c47-8fca-5d44716a565b"]
+---
+time 1664525897
+old [description:"solidity-resources" diary_entry:"Y" entry:"1659726652" modified:"1659868840" project:"eth.solidity" status:"pending" tags:"eth,exploits,solidity" tags_eth:"x" tags_exploits:"x" tags_solidity:"x" tmp_value_holder:"solidity" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+new [description:"solidity-resources" diary_entry:"Y" entry:"1659726652" modified:"1664525897" project:"eth.solidity" status:"pending" tags:"_1gwei,eth,exploits,solidity" tags__1gwei:"x" tags_eth:"x" tags_exploits:"x" tags_solidity:"x" tmp_value_holder:"solidity" uuid:"24027295-2373-44f1-bbda-85214af2a23c"]
+---
+time 1664526384
+old [description:"foundry" diary_entry:"Y" end:"1662540321" entry:"1661365730" modified:"1662540321" project:"eth.foundry" status:"completed" tags:"eth,foundry,tutorials" tags_eth:"x" tags_foundry:"x" tags_tutorials:"x" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+new [description:"foundry" diary_entry:"Y" end:"1662540321" entry:"1661365730" modified:"1664526384" project:"eth.foundry" status:"completed" tags_eth:"x" tags_foundry:"x" tags_tutorials:"x" tmp_value_holder:"Foundry" uuid:"89d35795-bee4-452f-bec8-2b98e1f29916"]
+---
+time 1664823088
+old [description:"zk-resources" diary_entry:"Y" entry:"1659875278" modified:"1661365697" project:"zk" status:"pending" tags:"ludens,parc,zk" tags_ludens:"x" tags_parc:"x" tags_zk:"x" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+new [description:"zk-resources" diary_entry:"Y" entry:"1659875278" modified:"1664823088" project:"zk" status:"pending" tags:"bellman,ludens,parc,zk" tags_bellman:"x" tags_ludens:"x" tags_parc:"x" tags_zk:"x" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+---
+time 1665335970
+old [description:"on-chain-games" diary_entry:"Y" entry:"1662284584" modified:"1662284592" project:"knowledge.dope" status:"pending" tags:"dope,knowledge" tags_dope:"x" tags_knowledge:"x" tmp_value_holder:"on" uuid:"afcfadbd-8904-4a5e-91c4-0fe961a3cdd4"]
+new [description:"on-chain-games" diary_entry:"Y" entry:"1662284584" modified:"1665335970" project:"knowledge.dope" status:"pending" tags:"dope,games,knowledge,on_chain" tags_dope:"x" tags_games:"x" tags_knowledge:"x" tags_on_chain:"x" tmp_value_holder:"on" uuid:"afcfadbd-8904-4a5e-91c4-0fe961a3cdd4"]
+---
+time 1665383240
+new [description:"Hitchhickers guide to Ethereum" diary_entry:"N" entry:"1665383240" modified:"1665383240" project:"eth" status:"pending" uuid:"0503ae97-bb70-4515-a390-bb19957d14e4"]
+---
+time 1665383300
+old [description:"Hitchhickers guide to Ethereum" diary_entry:"N" entry:"1665383240" modified:"1665383240" project:"eth" status:"pending" uuid:"0503ae97-bb70-4515-a390-bb19957d14e4"]
+new [description:"Hitchhikers guide to Ethereum" diary_entry:"N" entry:"1665383240" modified:"1665383300" project:"eth" status:"pending" uuid:"0503ae97-bb70-4515-a390-bb19957d14e4"]
+---
+time 1665383306
+old [description:"Hitchhikers guide to Ethereum" diary_entry:"N" entry:"1665383240" modified:"1665383300" project:"eth" status:"pending" uuid:"0503ae97-bb70-4515-a390-bb19957d14e4"]
+new [description:"Hitchhikers guide to Ethereum" diary_entry:"N" entry:"1665383240" modified:"1665383306" project:"eth" status:"pending" tmp_value_holder:"Hitchhikers" uuid:"0503ae97-bb70-4515-a390-bb19957d14e4"]
+---
+time 1665383306
+old [description:"Hitchhikers guide to Ethereum" diary_entry:"N" entry:"1665383240" modified:"1665383306" project:"eth" status:"pending" tmp_value_holder:"Hitchhikers" uuid:"0503ae97-bb70-4515-a390-bb19957d14e4"]
+new [description:"hitchhikers-guide-to-ethereum" diary_entry:"N" entry:"1665383240" modified:"1665383306" project:"eth" status:"pending" tmp_value_holder:"Hitchhikers" uuid:"0503ae97-bb70-4515-a390-bb19957d14e4"]
+---
+time 1665383306
+old [description:"hitchhikers-guide-to-ethereum" diary_entry:"N" entry:"1665383240" modified:"1665383306" project:"eth" status:"pending" tmp_value_holder:"Hitchhikers" uuid:"0503ae97-bb70-4515-a390-bb19957d14e4"]
+new [description:"hitchhikers-guide-to-ethereum" diary_entry:"Y" entry:"1665383240" modified:"1665383306" project:"eth" status:"pending" tmp_value_holder:"Hitchhikers" uuid:"0503ae97-bb70-4515-a390-bb19957d14e4"]
+---
+time 1665383306
+old [description:"hitchhikers-guide-to-ethereum" diary_entry:"Y" entry:"1665383240" modified:"1665383306" project:"eth" status:"pending" tmp_value_holder:"Hitchhikers" uuid:"0503ae97-bb70-4515-a390-bb19957d14e4"]
+new [description:"hitchhikers-guide-to-ethereum" diary_entry:"Y" entry:"1665383240" modified:"1665383306" project:"eth" status:"pending" tags:"eth" tags_eth:"x" tmp_value_holder:"Hitchhikers" uuid:"0503ae97-bb70-4515-a390-bb19957d14e4"]
+---
+time 1665505243
+new [description:"vim-setup" diary_entry:"N" entry:"1665505243" modified:"1665505243" project:"tooling.vim" status:"pending" uuid:"bd7dedd7-35b0-43e9-b368-986bb337b895"]
+---
+time 1665505246
+old [description:"vim-setup" diary_entry:"N" entry:"1665505243" modified:"1665505243" project:"tooling.vim" status:"pending" uuid:"bd7dedd7-35b0-43e9-b368-986bb337b895"]
+new [description:"vim-setup" diary_entry:"N" entry:"1665505243" modified:"1665505246" project:"tooling.vim" status:"pending" tmp_value_holder:"vim-setup" uuid:"bd7dedd7-35b0-43e9-b368-986bb337b895"]
+---
+time 1665505246
+old [description:"vim-setup" diary_entry:"N" entry:"1665505243" modified:"1665505246" project:"tooling.vim" status:"pending" tmp_value_holder:"vim-setup" uuid:"bd7dedd7-35b0-43e9-b368-986bb337b895"]
+new [description:"vim-setup" diary_entry:"Y" entry:"1665505243" modified:"1665505246" project:"tooling.vim" status:"pending" tmp_value_holder:"vim-setup" uuid:"bd7dedd7-35b0-43e9-b368-986bb337b895"]
+---
+time 1665505246
+old [description:"vim-setup" diary_entry:"Y" entry:"1665505243" modified:"1665505246" project:"tooling.vim" status:"pending" tmp_value_holder:"vim-setup" uuid:"bd7dedd7-35b0-43e9-b368-986bb337b895"]
+new [description:"vim-setup" diary_entry:"Y" entry:"1665505243" modified:"1665505246" project:"tooling.vim" status:"pending" tags:"tooling,vim" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim-setup" uuid:"bd7dedd7-35b0-43e9-b368-986bb337b895"]
+---
+time 1665746337
+new [description:"cryptography" diary_entry:"N" entry:"1665746337" modified:"1665746337" project:"crypto" status:"pending" uuid:"b9728d03-0d1a-4790-875e-32ce0df6cac8"]
+---
+time 1665746347
+old [description:"cryptography" diary_entry:"N" entry:"1665746337" modified:"1665746337" project:"crypto" status:"pending" uuid:"b9728d03-0d1a-4790-875e-32ce0df6cac8"]
+new [description:"cryptography" diary_entry:"N" entry:"1665746337" modified:"1665746347" project:"crypto" status:"pending" tmp_value_holder:"cryptography" uuid:"b9728d03-0d1a-4790-875e-32ce0df6cac8"]
+---
+time 1665746347
+old [description:"cryptography" diary_entry:"N" entry:"1665746337" modified:"1665746347" project:"crypto" status:"pending" tmp_value_holder:"cryptography" uuid:"b9728d03-0d1a-4790-875e-32ce0df6cac8"]
+new [description:"cryptography" diary_entry:"Y" entry:"1665746337" modified:"1665746347" project:"crypto" status:"pending" tmp_value_holder:"cryptography" uuid:"b9728d03-0d1a-4790-875e-32ce0df6cac8"]
+---
+time 1665746347
+old [description:"cryptography" diary_entry:"Y" entry:"1665746337" modified:"1665746347" project:"crypto" status:"pending" tmp_value_holder:"cryptography" uuid:"b9728d03-0d1a-4790-875e-32ce0df6cac8"]
+new [description:"cryptography" diary_entry:"Y" entry:"1665746337" modified:"1665746347" project:"crypto" status:"pending" tags:"crypto" tags_crypto:"x" tmp_value_holder:"cryptography" uuid:"b9728d03-0d1a-4790-875e-32ce0df6cac8"]
+---
+time 1665756492
+new [description:"privacy and scaling explorations ethereum" diary_entry:"N" entry:"1665756492" modified:"1665756492" project:"eth.dapps" status:"pending" uuid:"888781b7-98b6-43e1-ad47-0c0cfffe69a5"]
+---
+time 1665756502
+old [description:"privacy and scaling explorations ethereum" diary_entry:"N" entry:"1665756492" modified:"1665756492" project:"eth.dapps" status:"pending" uuid:"888781b7-98b6-43e1-ad47-0c0cfffe69a5"]
+new [description:"privacy and scaling explorations ethereum" diary_entry:"N" entry:"1665756492" modified:"1665756502" project:"eth.dapps" status:"pending" tmp_value_holder:"privacy" uuid:"888781b7-98b6-43e1-ad47-0c0cfffe69a5"]
+---
+time 1665756502
+old [description:"privacy and scaling explorations ethereum" diary_entry:"N" entry:"1665756492" modified:"1665756502" project:"eth.dapps" status:"pending" tmp_value_holder:"privacy" uuid:"888781b7-98b6-43e1-ad47-0c0cfffe69a5"]
+new [description:"privacy-and-scaling-explorations-ethereum" diary_entry:"N" entry:"1665756492" modified:"1665756502" project:"eth.dapps" status:"pending" tmp_value_holder:"privacy" uuid:"888781b7-98b6-43e1-ad47-0c0cfffe69a5"]
+---
+time 1665756502
+old [description:"privacy-and-scaling-explorations-ethereum" diary_entry:"N" entry:"1665756492" modified:"1665756502" project:"eth.dapps" status:"pending" tmp_value_holder:"privacy" uuid:"888781b7-98b6-43e1-ad47-0c0cfffe69a5"]
+new [description:"privacy-and-scaling-explorations-ethereum" diary_entry:"Y" entry:"1665756492" modified:"1665756502" project:"eth.dapps" status:"pending" tmp_value_holder:"privacy" uuid:"888781b7-98b6-43e1-ad47-0c0cfffe69a5"]
+---
+time 1665756502
+old [description:"privacy-and-scaling-explorations-ethereum" diary_entry:"Y" entry:"1665756492" modified:"1665756502" project:"eth.dapps" status:"pending" tmp_value_holder:"privacy" uuid:"888781b7-98b6-43e1-ad47-0c0cfffe69a5"]
+new [description:"privacy-and-scaling-explorations-ethereum" diary_entry:"Y" entry:"1665756492" modified:"1665756502" project:"eth.dapps" status:"pending" tags:"dapps,eth" tags_dapps:"x" tags_eth:"x" tmp_value_holder:"privacy" uuid:"888781b7-98b6-43e1-ad47-0c0cfffe69a5"]
+---
+time 1665765380
+old [description:"vim-setup" diary_entry:"Y" entry:"1665505243" modified:"1665505246" project:"tooling.vim" status:"pending" tags:"tooling,vim" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim-setup" uuid:"bd7dedd7-35b0-43e9-b368-986bb337b895"]
+new [description:"vim-setup" diary_entry:"Y" entry:"1665505243" modified:"1665765380" project:"tooling.vim" status:"pending" tags:"debug,python,rust,tooling,vim" tags_debug:"x" tags_python:"x" tags_rust:"x" tags_tooling:"x" tags_vim:"x" tmp_value_holder:"vim-setup" uuid:"bd7dedd7-35b0-43e9-b368-986bb337b895"]
+---
+time 1665774649
+old [description:"privacy-and-scaling-explorations-ethereum" diary_entry:"Y" entry:"1665756492" modified:"1665756502" project:"eth.dapps" status:"pending" tags:"dapps,eth" tags_dapps:"x" tags_eth:"x" tmp_value_holder:"privacy" uuid:"888781b7-98b6-43e1-ad47-0c0cfffe69a5"]
+new [description:"privacy-and-scaling-explorations-ethereum" diary_entry:"Y" entry:"1665756492" modified:"1665774649" project:"eth.dapps" status:"pending" tags:"dapps,eth,zkopru" tags_dapps:"x" tags_eth:"x" tags_zkopru:"x" tmp_value_holder:"privacy" uuid:"888781b7-98b6-43e1-ad47-0c0cfffe69a5"]
+---
+time 1666692811
+new [description:"rust-advanced" diary_entry:"N" entry:"1666692811" modified:"1666692811" project:"rust" status:"pending" uuid:"cd6f0fdb-9c10-4f42-8636-fd6a12c4a337"]
+---
+time 1666692817
+old [description:"rust-advanced" diary_entry:"N" entry:"1666692811" modified:"1666692811" project:"rust" status:"pending" uuid:"cd6f0fdb-9c10-4f42-8636-fd6a12c4a337"]
+new [description:"rust-advanced" diary_entry:"N" entry:"1666692811" modified:"1666692817" project:"rust" status:"pending" tmp_value_holder:"rust-advanced" uuid:"cd6f0fdb-9c10-4f42-8636-fd6a12c4a337"]
+---
+time 1666692818
+old [description:"rust-advanced" diary_entry:"N" entry:"1666692811" modified:"1666692817" project:"rust" status:"pending" tmp_value_holder:"rust-advanced" uuid:"cd6f0fdb-9c10-4f42-8636-fd6a12c4a337"]
+new [description:"rust-advanced" diary_entry:"Y" entry:"1666692811" modified:"1666692818" project:"rust" status:"pending" tmp_value_holder:"rust-advanced" uuid:"cd6f0fdb-9c10-4f42-8636-fd6a12c4a337"]
+---
+time 1666692818
+old [description:"rust-advanced" diary_entry:"Y" entry:"1666692811" modified:"1666692818" project:"rust" status:"pending" tmp_value_holder:"rust-advanced" uuid:"cd6f0fdb-9c10-4f42-8636-fd6a12c4a337"]
+new [description:"rust-advanced" diary_entry:"Y" entry:"1666692811" modified:"1666692818" project:"rust" status:"pending" tags:"rust" tags_rust:"x" tmp_value_holder:"rust-advanced" uuid:"cd6f0fdb-9c10-4f42-8636-fd6a12c4a337"]
+---
+time 1666692901
+old [description:"rust-advanced" diary_entry:"Y" entry:"1666692811" modified:"1666692818" project:"rust" status:"pending" tags:"rust" tags_rust:"x" tmp_value_holder:"rust-advanced" uuid:"cd6f0fdb-9c10-4f42-8636-fd6a12c4a337"]
+new [description:"rust-advanced" diary_entry:"Y" entry:"1666692811" modified:"1666692901" project:"rust" status:"pending" tags:"iterators,ownership,rust" tags_iterators:"x" tags_ownership:"x" tags_rust:"x" tmp_value_holder:"rust-advanced" uuid:"cd6f0fdb-9c10-4f42-8636-fd6a12c4a337"]
+---
+time 1666692908
+old [description:"rust-advanced" diary_entry:"Y" entry:"1666692811" modified:"1666692901" project:"rust" status:"pending" tags:"iterators,ownership,rust" tags_iterators:"x" tags_ownership:"x" tags_rust:"x" tmp_value_holder:"rust-advanced" uuid:"cd6f0fdb-9c10-4f42-8636-fd6a12c4a337"]
+new [description:"rust-advanced" diary_entry:"Y" entry:"1666692811" modified:"1666692908" project:"rust" status:"pending" tags:"iterators,next,ownership,rust" tags_iterators:"x" tags_next:"x" tags_ownership:"x" tags_rust:"x" tmp_value_holder:"rust-advanced" uuid:"cd6f0fdb-9c10-4f42-8636-fd6a12c4a337"]
+---
+time 1667297866
+old [description:"zk-resources" diary_entry:"Y" entry:"1659875278" modified:"1664823088" project:"zk" status:"pending" tags:"bellman,ludens,parc,zk" tags_bellman:"x" tags_ludens:"x" tags_parc:"x" tags_zk:"x" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+new [description:"zk-resources" diary_entry:"Y" entry:"1659875278" modified:"1667297866" project:"zk" status:"pending" tags:"bellman,circom,ludens,parc,zk" tags_bellman:"x" tags_circom:"x" tags_ludens:"x" tags_parc:"x" tags_zk:"x" tmp_value_holder:"zk" uuid:"e2c79d3b-6cbc-428e-8b53-68a35937c9e9"]
+---
+time 1668781696
+old [description:"cryptography" diary_entry:"Y" entry:"1665746337" modified:"1665746347" project:"crypto" status:"pending" tags:"crypto" tags_crypto:"x" tmp_value_holder:"cryptography" uuid:"b9728d03-0d1a-4790-875e-32ce0df6cac8"]
+new [description:"cryptography" diary_entry:"Y" entry:"1665746337" modified:"1668781696" project:"crypto" status:"pending" tags:"bls,crypto,secp256k1" tags_bls:"x" tags_crypto:"x" tags_secp256k1:"x" tmp_value_holder:"cryptography" uuid:"b9728d03-0d1a-4790-875e-32ce0df6cac8"]
+---
+time 1668953440
+new [description:"wowlabz-roadmap" diary_entry:"N" entry:"1668953440" modified:"1668953440" project:"job" status:"pending" uuid:"5889ac96-3671-43d6-92c3-84f38b1d1128"]
+---
+time 1668953442
+old [description:"wowlabz-roadmap" diary_entry:"N" entry:"1668953440" modified:"1668953440" project:"job" status:"pending" uuid:"5889ac96-3671-43d6-92c3-84f38b1d1128"]
+new [description:"wowlabz-roadmap" diary_entry:"N" entry:"1668953440" modified:"1668953442" project:"job" status:"pending" tmp_value_holder:"wowlabz-roadmap" uuid:"5889ac96-3671-43d6-92c3-84f38b1d1128"]
+---
+time 1668953443
+old [description:"wowlabz-roadmap" diary_entry:"N" entry:"1668953440" modified:"1668953442" project:"job" status:"pending" tmp_value_holder:"wowlabz-roadmap" uuid:"5889ac96-3671-43d6-92c3-84f38b1d1128"]
+new [description:"wowlabz-roadmap" diary_entry:"Y" entry:"1668953440" modified:"1668953443" project:"job" status:"pending" tmp_value_holder:"wowlabz-roadmap" uuid:"5889ac96-3671-43d6-92c3-84f38b1d1128"]
+---
+time 1668953443
+old [description:"wowlabz-roadmap" diary_entry:"Y" entry:"1668953440" modified:"1668953443" project:"job" status:"pending" tmp_value_holder:"wowlabz-roadmap" uuid:"5889ac96-3671-43d6-92c3-84f38b1d1128"]
+new [description:"wowlabz-roadmap" diary_entry:"Y" entry:"1668953440" modified:"1668953443" project:"job" status:"pending" tags:"job" tags_job:"x" tmp_value_holder:"wowlabz-roadmap" uuid:"5889ac96-3671-43d6-92c3-84f38b1d1128"]
+---

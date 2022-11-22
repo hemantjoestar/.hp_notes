@@ -1,0 +1,53 @@
+
+Development plan
+- Languages
+  - Rust
+    - Rustbook
+  - Python
+  - Common
+    - [ ] https://cryptopals.com/
+    - [ ] https://github.com/coding-horror/basic-computer-games/tree/main/01_Acey_Ducey/python
+    - [ ] https://asecuritysite.com/
+    - [ ] Code
+      - Galois fields (polynomial operations)
+      - Integer arithmatic
+      - RSA
+      - ECC
+      - ElGamal
+      - Signatures
+      - Hashing
+      - KeyExchange
+- Tools
+  - Circom
+    - https://github.com/weijiekoh/circom-helper 
+    - https://github.com/projectsophon/hardhat-circom#readme
+    - https://github.com/iden3/rapidsnark
+  - Gadgets
+    - https://hackmd.io/@liangcc/nullifier
+    - https://hackmd.io/@OFccBlU5TNCiRhpIyT1m7g/B17_qgrQ7?type=view
+    - MACI
+    - Semaphore
+  - Arkworks
+- Primitives
+  - https://explained-from-first-principles.com/number-theory/
+  - Homomorphic
+    - 
+  - Commitments
+    - https://hackmd.io/@tompocock/Hk2A7BD6U
+  - Pairings
+    - https://blog.statebox.org/elliptic-curve-pairings-213131769fac
+    - https://blog.cloudflare.com/circl-pairings-update/
+    - 
+- Technology
+  - ZK
+    - Immediate
+      - [ ] Maxim Print
+      - [ ] http://www.zeroknowledgeblog.com/index.php/links-resources
+      - [ ] https://github.com/ethereum/research/tree/master/py_plonk
+      - [ ] https://research.metastate.dev/plonk-by-hand-part-1/
+    - After
+      - [ ] https://github.com/fluidex/prover-cluster
+    - Advanced
+      - https://github.com/ZK-Garage/plonk
+      - https://github.com/openzklib/openzl/blob/main/proposal.md
+      - 

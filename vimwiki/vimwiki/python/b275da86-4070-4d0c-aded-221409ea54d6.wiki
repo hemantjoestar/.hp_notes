@@ -1,0 +1,17 @@
+:iterators:generators:python:iterable:decorators:context_managers:asyncio:
+
+= python-advanced =
+
+Entry : 2022-08-04
+
+=== References ===
+- [[https://www.youtube.com/watch?v=-aKFBoZpiqA|Context Managers]] 
+
+=== Notes ===
+
+- [[context_managers]]
+- decorators
+- closures
+- [[generators]]
+- [[iterators_iterables]]
+- [[async]]

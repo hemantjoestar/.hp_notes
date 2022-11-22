@@ -1,0 +1,47 @@
+:commands:tooling:vim:read:
+
+= vim-epic =
+
+Entry : 2022-08-06
+
+=== References ===
+- https://vi.stackexchange.com/questions/24934/using-r-in-sub-of-substitute-function-call
+- https://superuser.com/questions/606893/vim-submatch-trying-to-put-quotes-around-a-string
+- https://stackoverflow.com/questions/7598133/how-to-search-and-replace-globally-starting-from-the-cursor-position-and-wrappi/7608016#7608016
+- https://stackoverflow.com/questions/9079561/how-to-extract-all-regex-matches-in-a-file-using-vim
+- https://stackoverflow.com/questions/14942104/vim-using-contents-of-a-variable-inside-search-and-replace-expression
+
+=== Notes ===
+- [[http://www.adp-gmbh.ch/vim/user_commands.html|user-commands]]
+- [[https://superuser.com/questions/1398719/vim-can-i-pass-multiple-args-to-a-custom-command-without-writing-a-function|multiple args to custom command]]
+- Kent's answer works well for the replacement part; for generic insertion when typing the substitute command interactively, you can insert any expression (not just variables, also functions etc.) via <C-R><C-R>= (these must be typed as Ctrl + R, Ctrl + R, =, not literally):
+
+  `:substitute/<C-R><C-R>=b:myvar<CR>/replacement/<CR>`
+  Inside a script, you'd use :execute:
+
+
+  `:execute 'substitute/' . b:myvar . '/replacement/'`
+- function files to call
+  - `:h autload`
+  - https://vi.stackexchange.com/questions/36347/vimscript-loading-functions-from-another-vim-file
+  - 
+
+
+
+- `:h zero-width`
+  - Another problem is how to avoid text modifications while running a substitution. One approach is to make the pattern always have a zero-width match by prepending \ze or by appending \zs atoms to it (see :help /\zs, :help /\ze). The pattern modified in this way captures an empty string preceding or succeeding an occurrence of the original pattern in text (such matches are called zero-width matches in Vim; see :help /zero-width). Then, if the replacement text is also empty, substitution effectively changes nothing: it just replaces a zero-width match with an empty string
+  - also works `:s/../../ng`
+
+- <expr>
+  - https://stackoverflow.com/questions/65438144/execute-error-neovim-with-substitute-command
+  - map <expr> allows us to map a key sequence to a new sequence as specified by the return value of an expression
+  - `textlock`
+- Read
+{{{
+:r foo.txt    Insert the file foo.txt below the cursor.
+:0r foo.txt   Insert the file foo.txt before the first line.
+:r !ls        Insert a directory listing below the cursor.
+:$r !pwd      Insert the current working directory below the last line.
+  }}}
+
+Ex. `au BufNewFile ~/vimwiki/diary/*.md :silent 0r !~/.vim/bin/generate-vimwiki-diary-template '%'`

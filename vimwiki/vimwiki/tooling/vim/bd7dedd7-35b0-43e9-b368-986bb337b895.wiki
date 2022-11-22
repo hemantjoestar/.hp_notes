@@ -1,0 +1,22 @@
+:debug:tooling:python:vim:rust:
+
+= vim-setup =
+
+Entry : 2022-10-11
+
+=== References ===
+- 
+
+=== Notes ===
+- Rust
+  - https://petermalmgren.com/rc-batch-day-9/
+  - https://medium.com/swlh/how-did-i-setup-neovim-for-rust-1763eb2ef98c
+  - https://togglebit.io/posts/debugging-rust-in-vim/
+  - https://vdwaa.nl/vim-setup-2021.html
+  - https://alpha2phi.medium.com/setting-up-neovim-for-rust-debugging-termdebug-and-vimspector-df749e1ba47c
+  - https://dwaves.de/2021/07/24/how-to-step-debug-debugging-rust-in-vim-8-1/
+- Python
+  - https://medium.com/nerd-for-tech/vim-as-an-ide-for-python-2021-f922da6d2cfe
+  - https://stackabuse.com/vim-for-python-development/
+  - https://www.vimfromscratch.com/articles/vim-for-python
+  - https://realpython.com/vim-and-python-a-match-made-in-heaven/

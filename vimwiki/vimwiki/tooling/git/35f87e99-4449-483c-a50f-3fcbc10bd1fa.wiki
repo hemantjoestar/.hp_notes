@@ -1,0 +1,66 @@
+:delete:switch:git:checkout:branch:log:tooling:
+
+= git-branch =
+
+Entry : 2022-08-08
+
+=== References ===
+- 
+
+=== Notes ===
+
+- HEAD : currently active or checked out branch or revision
+- local : bulk of work and remote : more for synchronising
+- Creating
+  - `git branch <new-branch-name>`
+  - based of current HEAD branch
+  - `git branch <new-branch-name> <specific-revision>` to pick up from somewhere in between
+  - creating only works for local, for remote one has to *publish*
+- Switching
+  - `git checkout <new-branch-name>`
+  - `git switch <new-branch-name>`
+  - `checkout` is more versatile `switch preferred`
+- Renaming
+  - local head `git branch -m <new-name>`
+  - not checked out branch  or non HEAD branch `git branch -m <old-name> <new-name>`
+  - this is only for local. remote branches cannot be renamed .. Delete and publish
+    - `git push origin --delete <old-name>`
+    - `git push -u origin <new-name>`
+    - from HEAD ??
+- Publishing
+  - `git push -u origin <new-name>`
+  - setting up upstream `[-u | --set-upstream]`
+  - `-u` establishes a tracking connection and relation
+  - later on `git pull/push` to sync,no need for extra args,  suffices since tracking established
+- Pulling from remote new branch aka tracking branches
+  1. exists on the remote repository, but not on your local branch,automatically make switch look on the remote repo. It will then also automatically set up remote branch tracking
+  2. `git switch <remote-name>`
+  3. `git branch --track <local-name> origin/<remote-name>`
+  4. `git checkout --track origin/<remote-name>` local branch not mentioned, takes remote name
+  5. --track is shorthand for git checkout -b [branch] [remotename]/[branch]
+  - later on `git pull/push` to sync,no need for extra args,  suffices since tracking established
+  - else without setting upstream
+    - `git config --global push.default current`
+    - `git push`
+- `git branch -v`
+  - possible that a local bracnch is 1 one commit ahead and 2 commits behind
+  - local is one commit ahead from branch of
+  - remote is two commit ahead from branch of
+- Deleting
+  - cannot delete current HEAD, need to switch out
+  - `git branch -d <branch-name>`
+  - `git branch -df <branch-name>`
+  - remote
+    - `git push origin --delete <old-name>`
+- Merging
+  - pull changes into you HEAD
+  - `git switch <brnach-changes-to-be-merged-into>`
+  - `git merge <branch-name>`
+  - merging is also a `commit`
+- Rebasing
+  - TODO
+- Comparing
+  - checking which commits in A are not in B
+  - useful before merging
+  - `git log B..A`
+  - works for remote also `git log origin/B..A`

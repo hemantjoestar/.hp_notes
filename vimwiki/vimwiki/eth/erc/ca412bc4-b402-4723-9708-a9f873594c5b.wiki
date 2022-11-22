@@ -1,0 +1,33 @@
+:erc:eth:
+
+= account-abstraction =
+
+Entry : 2022-08-26
+
+=== References ===
+- 
+
+=== Notes ===
+
+Motivation
+- {{file:~/vimwiki/screen-grabs/4771490_scrot.png}}
+- validity and programability/effects
+- programability of Eth applies only to specific part of transaction
+- code executed by a transaction can revert, pays for gas, is a valid transaction, howver some or all effects of execution can be rolled back
+- for a invalid transaction not legal to be on chain.. no gas paid
+- Main question can the transaction *validity* conditions be made *programmable* ex. the conditiond for a transaction to be valid to be included on-chain
+- {{file:~/vimwiki/screen-grabs/12002434_scrot.png}}
+- existing wallets * not natively supported*, all transactions need to go through an EOA, needs ECDSA signature, gas etc.
+- Transaction directly goes into multisig, contract itself checks for transaction validity
+- {{file:~/vimwiki/screen-grabs/5039195_scrot.png}}
+- bunch of pratical problems: Catch22 : need gas before execution in new account to process withdrawal to, temporarily solved with relayer, but setup complicated ex. relayer controls the fee being paid, difficult to bump up transaction
+- Allow arbitrary code execution for validity verfification
+- Inherit.cash as an example??
+Signature Abstraction
+- {{file:~/vimwiki/screen-grabs/10864148_scrot.png}}
+- Restricted form of abstraction that just does signature verification
+- ex. Schnorr : Signature would be Schnorr Signature, Code: Schnorr verifier
+- Problem: Does not let one have verification conditions on data that can change ex. checking if nonce already used or key change due to social recovery
+- above unclear
+Full TX abstraction
+- {{file:~/vimwiki/screen-grabs/1424661_scrot.png}}

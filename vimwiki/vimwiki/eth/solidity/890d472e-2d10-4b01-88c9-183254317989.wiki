@@ -1,0 +1,10 @@
+:solidity:eth:
+
+= meta-transactions =
+
+Entry : 2022-08-08
+
+=== References ===
+- https://soliditydeveloper.com/meta-transactions 
+
+=== Notes ===

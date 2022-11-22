@@ -1,0 +1,25 @@
+:tutorials:eth:foundry:
+
+= foundry =
+
+Entry : 2022-08-24
+
+=== References ===
+- https://twitter.com/gakonst/status/1562493116338167809 
+- https://twitter.com/msolomon44/status/1564742781129502722
+- https://twitter.com/msolomon44/status/1565387268105199616
+- https://twitter.com/msolomon44/status/1567204143689011200
+- https://twitter.com/saucepoint/status/1576703995846221824
+
+=== Notes ===
+
+- `cast sig "transfer(address,uint256)"` 
+- `cast --to-hex/--to-dec 123`
+- `cast call 0xaddress <signature> <args?`
+- `forge inspect KeepersCounter methods`
+- `forge snapshot`
+- `anvil -m 'test test test test test test test test test test test test test junk'`
+
+Tutorial
+- [[Noah_Hein]]
+- [[https://book.tictactoken.co/chapters/1/writing-the-first-test.html|Tic Tac Token]]

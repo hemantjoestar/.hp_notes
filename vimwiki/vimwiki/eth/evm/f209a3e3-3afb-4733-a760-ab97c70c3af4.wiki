@@ -1,0 +1,26 @@
+:slot:eth:evm:storage:
+
+= storage =
+
+Entry : 2022-09-05
+
+=== References ===
+- https://ethereum.stackexchange.com/questions/133473/how-to-calculate-the-location-index-slot-in-storage-of-a-mapping-key 
+
+=== Notes ===
+
+- Finding the storage slot for a specific key
+- It enables to find in which storage slot the value associated to a specific key is stored.
+- Vyper
+{{{
+  @internal
+  @pure
+  def findMapLocation(slot: uint256, key: uint256) -> uint256:
+      return convert(keccack256(_abi_encode(key, slot)), uint256)
+  }}}
+- Solidity
+{{{
+  function findMapLocation(uint256 slot, uint256 key) public pure returns (uint256) {
+        return uint256(keccak256(abi.encode(key, slot)));
+  }
+  }}}

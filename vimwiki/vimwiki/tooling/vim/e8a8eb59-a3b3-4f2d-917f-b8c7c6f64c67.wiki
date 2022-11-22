@@ -1,0 +1,26 @@
+:vim_surround:tooling:vim:
+
+= vim-surround =
+
+Entry : 2022-08-03
+
+=== References ===
+- https://github.com/tpope/vim-surround
+
+=== Notes ===
+
+- Surrounding with `<s>` = html-tags , paranthessis, brackets, quotes
+  - if not already surrounded, essentially applyting a surround
+    - `ysiw<s>` surround inner word with tag
+    - `yss<s>` surround line with tag
+  - already surrounded
+    - makes sense to use `c` for change
+    - `cs<s1><s2>` change surrounding `s1` to `s2`
+    - `ds<s>` delete surrounding `s` tag
+    - deleting and changing automatically searched for nearest `s`and changes.. Hence eno need for sentence or word setting input
+  - revert
+    - `ds<s>` `s` can be either opening or closing
+  - Special
+    - open close tags `ysiw<em>` will autoinsert `</em>`. requires `<s>` arrow brackets
+    - `t` will catch html tags
+  - Visual mode .. didnt understand

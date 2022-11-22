@@ -1,0 +1,88 @@
+:context_managers:
+
+- properly manage resources do that we can setup and teardown
+- `open, write, close` vs `with open` closes properly even in Exceptions
+- connect to dbs, accquire and release locks
+- 2 ways yo inplement
+    1. class
+{{{python
+  class openfile():
+    def __init__(self, filename, mode):
+      self.filename =filename
+    ..
+    # setup
+    def __enter__(self):
+      self.file=open(..)
+     
+    # returned object is the object one will be working in within
+    # the context manager. object f in the example
+    # Possible no object is returned .. example in functionsetup below
+    return self.file
+    
+    # tear down
+    def __exit__(self, exc_type, exc_val, traceback):
+    self.file.close()
+    
+    # with calls __init__ and returns object from __enter__
+    
+  with openfile('sample.txt','w') as f:
+   f.write('vimiwki') 
+   
+   # when unindent reached __exit__ called
+  }}}
+    2. functions
+      - need `from contextlib inport contextmanager` and use decorator `@contextmanager`
+{{{python
+  @contextmanager
+  def openfile(file, mode):
+    try:
+      f=open(file,mode)
+    # evrything thing here equivalent to __init__ and __enter__
+    
+      yield f
+   
+   # when unindent reached execution continues from here
+    finally:
+      f.close()
+    
+  }}}
+    - called the same syntax
+    - setup till yield should be within `try`
+    - `finally` ensures tear down code will be run
+    - no need from `try finally` when using classes
+  - Another example not returning handle
+{{{python
+  import os
+  cwd=os.getcsd()
+  os.chdir('foldername')
+  print(os.listdir())
+  os.chdir(cwd)
+  
+  # ported to contextmanager
+  @contextmanager
+  def fnt('foldername'):
+    try:
+      cwd=os.getcsd()
+      os.chdir('foldername')
+      
+    #  note nothing yielded
+    # essentially saying we are ready to do whatever in that destination
+    # create, delete files etc in the actual context call
+      yield
+   
+    finally:
+      os.chdir(cwd)
+      
+  with fn('test-dir'):
+      print(os.listdir())
+  
+  with fn('test-dir-1'):
+      os.makedirs('new-dirname')
+      
+  }}}
+    - no need to repeatedly move in and move out of folders
+    - this example demonstrates why conteaxt managers. *essentially took you and plased you in a place with access to useful objects etc*
+{{{python
+  with brownie.reverts("Insufficient balance"):
+        token.transfer(accounts[2], 10**18, {'from': accounts[1]})
+  }}}

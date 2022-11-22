@@ -1,0 +1,17 @@
+:wowlabz:l2:eth:zk:hermez:
+
+= hermez-fork =
+
+Entry : 2022-09-23
+
+=== References ===
+- 
+
+=== Notes ===
+
+Existing Implementations, there are extensive and detailed docs
+- https://github.com/l2labs/zkswap-spec
+- https://github.com/zkTube-Labs/zkTube-docs/tree/master/docs/Whitepaper
+- https://medium.com/coinmonks/zk-rollup-development-experience-sharing-part-i-6c233640b541
+- 
+

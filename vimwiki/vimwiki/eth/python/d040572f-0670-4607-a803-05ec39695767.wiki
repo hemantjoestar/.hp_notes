@@ -1,0 +1,133 @@
+:patrickalphac:eth:python:chainlink:brownie:
+
+= python-blockchain-courses =
+
+Entry : 2022-08-03
+
+=== References ===
+- https://www.youtube.com/watch?v=M576WGiDBdQ
+- https://github.com/smartcontractkit/full-blockchain-solidity-course-py
+- 
+
+=== Notes ===
+
+==== Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial ====
+
+- reading raw file
+  - `open()` adn `read()`
+- compiling
+  - `solcx import compile_standard`
+    - `compile_standard` takes a bunch of args regarding outputs ex. `evm.bytecode` `evm.sourceMap`
+    - wrtite json to file using `json.dump()`
+- deploying
+  - fetch abi and bytecode object `..["evm"]["bytecode"]["object"]` and `..["contracts"]["*.sol"]["*"]["abi"]`
+  - `ganache-cli` and generate rpc-server-url and network-id aka chain-id
+  - `ganache-cli --deterministic` always spawns with same state
+- environment vars
+  - in terminal `export <VAR>=<VALUE>` lost when shell closes
+  - can be accessed `os.getenv("<VAR>")`
+  - in `.env` file`export <VAR>=<VALUE>` and add file to .gitignore
+  - `python-dotenv` package `from dotenv import load_dotenv ` and `load_dotenv()`
+- Web3.py
+  - `from web3 import W3`
+  - connect using provider `w3=W3(W3.HTTPProvider(<rpc-server-url))`
+  - also chain-id, pub-address, pvt-key
+  - create `python-contract-object = w3.eth.contract(abi,bytecode)`
+  - build transaction
+    - requires nonce `w3.eth.getTransactionCount(address)`
+    - `transaction-blob = python-contract-object.constructor.buildTransaction({chain-id,pub-address, nonce, value, gas, gasPrice})`
+  - sign transaction
+    - requires pvt-key
+    - `signed-transaction = w3.eth.account.sign_transaction(transaction-blob, pvt-key)`
+  - send transaction
+    - `tx-hash = w3.eth.send_raw_transaction(signed-transaction.rawTransaction)`
+    - waiting for transaction confirmation 
+      - `tx-receipt = w3.eth.wait_for_transaction_receipt(tx-hash)`
+  - working with deployed contract
+    - create `python-contract-object = w3.eth.contract(abi,deployed-address)`
+    - call or transact .. however no such word as `transact` unlike `call()`
+    - `python-contract-object.functions.<function>.call()`
+    - no return in function returns`[]`
+    - transacting has same logic as deploying .. one cosmetic change but essentially the same. we call the constructor prior now function
+    - `transaction-blob = python-contract-object.functions.<function>(args).buildTRansaction({chain-id,pub-address, nonce, value, gas, gasPrice})`
+    - sign and send as same
+    - useful utilities `W3.toWei(1000, "Ether")`
+  - section bout Infura provider
+- Brownie
+  - abstracts much of the above manual construction
+  - `.gitattributes` `*.vy linguist-language=Python`
+  - pipx and ensurepath so as to activate virtual env auto
+  - `brownie init`
+    - build folder
+      - contracts : all the compiled code
+      - deployments : tracking deployments across multiple chains
+      - interfaces
+    - contracts : *.sol and *.vy
+    - interfaces again
+    - scripts : task automation `brownie run` blockchain automatically deployed locally using ganache-cli
+    - tests
+  - `brownie compile` to build folder
+  - compilation, byte code and abi, chian spin all managed
+  - import `accounts` and access using `accounts[0]` works well for local ganache-cli
+  - encrypted command line
+    - `brownie accounts new <account-name>`
+    - enter pvt-key from MM or other existing wallet, prepend `0x`, enter password on prompt
+    - access via `brownie accounts list`, `brownie accounts delete <account-name>`
+    - in script file `accounts.load("<account-name>")`
+    - TODO: use both available and added
+  - work with existing .env, in `brownie-config.yaml` add `dotenv: .env`
+    - `accounts.add(os.getenv("<VAR>"))` here `VAR = private-key-var`
+    - better way `brownie-config.yaml` add `wallets: \r from_key: ${private-key-var}` auto populated from .env var
+    - `import config` and `accounts.add(config["wallets"]["from_key"])`
+    - advised way is to use `...get( "key", False )` since even if not declared does not revert
+  - contracts can be imported directly `import <contract-name>`
+  - `deployed-contract-object = contract-name.deploy({"from": <account>})` account can be populated by one of ways described above
+ - interaction returns `<transaction-blob>`
+    - address : `deployed-contract-object.address`
+    - read/call : `deployed-contract-object.<function>()`
+    - write/transact : `deployed-contract-object.<function>(args,{"from": <account>} )`
+    - `transaction-blob.wait(duration)`
+  - Testing
+    - in tests folder new file prefixed with test
+    - Arrange Act Assert for each test
+    - `-k <test-function-name>` to skip
+    - `-pdb` to get put into shell when fail
+    - `-s` verbose
+    - some functions on Testnet and some on local.. Custom parsing with the function using `if network.show_active() not in <predetermined-networks>` then `pytest.skip("message")`
+    - when expecting reverts
+      - import `exceptions`
+      - Handling `revert` from `modifier` ex code `with pytest.raises(exceptions.VirtualMachineError):<function-call-expecting-revert>`
+  - Deploying to Testnet
+    - `brownie networks list`
+    - `development` are temporary and torn down
+    - `Ethereum` persistent nd brownie will keep track in `deployments` under `build`. segregated via chain-id
+    - this is very useful to interact with deployed contracts. access deployments `<contract-container>[<index>]\[-1]`
+    - brownie already know abi and bytecode so direct interaction possible
+    - query status inside scripts `network.show_active()` and decide which accounts to use. since `development` accounts not available on Testnet 
+    - rpc-url or httpProvider into brownie using Infura project-id. hence all networks Infura has access to will be known. project-id to in .env `WEB3_INFURA_PROJECT_ID`
+    - `brownie run <script> --network rinkeby`
+  - Console
+    - Ad hock interaction since scripts for reuse and repeated flows
+    - `brownie console` .. above imported objects are directly available and make all same calls
+    - `deployed-contract-object = contract-name.deploy({"from": <account>})`
+    - _brownie console for testnet??_
+  - importing dependencies
+    - section specific for *.sol*
+    - normally imports from npm, however brownie does from Github, settings in `brownie-config.yaml`
+    - add `dependencies: \r <organization/repo>@<version>` ex. `smartcontractkit/chainlink-brownie-contracts@1.1.1`
+    - Remappings : `@chainlink` remaps to has to be set for compiler `compiler: \r solc: \r remappings; \r - '@chainlink=smartcontractkit/chainlink-brownie-contracts@1.1.1'`
+  - Managing scripts folder
+    - `__init__.py` file then script functions can be called `from scripts.<script-filename> import <specific-fucntion>`
+  - Verifying and Compiling
+    -  Flattening required for verifying
+    - api key from Etherscan, set and .env `ETHERSCAN_TOKEN` var, then `contract-name.deploy({"from": <account>}, publish_source =True)`
+    - Parametrize constructors setting in .env file using the template used above. useful when interacting with Testnet contracts on different networks
+  - Forking
+    - to note
+      - network being forked
+      - balances for `accounts` to transact
+  - Mocking
+    - Deploying contracts on local aka development chain. persistent *i think using brownie to dot his will give only persistent accounts not deployed contracts* else spin up one directly and brownie will connect to existing one
+    - new folder `test` in `contracts`. Typically mocks placed here since they too gotto get compiled
+    - suggested using a bunch of Chainlink Mocks.. 
+    - utlity scripts useful logic and info

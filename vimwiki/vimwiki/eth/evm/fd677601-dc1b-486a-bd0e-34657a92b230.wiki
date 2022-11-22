@@ -1,0 +1,17 @@
+:eth:evm:selfdestruct:
+
+= selfdestruct =
+
+Entry : 2022-09-06
+
+=== References ===
+- 
+
+=== Notes ===
+- selfdestruct()destroys deployed contracts and forwards ETH on deposit to an address payable passed into the function
+{{{solidity
+  function kill() public onlyOwner {
+      selfdestruct(msg.sender);
+  }
+  }}}
+- Favor Pausable over selfdestruct

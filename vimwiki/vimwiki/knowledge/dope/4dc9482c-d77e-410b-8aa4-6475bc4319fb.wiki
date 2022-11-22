@@ -1,0 +1,70 @@
+:bankless:knowledge:justin:dope:drake:justin_drake:
+
+= Ethereum-uncensored-with-justin-drake =
+
+Entry : 2022-08-29
+
+=== References ===
+- https://www.youtube.com/watch?v=azjpYTB7PVE 
+
+=== Notes ===
+
+Censorship
+- PoS more susceptible?
+
+Foundation
+- Mimetic Chain :Censorship resistance --> credible neutrality --> legitimacy --> monetary premium --> Economic security and bandwidth(ex. collateral)
+- Ethereum Context : Censorship resistance + Turing Completeness + Scalability = Credible Neutrality
+- Scalability/Inclusion/ex. pay for gas fees/ Equal Access
+- Economic Censorship:
+  - EIP 1559 : dynamic block size. Gas limit twice the Gas target : 15 of 30 mil. Vast majority of gas unused. So if transaction not included in spite means censorship. Definitive way to answer
+- Types
+  1. Weak: Included but with delay, since whole network, rooted in block proposals, a spectrum of actors: interfaces, builders, attestors
+    - defeated by technology
+  2. Strong: Never included, rooted in attestations, form of 51% attack
+    - Attestation
+    - PoW Eth and BTC bundle Attestation and Proposing
+    - Separate in PoS
+      - Proposers: Include Blocks on chain
+      - Attestors: Vote for what *they think* is the tip of the chain aka. participation in Fork choice Rule. Majority of Attestors chose the specific chain and that becomes the dominant one
+      - Majority of Attestors can vote only for blocks not containing certain transactions. ignore and orphaning blocks
+    - Build code and coordinate social layer, since the attack itself has social component
+- Consensus also 2 actors: Machine and Social
+- Participants
+  - Searchers: Create bundles of transactions, reordering and inserting
+  - Relays: Temporary cause of MEV-Boost, Enshrined PBS will resolve. Also need just Honest Non Censoring Minority meanwhile ex. Flashbots relayers open sourced
+  - Interfaces: MM, AAVE, etc. Need inbrowser light clients. PoS light clients simpler than PoW
+    - Light Clients
+      1. Figure out tip of chain. PoS has sync committees, few BLS signatures and verification
+      2. Know HEAD, now make arbitrary queries to any full node
+  - Builders: Work on bundles from Searchers, order transactions optimally for fees, not proposing for inclusion
+    - Will accrue all the giga chads, fancy algos and computational resources, will centralize
+  - Stakers/Validators/Proposers: can build their own blocks, naive fee rules, altruistic, reduced income. However model is hybrid, if delta is significant can switch to builders
+    - Proposer centralization/censorship
+    - MEV smoothing: Attestors will attest blocks if they observe it to be most economically paying block, by forcing the Proposers to a binary outcome
+    - Try and have a perfectly efficient market, Proposers can censor Builders via CR, so to counter
+    -  Attestors observe block building market, Builders will include the block a bid that tells how much the Proposer will get if suggested block is included. they will only attest to top paying bid. Forcing Auction to be fair
+  - CR Lists: Force builders to build blocks by proposing transactions the proposer thinks are censored, in blocks that are not full, thanks to EIP 1559
+    - before slot of Proposer, it advertises transactions it thinks are being censored, essentially a constraint on Builders. 
+    - Builders tackled by Proposers 
+- 2 primary Auctions in PoS
+    1. Block Auction: MEV Smoothing and Censorship Resistance
+    2. Transaction: Encrypted Mempool, transaction encrypted in flight
+- Divide and Conquer Strategy 
+- Strong Censorship Mitigation
+  - Preventative: make it very hard, 
+  - Recovery: Automation then Social layer kicks in, has to be credibly neutral techniques to minimize human intervention
+- Security
+  - Safety: Finality Gadget, 51% attack and history written, auto slashing
+  - Liveness: Censorship attacks this, subjective 
+- Jurisdictional Diversity: Final boss is State. Social
+- Staking Pools: incorporated in network states, not nation states
+- Not your keys not your Attestations 
+- Activist Staking: One place PoW loses to PoS, Affecting Recovery
+  - in PoW can redirect hash rate
+  - however in PoS 51%, deposits and censors exits 
+  - Forking: social layer messy and slow, streamline via code, technical limitation, light clients need to observe Mempool, If offline, one cannot know if censoring in ongoing. Network noisy, Client bug
+- Possible that retail staked to coinbase and then coinbase censoring, then coinbase gets slashed, but retail lost
+- Inactivity Leak: Soft Fork, minority chain ignores attestations of attacker, accumulating inactivity penalty, Forced Exit, go through exit queue, 51% attacker exiting will take long time
+- Slash 100%, but has to be an escalation process
+- Maximally credibly neutral in forking strategy

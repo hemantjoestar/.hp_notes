@@ -1,0 +1,44 @@
+:2612:erc:permit:eth:712:191:ecrecover:
+
+= erc-20-permit =
+
+Entry : 2022-08-08
+
+=== References ===
+- https://soliditydeveloper.com/erc20-permit 
+- https://github.com/soliditylabs/ERC20-Permit
+
+=== Notes ===
+- allows a user to sign an approve transaction off-chain producing a signature that anyone could use and submit to the blockchain
+- bypass 2-step process of sending approve and later transferFrom
+- Process
+  -  Instead of a user signing an approve transaction, he signs the data "approve(spender, amount)"
+  - The result can be passed by anyone to the permit function
+  - Retrieve the signer address using ecrecover 
+  - Followed by approve(signer, spender, amount)
+  - Allow someone else to pay for the gas costs and also to remove the common approve + transferFrom pattern
+- Before:
+  - User submits token.approve(myContract.address, amount) transaction.
+  - Wait for transaction confirmation.
+  - User submits second myContract.doSomething() transaction which internally uses token.transferFrom
+- After:
+  - User signs signature = approve(myContract.address, amount).
+  - User submits signature to myContract.doSomething(signature).
+  - myContract uses token.permit to increase allowance, followed by token.transferFrom.
+- Replay Attacks
+  - valid signature might be used several times or in other places where it's not intended to be used in
+- *Generate* signature using EIP-712, bunch of steps
+  - EIP-712 Domain Hash/ DOMAIN_SEPARATOR
+    - ensures a signature is only used for our given token contract address 
+    - on the correct chain id
+  - Permit Hash Struct
+    - specific example for permit, but same steps for any function
+    - nonce ensures someone can not replay a signature, i.e., use it multiple times on the same contract
+  - Final Hash
+    - build the final signature starting with 0x1901 for an EIP-191-compliant 712 hash
+    - `abi.encodePacked(uint16(0x1901), DOMAIN_SEPARATOR`
+    - `abi.encodePacked("\\x19\\x01",DOMAIN_SEPARATOR,`
+  - Verifying the Signature
+    - use ecrecover to retrieve the signer of the function
+    - Invalid signatures will produce an empty address
+  - conduxt operations

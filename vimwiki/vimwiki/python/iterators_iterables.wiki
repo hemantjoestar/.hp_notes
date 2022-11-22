@@ -1,0 +1,91 @@
+:iterator:iterable:generators:
+- list is iterable but not an iterator
+- objects can be both
+- important to write better efficient code and see solutions to problems
+- add dunder methods to our own classes and make them iterable
+
+Iterable
+- something that can be looped over ex. lists, tuples, _generators_, strings, files etc.
+- how to tell if something is iterable
+  - `dir(list-name)` must have `__iter__`
+  - `__iter__` called by `iter(list-name)` or  `list-name.__iter__()` returns *iterator* object
+  - this object also has `__iter__` that returns self
+  - for loop calls `__iter__` method on the object and returning an iterator that we can loop over
+Iterator
+- An object with a state useful for iterating over ex. get next value
+- `__next__` called `next(iterator-object)`
+- lists dont have this method, however `iter(list-name)` object has the `__next__`
+- only go forward
+
+StopIteration Exception
+- triggered by calling `next()` inexcess of length
+- normal `for` loop handles this for us
+
+For Loop
+1. get an iterator on the object `__iter__`
+2. call `__next__`
+3. stop when hits `StopIteration` Exception
+
+{{{python
+  nums=[1,2,3]
+  while True:
+    try:
+      item = next(iter(nums))
+      print(item)
+    except StopIteration:
+      break
+}}}
+
+Replicate built in `range` function
+{{{python
+class myrange:
+  def __init__(self, start, end):
+    self.value = start
+    self.end = end
+  def __iter__(self):
+    return self
+    # has to return an iterator 
+    # aka. an object that has the __next__ method
+  def __next__(self):
+    if self.value >= self.end:
+      raise StopIteration
+    current = self.value
+    self.value+=1
+    return current
+    
+nums = myrange(1, 10)
+for num in nums:
+  print(num)
+  
+next(nums)
+}}}
+
+Generators
+- very useful for creating iterators
+- `yield` instead of `return`
+- `yield` essentially keeps state and returns next value when `generator` called again
+- `__iter__` and `__next__` created automatically
+- no `raise`ing Exception
+{{{python
+def myrange(start, end):
+  value = start
+  while value < end:
+    yield value
+    value+=1
+}}}
+- another example
+{{{python
+def Sentence(sentence):
+  index = 0
+  sentence_length = sentence.split()
+  while index < sentence_length:
+    yield word[index]
+    index+=1
+
+def Sentence(sentence):
+   for word in sentence.split():
+     yield word
+   
+my_sentence = Sentence("testing generators and iterators")
+print(next(my_sentence))
+}}}

@@ -1,0 +1,11 @@
+:eth:evm:
+
+= address =
+
+Entry : 2022-09-05
+
+=== References ===
+- https://ethereum.stackexchange.com/questions/2045/is-ethereum-wallet-address-case-sensitive
+
+=== Notes ===
+- Capitalization simply means the address has a checksum. You should use the capitalization address because of this, but both will work.

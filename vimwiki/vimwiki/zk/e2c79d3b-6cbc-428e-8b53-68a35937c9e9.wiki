@@ -1,0 +1,143 @@
+:bellman:zk:ludens:parc:circom:
+
+= zk-resources =
+
+Entry : 2022-08-07
+
+=== References ===
+https://github.com/rust-cc/awesome-cryptography-rust
+- Aggregators
+  - https://github.com/ingonyama-zk/ingopedia
+  - https://wiki.nikiv.dev/security/cryptography/zero-knowledge-proofs
+  - https://github.com/ventali/awesome-zk
+  - https://tlu.tarilabs.com/cryptography
+  - https://hackmd.io/@mimoo/Hy9ySZKQo
+- https://hongchao.me/zksnark/
+- https://a16zcrypto.com/zero-knowledge-canon/
+- https://github.com/fluidex/awesome-plonk
+- [[https://0xparc.notion.site/Course-Recordings-Slides-and-Notes-90d0ddb5f9ee49f7a244dbbe60d563ff| Halo 2 learning group Course Recordings]]
+- [[https://0xparc.notion.site/Course-Recordings-Slides-and-Notes-9564f93fd7ac447c9e11de98674e7bd1|ZK Learning Group #2: All Materials]]
+- https://vivianblog.hashnode.dev/how-to-create-a-zero-knowledge-dapp-from-zero-to-production
+- https://blog.statebox.org/elliptic-curve-pairings-213131769fac
+- [[https://semaphore.appliedzkp.org/| Semaphore]]
+- https://trapdoortech.medium.com/
+
+=== Notes ===
+[[Polynomial-Commitment-Schemes]],PCS
+New/ Immediate reading
+- Resources/websites
+  - All of vitlaiks stuff .. ungodly
+  - dankrad fiest, 
+  - https://coders-errand.com/zero-knowledge-proofs-a-laymans-introduction/
+  - http://www.zeroknowledgeblog.com/index.php/links-resources
+  - [[https://research.metastate.dev/author/metastate-team/| PLONK by HANd]]
+  - [[https://github.com/adria0/plonk-by-fingers|companion to above in rust]]
+  - https://nmohnblatt.github.io/zk-jargon-decoder/definitions/algebraic_holographic_proof.html
+  - https://medium.com/magicofc/interactive-proofs-and-zero-knowledge-b32f6c8d66c3
+  - https://www.esat.kuleuven.be/cosic/blog/co6gc-introduction-to-zero-knowledge-proofs-1/
+  - https://medium.com/coinmonks/walkthrough-of-an-interactive-zero-knowledge-proof-for-sudoku-puzzle-ac563588f1a8
+  - https://medium.com/@ingonyama/bridging-the-multichain-universe-with-zero-knowledge-proofs-6157464fbc86
+  - 
+  - 
+- Simple Implementations/Code Samples
+  - https://github.com/ethereum/research/tree/master/py_plonk
+  - https://github.com/mitschabaude/minimal-plonk
+  - https://github.com/apogiatzis/zkp-sudoku-py
+  - 
+
+
+Circom resources:
+[[https://hackmd.io/V-7Aal05Tiy-ozmzTGBYPA?view|Best Practices for Large Circuits]]
+https://github.com/arnaucube/awesome-circom
+https://0xparc.org/blog/zk-ecdsa-2
+[[https://www.youtube.com/watch?v=NMD6clZvrEs&t=20474s|Barrywhitehat circom antipatterns]]
+https://medium.com/coinmonks/zk-poker-a-simple-zk-snark-circuit-8ec8d0c5ee52
+https://research.kudelskisecurity.com/2022/05/02/implementing-a-zk-focused-authenticated-encryption-scheme/
+https://github.com/doubleblind-xyz/double-blind/tree/master/circuits/main
+
+
+- Bunch of games as an exercise in vyper and circom proof.. maybe perlin noise?
+  - https://github.com/coding-horror/basic-computer-games
+- Vivian Plasencia — 02/07/2022
+Some Zero Knowledge resources that I have been collecting since I started learning about ZK:
+
+Zero Knowledge resources:
+
+http://learn.0xparc.org/
+
+
+https://github.com/ventali/awesome-zk
+
+https://github.com/matter-labs/awesome-zero-knowledge-proofs
+
+https://zeroknowledge.fm/
+
+https://community.zeroknowledge.fm/t/learning-zkps-beginner-resources/302
+
+https://ethspring.com/docs/zero-knowledge/6-zk-dev
+
+https://github.com/enricobottazzi/ZKverse
+
+https://hackmd.io/24W3m1kERC-8BrI0giBRNQ?view
+
+https://iden3.github.io/docs-temp-public-tutorials/
+
+
+
+
+
+Rollups:
+https://keen-noyce-c29dfa.netlify.app/#0
+
+ZK Dapp Tutorial:
+
+https://vivianblog.hashnode.dev/how-to-create-a-zero-knowledge-dapp-from-zero-to-production
+
+
+
+Telegram groups:
+
+ZeroKnowledgePodcast:
+
+https://t.me/+TORo7aknkYNLHmCM
+
+iden3:
+
+https://t.me/iden3io
+
+
+
+Youtube channels:
+
+ZKU ONE:
+
+https://www.youtube.com/channel/UCZB46OWiCy4T8xuYSu1cIjw
+
+
+Zero Knowledge:
+
+https://www.youtube.com/channel/UCYWsYz5cKw4wZ9Mpe4kuM_g
+
+
+BattleZips Zero Knowledge Crash Course:
+
+https://www.youtube.com/channel/UCcVGZqz46ELMsjVRIr0VOxw
+
+Github Repositories:
+
+https://github.com/jp4g/battlezips
+https://github.com/ian-bright/battlezip-frontend
+https://github.com/ian-bright/battlezip-subgraph
+
+
+
+Youtube videos:
+
+Video:
+https://www.youtube.com/watch?v=61DuJAQXxjU
+
+Slides:
+https://docs.google.com/presentation/d/1NaFqC-RnKuMOiG1CFpb5tnTC2mbu78brPKO2ldZhesI/edit?usp=sharing
+
+
+https://www.youtube.com/playlist?list=PLKP8MAGXF2KHXFN0IZyQIVQ9a6ECT3FJc

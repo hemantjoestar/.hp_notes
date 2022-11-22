@@ -1,0 +1,105 @@
+:calldata:eth:evm:memory:mappings:bytes:storage:
+
+= ethereum-types =
+
+Entry : 2022-09-05
+
+=== References ===
+- [[https://betterprogramming.pub/solidity-tutorial-all-about-data-locations-dabd33212471|Solidity Tutorial: All About Data Locations]]
+- [[https://github.com/ethereumbook/ethereumbook/blob/develop/13evm.asciidoc|The Ethereum Virtual Machine]]
+- https://medium.com/@hayeah
+- https://jeancvllr.medium.com/
+- https://blog.b9lab.com/storage-pointers-in-solidity-7dcfaa536089ohttps://medium.com/coinmonks/ethereum-solidity-memory-vs-storage-which-to-use-in-local-functions-72b593c3703a
+- https://stackoverflow.com/questions/33839154/in-ethereum-solidity-what-is-the-purpose-of-the-memory-keyword
+- 
+
+=== Notes ===
+Refernce types : arrays(fixed and dynamic), bytes, string, struct, mapping, 
+Rules
+- Different value types and reference types
+	- value types reside on stack during function calls
+	- all complex types must now give an explicit data location
+- assigning a memory referenced data to a storage referenced variable, we are copying data from memory to storage. No new storage is created.
+- assigning a storage reference data to a memory referenced variable, we are copying data from storage to memory. New memory is allocated
+- storage variable is created in function locally by look up, it simply reference data already allocated on Storage. No new storage is created.
+- can change data location only for parameters of functions and local variables in function
+- Function calls
+	- storage reference is casted to memory, a copy is made, and further modification on the object does not propagate back to contract state
+- Getters
+{{{solidity
+
+Item storage item = items[_itemIdx];
+Item memory item = items[_itemIdx];
+
+// getUsingStorage
+"gasUsed": 21849
+// getUsingMemory
+"gasUsed": 22149,
+
+}}}
+- Setters: set to non-view to estimate gas
+{{{
+
+Item storage item = items[_itemIdx];
+Item memory item = items[_itemIdx];
+item.units += _units;
+
+// addItemUsingStorage
+// `units` changes in `items`
+"gasUsed": 27053,
+// addItemUsingMemory
+// `units` does not change in `items`
+"gasUsed": 22287,
+  }}}
+
+Storage
+- smart contract at a specific address has its own storage, consisting of a key-value store that maps 256bits words to 256 bits words.
+- Storage is a key/value store where keys and values are both 32 bytes
+- It is sparse (like a hash table), and there are no inherent gas savings from having two 32 byte values next to each other
+- pre-allocated during contract construction and cannot be created in function call
+- Data in the storage persist between function calls and transactions.
+- storage referenced variable in a function always refers a piece of data pre-allocated on the contract storage
+- EVM opcodes used to do so are SSTORE and SLOAD
+- sstore costs 20000 gas for first write to a new position.
+- sstore costs 5000 gas for subsequent writes to an existing position.
+- sload costs 500 gas.
+Memory
+- Memory is a byte-array
+- Memory starts off zero-size, but can be expanded in 32-byte chunks by simply accessing or storing memory at indices greater than its current size
+- Since memory is contiguous, it does save gas to keep it packed and shrink its size
+- used to hold temporary values and is erased between external function calls. 
+- cannot be allocated during contract construction but rather created in function execution
+- it is cheaper to use.
+- memory is volatile and is specific to the context of a specific contract
+- A freshly cleared instance of memory is obtained on each new message call
+- opcodes that can be used to read and write from/to the memory are MLOAD, MSTORE, and MSTORE8
+- Certain EVM opcodes such as CALL, DELEGATECALL or STATICCALL consume their arguments from the EVM memory
+- There are a few opcodes that copy to memory:
+- CALLDATALOAD: calldata -> mem
+- CODECOPY: code -> mem
+- EXTCODECOPY: extcode -> mem
+- RETURNDATACOPY: ret -> mem
+- CALL: ret -> mem
+- CODECALL: ret -> mem
+- STATICCALL: ret -> mem
+- DELEGATECALL: ret -> mem
+Calldata
+- data of a transaction or the parameters of an external function call reside. 
+- It is a read-only data location. You cannot write to it.
+- byte-addressable space. 
+- You have to specify an exact byte offset for the number of bytes you want to read.
+- EVM opcodes that can be used to read from the calldata are CALLDATALOAD, CALLDATASIZE and CALLDATACOPY
+Stack
+- The stack is used to hold small local variables.
+- Stack in Ethereum has maximum size of 1024 elements.
+- It is almost free to use (use a very low amount of gas), but is limited in size and can hold a limited number of items.
+- The stack is where most of the local variables created inside a function reside
+- EVM opcodes that can be used to operate on the stack are the PUSH, POP, SWAP and DUP 
+- Most of the other EVM opcodes consume it from the stack (by taking them out of the stack) and push the result back on the stack.
+Code
+- used to read from the code of the smart contract are CODESIZE and CODECOPY
+- The opcodes EXTERNALCODESIZE and EXTERNALCODECOPY.
+
+gas costs associted wiht each one
+Mutability/Safety Tradeoff
+{{file:~/vimwiki/Images/evm-architecture.png}}

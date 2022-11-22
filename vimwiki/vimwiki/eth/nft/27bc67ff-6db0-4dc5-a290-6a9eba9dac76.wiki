@@ -1,0 +1,19 @@
+:nft:cc0:eth:
+
+= cc0 =
+
+Entry : 2022-08-06
+
+=== References ===
+- https://www.youtube.com/watch?v=F-OssfSlXYQ
+
+=== Notes ===
+
+- IP ownership spectrum
+  1. MoonBirds . CCO : Creative Commons, no copyright enforcement. One hopes the collective will rally around the collection
+  2. Bored Ape, Doodles . Commercial Rights only to specific asset or NFT, not the entire collection eg. Selling Shirts with the asset that one owns. Some might have limits on monetary value
+  3. VeeFriends . Traditional Art : one owns the asset or NFT, but no control or stake over the underlying IP essentially no rights to do anything commercial with asset, kind alike a collectible. One takes a bet on the asset creator. No Dilution or misuse ex. in fringe political ideology or porno
+- Brands messaging, ethos, perceived image etc. matter in the kinds of rights. Ex. BA has this renegade, satirical, irreverent vibe.
+- Doodles has permissive license inn the sense that doodle wants one to discuss with them as to what oneintends to do with it. Since they want to be an entertainment IP, family content
+- what does it mean to own IP, Build IP and do things in collab with holders and fans ex. Coinbase paid ape holders for characters to star in their movie
+- *Fan Fiction* interesting

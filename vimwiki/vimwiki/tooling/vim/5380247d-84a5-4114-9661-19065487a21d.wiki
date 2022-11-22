@@ -1,0 +1,15 @@
+:tooling:vim:
+
+= vim-makeprg =
+
+Entry : 2022-08-26
+
+=== References ===
+- https://ejmastnak.github.io/tutorials/vim-latex/compilation.html#choosing-a-vim-makeprg-option
+- https://learnvim.irian.to/basics/compile
+- https://dane-bulat.medium.com/vim-setting-up-a-build-system-and-code-completion-for-c-and-c-eb263c0a19a1
+- https://vonheikemen.github.io/devlog/tools/vim-and-the-quickfix-list/
+- https://vimways.org/2018/runtime-hackery/
+- http://eriklievaart.com/cheat/applications/vim/vimquickfix.html
+
+=== Notes ===

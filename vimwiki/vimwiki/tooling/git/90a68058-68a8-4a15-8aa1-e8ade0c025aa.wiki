@@ -1,0 +1,138 @@
+:git:cherry_pick:interactive_rebase:tooling:reflog:rebase:restore:
+
+= git-gold =
+
+Entry : 2022-08-15
+
+=== References ===
+- 
+
+=== Notes ===
+
+===== Concepts =====
+- Perfect Commit
+  - Staging area helps to select specific files or parts of files for next commit
+  - {{file:~/vimwiki/screen-grabs/6478177_scrot.png}}
+  - whole file `git add`
+  - parts of file using patch `git diff filename` then `git add -p <filename>`
+- Perfect commit message
+  - subject: consise sumamry of what happened
+  - Body: empty line after subjec. allows for detailed desc.
+    - what different
+    - Reason for change
+    - pitfalls or gotchas
+- Branching Strategies
+  - Main line development aka. always integrating
+  - {{file:~/vimwiki/screen-grabs/5573839_scrot.png}}
+  - State, Release and Feature
+  - {{file:~/vimwiki/screen-grabs/8856797_scrot.png}}
+  - {{file:~/vimwiki/screen-grabs/12929783_scrot.png}}
+  - {{file:~/vimwiki/screen-grabs/15534166_scrot.png}}
+  - {{file:~/vimwiki/screen-grabs/3949276_scrot.png}}
+  - Github Flow
+  - {{file:~/vimwiki/screen-grabs/8764991_scrot.png}}
+  - GitFlow
+  - {{file:~/vimwiki/screen-grabs/11178825_scrot.png}}
+- Pull Requests
+  - {{file:~/vimwiki/screen-grabs/2175305_scrot.png}}
+  - {{file:~/vimwiki/screen-grabs/3106586_scrot.png}}
+  - {{file:}}
+  - Contributing to repos no write access to
+  - {{file:~/vimwiki/screen-grabs/12875023_scrot.png}}
+  - Fork repo via Hosting front end 
+  - Then clone locally
+  - Make branch to commit changes
+  - Push `git push --set-upstream origin test` `[-u | --set-upstream]`
+  - go to hosting and complete steps as to which branch to merge into
+- Merge Conflicts
+  - `git merge/rebase/pull/stash apply/cherry-pick`
+
+==== Undoing Mistakes ====
+Golden Rule<br/>
+commit semantically . only one topic in same commit
+
+- Discard local changes
+  - `git diff <filename>` to check changes to file
+  - check commit history oa file??
+  - `git restore` preferred over `git chekout`
+  - *Discarding uncommited local changes are lost*
+- Reset file to old revision
+  - `git restore --source <commit-to-reset-file-to> <filename>`
+- REstore deleted fie
+  - same `git restore <filename>`
+- Discarding chunks
+  - file level
+  - `git restore -p <filename>` and prompted to manually add
+  - `-p` to go to `patch level`
+  - also possible to stage lines 
+- Discard all local changes
+  - `git restore .`
+  - *Discarding uncommited local changes are lost*
+- Fixing *last* commit. look for `rebase`
+  - commit message
+    - `git commit --amend -m <new-messsage>`
+  - Forgot to add a change
+    - add file to staging
+    - `git commit --amend -m <new-messsage>`
+    - *rewrites history, never change hsiutory for commit pushed to remote*
+    - completely new commit object and old one swapped out
+- Reverting/Undo/Remove a commit in the chain
+  - commit not ripped out
+  - new commit with opposite changes
+  - {{file:~/vimwiki/screen-grabs/10041925_scrot.png}}
+  - `git revert <commit-hash-to-remove>`
+  - prompted to create new commit
+- Reset to an old commit
+  - {{file:~/vimwiki/screen-grabs/6223587_scrot.png}}
+  - essentially turn back time to previous revision
+  - aka reset the `HEAD`
+  - `git reset --hard <commit-hash-to-return-to>`
+  - `--hard`: no local changes should survive
+  - `--mixed`: return to changes but changes are still present as to be staged
+- *Reflog*
+  - a journal that logs every movement of the `HEAD` pointer
+  - commit cherrypick rebase checkout reset .. important actions
+  - Recovering deleted commits
+    - {{file:~/vimwiki/screen-grabs/3373304_scrot.png}}
+    - `git reset --hard <commit-hash-to-return-to>`
+    - `git reflog` to chronicle all changes
+    - 2 ways to restore
+      1. New branch
+        - `git branch <new-name> <commit-from-reflog>` 
+        - lost comits available in new branch
+      2. `git reset --hard <commit-from-reflog>`
+  - Recover deleted branch
+    - {{file:~/vimwiki/screen-grabs/14906042_scrot.png}}
+    - force deleteion done
+    - `git reflog` to chronicle all changes
+    - `git branch <new-name> <commit-from-reflog>`
+- Commited to wrong branch, new branch doesnt exist
+    - {{file:~/vimwiki/screen-grabs/9307703_scrot.png}} 
+    - many times convention that one shouldnt commit to long running branch, only by merge or rebase
+    - checkout master to new branch
+    - revert `HEAD`, `git reset HEAD~1 --hard`
+- Commited to wrong branch, correct branch already exits
+  - {{file:~/vimwiki/screen-grabs/2102339_scrot.png}}
+  - *cherry-pick*
+  - `git checkout <branch-to-commit-to>`
+  - `git cherry-pick <commit>`
+  - `git chekout master`
+  - revert `HEAD`, `git reset HEAD~1 --hard`
+- Interactive Rebase
+  - edit old commits, delete messages commits, combine, split
+  - *Working*
+    - how far back one wants to go aka. what is our new *base* commit from which we can look forward
+    - start the rebase session `git rebase -i HEAD~<commits-back>`
+    - thrown into prompt cause `-i`
+    - {{file:~/vimwiki/screen-grabs/511525_scrot.png}}
+    - changes/commits listed from oldest to newest
+    - read the instructions listed since this file has tobe edited
+    - we say what we want to do with that particular commit
+    - {{file:~/vimwiki/screen-grabs/6951663_scrot.png}}
+    - based on change new commit window pops up
+  - Examples *read the instructions in prompt carefully*
+    - `reword` commit 
+    - delete `drop` commit
+    - merging `squash` commits
+  - changes can be done in the prompt window also ex. delete rearrange etc
+  - Need to work with examples to understand fully. Skipped for now

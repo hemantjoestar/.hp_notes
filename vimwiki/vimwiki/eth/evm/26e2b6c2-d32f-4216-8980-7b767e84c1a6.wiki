@@ -1,0 +1,63 @@
+:eth:evm:1559:
+
+= eip-1559 =
+
+Entry : 2022-08-21
+
+=== References ===
+- 
+
+=== Notes ===
+
+==== Terms ====
+- maxPriorityFeePerGas
+  - a cap on the priority_fee specifically
+  - essentially eualt to priority_fee
+  - however works in tandem with maxFeePerGas if set 
+  - default: eth_gasPrice - base_fee
+  - low, medium, high references
+- maxFeePerGas
+  - a cap on base_fee + priority_fee
+  - in other words the total amount your willing to pay per gas
+  - default: maxPriorityFeePerGas + 2 * base_fee
+- base_fee/baseFeeForBlock/baseFeePerGas
+  - set by network, based of demand
+  - full block increases by 12.5%
+  - target 50% block
+  - burned rather than given to miner, prevent miners from manipulating the base fee by artificially filling blocks
+  - 
+- priority_fee/inclusion_fee
+  - paid to a miner for prioritizing a transaction
+- Gas
+  - measure of how many resources a transaction uses
+- eth_gasPrice/gasPrice
+  - represents the amount a user is willing to pay, per gas, to have their transaction mined
+- Total_cost
+  - Pre: Gas * gasPrice
+  - gasUsed * effectiveGasPrice
+- Returned from Chain
+  - effectiveGasPrice: price per gas at the time of your transaction
+    - minimum of (baseFeeForBlock + maxPriorityFeePerGas) and maxFeePerGas
+  - cumulativeGasUsed: all gas used by the entire block
+  - gasUsed:  total amount of gas used by this specific transaction
+
+
+Workings
+- generally on maxPriorityFeePerGas will be set by user since base_fee is set by n/w
+- however one can still set both maxPriorityFeePerGas and maxFeePerGas
+- base_fee and priority_fee are not settable parameters
+- Cases:
+  - tobe included asap: set maxPriorityFeePerGas
+  - tobe included asap, but dont wat to overpay : set maxPriorityFeePerGas
+  - no rush: set maxFeePerGas, since you want to confirm but dont like the base_fee now
+- max used since possible to confirm transaction for less, refer to values returned from chain
+- min used to detremine gas charged and works intandem with max declaration usage
+
+Problems pre 1559
+- blind auction
+- overpaying within the same block
+
+Benefits
+-  blocks are limited to roughly 15 million total gas, no matter how many transactions are waiting to be mined
+- the block size can increase based on demand to roughly 2x that size, up to 30 million gas
+- 

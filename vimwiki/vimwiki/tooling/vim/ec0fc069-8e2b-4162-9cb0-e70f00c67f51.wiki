@@ -1,0 +1,22 @@
+:spell:vim:tooling:
+
+= vim-spell =
+
+Entry : 2022-08-06
+
+=== References ===
+- https://www.youtube.com/watch?v=ez1XBUqbS68
+- https://unix.stackexchange.com/questions/85538/how-can-i-create-my-own-spelling-file-for-vim
+
+=== Notes ===
+
+- prefer custom spelling file. method described in 2nd reference. else stuff gets added to default spell file created
+- `:setlocal spellfile=~/.vim/spell/crypto.utf-8.add` for my vimwiki
+- `setlocal spelllang=`
+- concept of internal wordlist, bad word list and suggestions file
+- also can mark words as wrong `zw`
+- keys
+  - z=
+  - ]s, [s
+  - zg, zug .. to add to spell file
+- if adding to spell file directly `mk-spell`

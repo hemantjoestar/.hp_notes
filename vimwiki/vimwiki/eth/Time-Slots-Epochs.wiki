@@ -1,0 +1,9 @@
+:slots:Epoch:
+- 12 second units called "slots"
+- Each slot also has a committee assigned to it. 
+- A committee is a group of validators who are assigned to verify and attest to the validity of the block broadcasted by the block proposer
+- After verification, committee members broadcast a cryptographic attestation
+- 440k validators. If every validator was on every committee, the network would freeze under a deluge of attestations
+- Epochs are made of 32 slots. 1 slot = 12 secs, so 1 epoch = 6 mins 24 secs
+- At the beginning of each epoch, the entire validator group is randomly split into 32 committees corresponding to the 32 slots of the upcoming epoch
+- New committee for each slot

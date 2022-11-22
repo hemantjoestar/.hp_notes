@@ -1,0 +1,4 @@
+[[/eth/erc/6af9a7cb-46d1-4498-8777-371b30353de9|eip-712]]
+[[/eth/erc/93134706-a4cf-49be-a6b3-65bf4a417476|erc-20-permit]]
+[[/eth/solidity/890d472e-2d10-4b01-88c9-183254317989|meta-transactions]]
+[[/tooling/git/35f87e99-4449-483c-a50f-3fcbc10bd1fa|git-branch]]

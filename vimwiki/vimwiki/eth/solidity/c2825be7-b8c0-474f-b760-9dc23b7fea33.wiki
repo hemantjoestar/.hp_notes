@@ -1,0 +1,10 @@
+:solidity:eth:upgrade:proxy:
+
+= contract-upgrades =
+
+Entry : 2022-08-10
+
+=== References ===
+- https://www.youtube.com/watch?v=YpEm9Ki0qLE
+
+=== Notes ===

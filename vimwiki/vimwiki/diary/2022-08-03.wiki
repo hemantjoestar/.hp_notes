@@ -1,0 +1,3 @@
+[[/eth/vyper/3101c249-aae5-4c47-8fca-5d44716a565b|vyper-resources]]
+[[/eth/python/d040572f-0670-4607-a803-05ec39695767|python-blockchain-courses]]
+[[/tooling/vim/e8a8eb59-a3b3-4f2d-917f-b8c7c6f64c67|vim-surround]]

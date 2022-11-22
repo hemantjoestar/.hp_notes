@@ -1,0 +1,47 @@
+:erc:eth:712:
+
+= eip-712 =
+
+Entry : 2022-08-08
+
+=== References ===
+- https://eips.ethereum.org/EIPS/eip-712
+- https://docs.metamask.io/guide/signing-data.html#a-brief-history
+- [[https://medium.com/metamask/eip712-is-coming-what-to-expect-and-how-to-use-it-bb92fd1a7a26|Weijao bossman . sign bunch of data unlike for permit functions in most examples]]
+- [[https://soliditydeveloper.com/ecrecover|Lots of cool stuff in links]]
+-[[https://ethresear.ch/t/erc721-extension-for-zk-snarks/13237|Advanced zk stuff by Vitamin himself]] 
+
+=== Notes ===
+
+=== Implement ===
+1. compute a domain hash which captures the configuration data of contract address and chainId
+2. compute typed data hash
+3. combine both hashes and use it inside ecrecover
+
+For actual use recommended
+- Openzepplins libraries for EIP712 and ECDSA
+- [[https://github.com/pcaversaccio/snekmate/blob/main/src/utils/EIP712DomainSeparator.vy|vyper version .. safe?]]
+
+
+=== Terms ===
+- The signing algorithm of choice in Ethereum is secp256k1
+- The hashing algorithm of choice is keccak256
+- Brief refer to links for more details
+  - 3 main signing methods
+  - eth_sign
+    - open-ended signing method that allows signing an arbitrary hash, which means it can be used to sign transactions
+    - dangerous phishing risk
+    - get users to sign data which is actually a transaction
+    - if one was to sign transaction data, the added prefix string would make it an invalid transaction
+    - ease of use and exiting infrastructure
+  - personal_sign
+    - added a prefix to the data so it could not impersonate transactions
+    - `\x19Ethereum Signed Message:\n`
+    - human readable text when UTF-8 encoded
+    - text-prefix made those signatures expensive to verify on-chain
+    - hardware wallets currently only support
+  - signTypedData/_v4
+    - [[https://docs.metamask.io/guide/signing-data.html#sign-typed-data-v4|Sign Typed Data Message Parameters]]
+- DOMAIN_SEPARATOR
+  - ensures different signatures for the same messages by the same user in two different Dapps
+  - value unique to each domain that is ‘mixed in’ the signature

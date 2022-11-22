@@ -1,0 +1,21 @@
+:iterators:next:ownership:rust:
+
+= rust-advanced =
+
+Entry : 2022-10-25
+
+=== References ===
+- 
+
+=== Notes ===
+
+[[Ownership]]
+[[Iterators]]
+[[Examples]]
+[[Generics]]
+
+
+
+Extras
+Templates
+- https://github.com/thor314/tmpl

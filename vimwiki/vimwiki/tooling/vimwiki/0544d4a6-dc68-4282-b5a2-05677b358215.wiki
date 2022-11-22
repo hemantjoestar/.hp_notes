@@ -1,0 +1,16 @@
+:vimwiki:syntax_highlight:nested_syntax:preformatted_text:tooling:
+
+= vimwiki-useful =
+
+Entry : 2022-08-09
+
+=== References ===
+- 
+
+=== Notes ===
+
+- code syntax highlighting within vimwiki
+  - `let vimwiki_list[0]['nested_syntaxes'] = { 'python':'python'}`
+  - `:h vimwiki-option-nested_syntaxes`
+  - `:h vimwiki-syntax-preformatted`
+  - dont forget to mention language `{{{python `code`}}}`

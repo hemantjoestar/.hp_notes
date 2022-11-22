@@ -1,0 +1,29 @@
+:multi_delegate_call:multicall:eth:evm:multi_call:
+
+= multicall =
+
+Entry : 2022-08-28
+
+=== References ===
+- https://www.youtube.com/watch?v=PDR054Cy8qM
+- https://www.youtube.com/watch?v=XemGsAV7L8g
+
+=== Notes ===
+- Solidity
+  - aggregate calls to multiple functions within a single call
+  - low level function *call* is used
+  - Lot of implementations already onchain like indexed, uniswap. we can call them directly
+  - Multicall
+    - [[https://solidity-by-example.org/app/multi-call/|Example]]
+    - check length(targets) == length(data)
+    - staticall vs call based on function behavior
+    - note outputs of call
+    - to call functions requires `abi.encodeWithSelector(this.func1.selector)` aka. `abi.encodeWithSignature("func1()")`.. Note. no args to function hence not included
+    - {{file:~/vimwiki/screen-grabs/8329092_scrot.png}}
+  - MultiDelegateCall
+    - [[https://solidity-by-example.org/app/multi-delegatecall/|Advanced Multicall]]
+    - pending
+  - Sometimes written data in flattened using `abi,encode`. used in indexed finance example
+  - {{file:~/vimwiki/screen-grabs/8024112_scrot.png}}
+  - Havent understood the assembly part.. returna pointer to data, adding 32 bytes to first memory slot since not interested in size of data only payload. First memory slot contains size of data
+  - Multicall js library has a limitation: can execute only on same abis. This is not a limitation on Smart contract side

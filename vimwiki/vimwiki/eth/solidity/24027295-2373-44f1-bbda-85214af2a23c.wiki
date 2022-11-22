@@ -1,0 +1,44 @@
+:exploits:solidity:eth:_1gwei:
+
+= solidity-resources =
+
+Entry : 2022-08-06
+
+=== References ===
+- https://github.com/ConsenSys/smart-contract-best-practices
+- https://inspexco.medium.com/cross-contract-reentrancy-attack-402d27a02a15
+- https://github.com/dragonfly-xyz/useful-solidity-patterns
+- https://github.com/JetJadeja/flashloan-workshop
+
+=== Notes ===
+
+== WTF :( ==
+- https://twitter.com/transmissions11/status/1557785679160938498
+- https://twitter.com/pcaversaccio/status/1557811632880975879
+- https://medium.com/aztec-protocol/huffing-for-crypto-with-weierstrudel-9c9568c06901
+
+== Best practice suggestions ==
+- https://twitter.com/m1guelpf/status/1510723115671822336
+- https://twitter.com/danielvf/status/1572963306725318657
+
+== Exploits ==
+- https://github.com/iphelix/exploits-defi
+- A quick and very important reminder that in Solidity you should multiply before dividing. Example: "10 / 100 * 300" will result in zero since Solidity rounds divisions towards zero.
+- 
+
+== Would be awesome POC ==
+- [[https://twitter.com/w1nt3r_eth/status/1538229135897554944 | Entire thread full of Bombs]]
+- NFT Gift cards for various applications
+  - Bridge to L2s
+  - Use Protocols
+
+== Language Quirks ==
+- [[https://forum.openzeppelin.com/t/a-collection-of-gas-optimisation-tricks/19966/3|generic writeup about common gas optimizations]]
+- [[https://twitter.com/Vinicius_Rod/status/1558120271361499136|in solidity, you dont use memory with uint256 type. it would raise an error when compiling]]
+- abi.encode vs abi.encodePacked
+  - collision when more than one *dynamic* datatype
+  - AAA BBB -> AAABBB
+  - AA ABBB -> AAABBB
+  - use abi.encode
+  - https://www.youtube.com/watch?v=rxZR3ITZlzE
+  - [[https://forum.openzeppelin.com/t/abi-encode-vs-abi-encodepacked/2948/2|Nice Details]]

@@ -1,0 +1,78 @@
+:tooling:groff:
+
+= groff =
+
+Entry : 2022-09-02
+
+=== References ===
+- https://cmd.inp.nsk.su/old/cmd2/manuals/unix/UNIX_Unleashed/ch08.htm
+- https://stratadoc.stratus.com/vos/17.0.1/r565m-00/wwhelp/wwhimpl/common/html/r565m-00.pdf
+- https://www.linuxjournal.com/article/1158
+- https://www.thegeekstuff.com/2012/09/linux-groff-command-examples/
+- https://www.troff.org/TheGroffFriendsHowto.pdf
+- file:///home/hemant/Downloads/groffTutorial.pdf
+- http://web.cecs.pdx.edu/~trent/gnu/groff/groff.html#SEC35
+
+=== Notes ===
+
+MS Macros
+- .NH : numbered heading
+  - 
+- .SH : sub heading
+  - 
+- .LP : Left Paragragh
+  - 
+- .PP : Start with Indent Paragragh
+  - 
+- .QP : Indent Paragragh
+  - 
+- .IP : Lists/Indexed Paragragh
+  - .IP 1.
+  - .IP -
+  - .IP \[bu]
+%%+ control spacing +%%
+  - .IP - 2 
+- .RS .IP <text> .RE
+  - sublists, Raise sub
+- Bold
+{{{
+  .B "long text"
+  }}}
+- Box
+{{{
+  .B1
+  this is text surrounded by a box
+  .B2
+  
+  .BX "this is text surrounded by a box"
+  }}}
+- Underline
+{{{
+  .UL "undeelined text"
+  }}}
+- Supersript
+{{{
+this is text \*{superscripted text\*}
+  }}}
+- .TL
+- .AU
+  - need to end with .NH else gets tripped
+  
+  
+  
+  
+  
+
+Base 
+- .in <number>, Indent
+- \f[I]<word>\f[]
+- \f[CW]<word>\f[], code blocks
+{{{groff
+.ft B
+long text
+.ft
+}}}
+- Comments, inline too
+{{{
+  .\" Comment line
+  }}}
