@@ -1,4 +1,4 @@
-:bloom_filters:rlp:eth:evm:events:
+:bloom_filters:rlp:eth:evm:trie:events:
 
 = evm-internals =
 
@@ -6,9 +6,24 @@ Entry : 2022-08-05
 
 === References ===
 - https://noxx.substack.com/p/evm-deep-dives-the-path-to-shadowy-16e
+- https://medium.com/coinmonks/ethereum-data-transaction-trie-simplified-795483ff3929
 
 === Notes ===
 
+Ethereum Data
+https://easythereentropy.wordpress.com/2014/06/04/understanding-the-ethereum-trie/
+- Tries
+  - paths
+- Ethereum node stores two types of data : block data and state data
+- State data includes 
+  - {{file:~/vimwiki/screen-grabs/4296488_scrot.png}}
+  - world state trie,
+  - account storage trie, 
+  - transaction receipt trie
+  - transaction trie
+    - Light nodes can use it to verify inclusion
+    - {{file:~/vimwiki/screen-grabs/8210539_scrot.png}}
+  - 
 - RLP
   - https://medium.com/coinmonks/data-structure-in-ethereum-episode-1-recursive-length-prefix-rlp-encoding-decoding-d1016832f919
   - 

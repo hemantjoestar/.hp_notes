@@ -1,0 +1,89 @@
+:eth:
+
+= celestia =
+
+Entry : 2022-12-05
+
+=== References ===
+- https://research.nansen.ai/article/329/fuel-a-fresh-approach-to-scaling-blockchains
+
+=== Notes ===
+
+Terms
+- Layers
+  - consensus . Apply rules to arrive at canonical state of the chain/ledger
+  - da
+    - guarantees about storage, dispersal and access
+    - withholding. invalid tx , advance state and no one knows how, however not uniquely Attributable, lying etc.
+  - execution
+  - settlement. few definitions, coordination mechanism,proof verification, dispute arbitration,secure comms layer,. ex. like RBI. token fungability,move assets between rollups. L1->L2->L1->L2
+- LazyLedger/Celestia
+  - ondemand consensus and DA, aka modular/deployable chains
+  - itself on cosmos, stripped down consensus just validation aka DAS, maybe single slot finality??
+  - tendermint however restricts validator size
+  - asscociated PoS economic model, shared security, more onboarded more secure
+- proofs
+  - validity
+  - fraud
+- Nodes
+  - full
+  - light clients
+    - only headers with proofs
+    - sometimes, ethereum is refereeed to as trust minimized light client to the rollup
+- Attacks
+  - data hidden
+  - eclipse
+- DA Sampling
+  - provving existencee as opposed to validity of data
+  - opposed to reexecuting txs. validators check if txs were pulished to the network and if needed someone could verify aka attest to DA
+  - erasure codes,data extension done correctly, celestias own fraud proofs, 
+  - small download, bigger the block more efficient since squareroot law of DAS
+  - 2d square stuff for erasure coding, didnt understand
+  - eth uses validity proofs KZG, SNARK stuff as opposed to celestias fraud proof
+- Rollup
+  - SEttlement: shared execution to settle fraud and validty, 
+  - Soverign : settlement + Execution, flexible, hardfork to make changes in consensus or execution env
+  - Recursive : L3 settle on L2
+- cevmos
+  - restricted evm only for proofs aka settlement. no sc functionality
+  - rollup using celestia and run your app as rollup on cevmos .L3 stuffs
+- valladiums and DAC . immutable etc. DAC and associated issues, no actual stake other than repute
+- Cellestium
+  - C as valadium but no DAC , E is settlement
+  - quantum gravity bridge
+    - one way message bridge from C to E, attesting to DA
+  - DAaS
+  - need more time to understand intricacies
+- struggling to understand
+  - ordering. i cant understand how this make sense without execution
+  - invalid transaction stuff, it is all recorded
+Motivation
+- EVM gives consensus and execution
+  - limited by evm, bounded by shared social contract not very soverign
+- Freedom over execution while getting consensus and DA
+- da was born out of sharding. Vitamin raised
+- prev security model was everyone run full node, bloat however, resource, not scalable
+- entr *trust minimised* light client, should give strong security guarantees
+- plentiful trust minimized blockspace
+  - issues with data availability committees aka multisig
+- Pluggable consensus
+Components
+Possible intergration
+- rollup types
+My opinion
+- gave us the modular blockchain thesis that eth is moving towards
+- but, L2 blobs, different fee market for data, needing more bridges(conflicted about this) ,fragmenting the ecosystem
+- most sense for gaming, native issued assets ex. DYDX type
+- no SC , how will their token bridge? wbtc model maybe, since not used as collateral limited economic security, since value accrues since yielding asset
+- dunno , everyone hates landlords but secretly wants to become one
+- also ethereum gives us trust minmised message passing(has execution), direct rollup rollup .V has commented on it moving between rollups. L3 article
+- game of tradeoffs
+- eth2 maximises for validators aka trust, celestia wants to optimize aka reduced cost to checking validators
+- then apps boss people decide
+ToDo
+- Cosmos reading, zone, hub, no knowledge
+- already entioned zk study
+- celestias consensus is complicated, validators doing DAS and stuff. cant comprehend. Eth guys have more gig brains so i think they more correct
+
+
+

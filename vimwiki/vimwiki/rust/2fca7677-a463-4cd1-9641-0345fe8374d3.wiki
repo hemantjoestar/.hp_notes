@@ -1,0 +1,19 @@
+:next:rust:
+
+= rust-learn =
+
+Entry : 2022-11-25
+
+=== References ===
+- 
+
+=== Notes ===
+
+- rust-book
+  - [[v1]]
+- [[https://rust-unofficial.github.io/too-many-lists/index.html|Learn Rust With Entirely Too Many Linked Lists]]
+- https://rust-classes.com/preface.html
+
+
+unseggregated
+- [[Turbofish-syntax]]

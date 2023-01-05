@@ -7,6 +7,9 @@ Entry : 2022-08-28
 === References ===
 - https://www.youtube.com/watch?v=PDR054Cy8qM
 - https://www.youtube.com/watch?v=XemGsAV7L8g
+- https://www.libevm.com/2022/12/23/reduce-ethereum-queries-batch-calls/
+- https://twitter.com/msolomon44/status/1501631244844498944
+
 
 === Notes ===
 - Solidity

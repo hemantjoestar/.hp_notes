@@ -1,0 +1,53 @@
+Symmetric
+- combines several crypto algorithms into an symmetric encryption scheme
+- encryption scheme (cipher construction)
+  - key derivation algorithm
+  - symmetric cipher
+  - cipher blockmode
+  - message authentication to provide integrity and authenticity
+- secret keys
+  - password-to-key-derivation scheme to extract a secret key from certain password, 
+  - users tend to remember passwords easier than binary data
+
+
+- Symmetric encryption algorithms 
+- (ciphers) are: AES (AES-128, AES-192, AES-256), ChaCha20, Twofish, IDEA, Serpent, Camelia 
+- block ciphers (encrypt data by blocks of fixed size, e.g. 128 bits),
+- stream ciphers (encrypt data byte by byte as a stream)
+- Block ciphers can be turned into stream ciphers by using a technique called "cipher block mode"
+
+
+
+- public key cryptography uses a different key to encrypt and decrypt data (or to sign and verify messages)
+- public + private key pairs.
+- Asymmetric cryptography deals with encrypting and decrypting messages using a public / private key, 
+  - signing messages, 
+  - verifying signatures and 
+  - securely exchanging keys
+- RSA (Rivest–Shamir–Adleman), ECC (elliptic curve cryptography), Diffie-Hellman, ECDH, ECDSA and EdDSA
+
+
+- public-key cryptosystems can encrypt messages of limited length only and are slower than symmetric ciphers
+- encrypting longer messages
+-  key encapsulation mechanism (KEM): 
+  - encapsulate an asymmetrically-encrypted random (ephemeral) symmetric key
+  - use symmetric algorithm for the data encryption
+  - for encryption a random symmetric key sk is generated, 
+  - the message is symmetrically encrypted by sk, 
+  - then sk is asymmetrically encrypted using the recipient's public key
+  - decryption, first the sk key is asymmetrically decrypted using the recipient's private key
+  - ciphertext is decrypted symmetrically using sk
+
+- Digital signatures provide message authentication, message integrity and non-repudiation
+- encrypt data by a private key and decrypt it by the public key. 
+- Thus someone can prove that he is owner of certain private key, while revealing only its corresponding public key
+
+- signed blockchain transaction holds a proof of authorship:
+- it is guaranteed mathematically that the signature is created by the holder of certain blockchain address and 
+- the transaction was not modified after the signing
+
+Key pairs
+- ECC, the public key can be calculated from the private key
+- RSA, the public key and the private key are generated together but cannot be directly calculated from each other
+- Public key is encapsulated in a digital certificate, which binds certain identity (e.g. person or Internet domain name) to certain public key
+- blockchain address is derived from the public key (by hashing and other transformations)

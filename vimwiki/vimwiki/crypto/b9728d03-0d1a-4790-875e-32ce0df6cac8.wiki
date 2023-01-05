@@ -5,10 +5,28 @@
 Entry : 2022-10-14
 
 === References ===
-- 
+- https://jeffhurchalla.com/2022/04/25/a-faster-multiplicative-inverse-mod-a-power-of-2/
 
 === Notes ===
 
+
+Text
+- [[Practical-Cryptography-for-Developers]]
+- [[EC-Cryptography-Tutorials-Herongs-Tutorial-Examples]]
+- [[ECC-andrea.corbellini]]
+
+Shamirs Secret Sharing
+- https://www.cs.purdue.edu/homes/hmaji/teaching/Fall%202020/lectures/08.pdf
+- https://ethereum-magicians.org/t/erc-3450-standard-for-applying-shamirs-to-bip-39-mnemonics/5844/17
+- https://fulmanski.pl/tutorials/computer-science/computer-science-for-beginners/shamirs-secret-sharing/#part_5
+- https://medium.com/nethermind-eth/secret-sharing-for-sharing-mnemonics-part-ii-d76dc1581681
+- https://cypherpunks-core.github.io/ethereumbook/05wallets.html
+- https://www.youtube.com/watch?v=h6G-LCKZiwI&list=PLo0ID6AlpZtULIh30pQ0U9O-IGa4mTS9A
+- 
+
+ECC
+- https://jeffhurchalla.com/2022/04/28/montgomery-redc-using-the-positive-inverse-mod-r/
+- 
 secp256k1
 - https://github.com/itzmeanjan/secp256k1
 

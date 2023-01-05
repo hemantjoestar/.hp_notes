@@ -1,0 +1,85 @@
+- algebraic structures of the elliptic curves over finite fields
+- difficulty of the Elliptic Curve Discrete Logarithm Problem (ECDLP)
+
+- pvt keys : 256 bit
+- public keys: integer coordinates {x, y}, laying on the curve
+- special properties, EC points can be compressed
+- 257-bit integer, one coordinate + 1 bit (odd or even)
+- different underlying elliptic curves
+- different level of security (cryptographic strength), different performance (speed) and different key length
+ 
+- secp256k1 or Curve25519
+- field size (which defines the key length, e.g. 256-bit)
+- security strength (usually the field size / 2 or less)
+
+- digital signature algorithms ECDSA EdDSA
+- Encryption EEECC(EC based Elgamal)
+- key agreement ECDH, X25519 and FHMQV
+
+
+- Cryptography uses elliptic curves in a simplified form (Weierstras form)
+- over the finite field Fp (where p is prime and p > 3)
+- or F2m (size p =2m)
+- field is a square matrix of size p x p and the points are limited to integer coordinates within the field only
+- and satisfy said Weierstras equation
+- RSA, which uses for its key space the integers in the range [0...p-1] (the field ℤp)
+- ECC uses the points {x, y} within the Galois field Fp (where x and y are integers in the range [0...p-1])
+
+
+Order and Cofactor of Elliptic Curve
+- order of the curve is the total number of all EC points on the curve
+- includes also the special point called "point at infinity", which is obtained when a point is multiplied by 0
+- Some curves form a single cyclic group (holding all their EC points)
+- several non-overlapping cyclic subgroups (each holding a subset of the curve's EC points)
+- points on the curve are split into h cyclic subgroups (partitions), 
+- each of order r (each subgroup holds equal number of points)
+- order of entire group is n = h * r
+- number of subgroups h holding the EC points is called cofactor
+- IMP. the points over an elliptic curve stay in one or several non-overlapping subsets
+- cofactor = 1 is secp256k1
+- cofactor = 8 is Curve25519
+- cofactor = 4 is Curve448
+
+
+Generator Point
+- special pre-defined (constant) EC point, G
+- Base point
+- can generate any other point in its subgroup by multiplying G by some integer in the range [0...r]
+- r is called "order" of the cyclic subgroup
+- defines the total number of all possible private keys aka key space
+- Elliptic curve subgroups usually have many generator points
+- select carefully the elliptic curve domain parameters (curve equation, generator point, cofactor, etc.) 
+- to ensure that the key space is large enough
+- suitable for performance optimizations in the computations
+- r * G = 0 * G = infinity
+
+
+- It is known that for some curves different generator points generate subgroups of different order
+- if the group order is n, for each prime d dividing n, there is a point Q such that d * Q = infinity
+- means that some points used as generators for the same curve will generate smaller subgroups than others
+-  "small-subgroup" attacks
+- cryptographers usually choose the subgroup order r to be a prime number
+- cofactor h > 1, different base points can generate different subgroups of EC points on the curve
+- Ex.
+  - y2 ≡ x3 + 7 mod 17
+  - G = {15, 13} as generator, n =18, h = 1
+  - curve order is 18, infinity point
+  - curve order is not prime number, different generators may generate subgroups of different order
+  - point {5, 9} as generator, it will generate just 3 EC points: {5, 8}, {5, 9} and infinity
+
+
+- very fast to calculate P = k * G
+- in time log_2(k_), e.g. the "double-and-add algorithm"
+- extremely slow (considered infeasible for large k) to calculate k = P / G
+- ECDLP problem
+- The multiplication of elliptic curve points in the group Fp is similar to exponentiation of integers in the group ℤp
+- to achieve a k-bit security strength, at least 2*k-bit curve is needed
+- solve the ECDLP for key of size k needs sqrt(k)steps
+
+- Weierstrass curves, with an equation of the form y2=x3+ax+b
+- Montgomery curve, with an equation of the form By2=x3+Ax2+x
+
+
+
+
+

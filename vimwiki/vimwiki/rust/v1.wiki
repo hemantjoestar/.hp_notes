@@ -1,0 +1,298 @@
+-variable bindings
+  - bind some value to a name, so it can be used later
+  - let statement is a ‘pattern’, not a variable name
+  - Type annotations
+  - type inference
+  - x is a binding with the type i32 and the value 5
+  - By default, bindings are immutable
+  - bindings are required to be initialized with a value before you're allowed to use them
+  - String interpolation Module std::fmt
+  - Scope and shadowing
+  - Variable bindings have a scope - they are constrained to live in the block they were defined in
+  - A block is a collection of statements enclosed by { and  }
+  - variable bindings can be shadowed. 
+  - This means that a later variable binding with the same name as another binding that is currently in scope will override the previous binding
+- Fucntions
+  - Every Rust program has at least one function, the main function
+  - Unlike let, you must declare the types of function arguments
+  - Rust functions return exactly one value.. return tuple and destructure
+  - last line of a function determines what it returns
+  - note the lack of a semicolon here
+  - Rust: it is an expression-based language, and semicolons are different from semicolons in other ‘curly brace and semicolon’-based languages
+  - Expressions vs. Statements
+    - Rust is primarily an expression-based language
+    - There are only two kinds of statements,: ‘declaration statements’ and ‘expression statements’
+    - using let to introduce a binding is not an expression
+    - assigning to an already-bound variable (e.g. y = 5) is still an expression
+    - expression statement. Its purpose is to turn any expression into a statement
+    - and everything else is an expression
+    - Expressions return a value, and statements do no
+    - not all control paths return a value’ here: the statement x + 1; doesn’t return a value
+    -  semicolons to separate expressions from each other
+  - Special syntax for ‘diverging functions’, which are functions that do not return
+  - will cause a crash, it will never return, and so it has the type ‘!’, which is read ‘diverges’
+- Function pointers
+  - variable bindings which point to functions
+- Primitive types
+  - Boolean
+  - Char with a single tick
+  - Integer  signed and unsigned, fixed and variable, floating-point and integer
+  - arrays immutable by default
+  - Arrays have type [T; N]. We’ll talk about this T notation in the generics section. The N is a compile-time constant, for the length of the array
+  - Slices reference to (or “view” into) another data structure
+    - useful for allowing safe, efficient access to a portion of an array without copying
+    - a slice is not created directly, but from an existing variable binding. 
+    - Slices have a defined length, and can be mutable or immutable
+    - a combo of & and [] to create a slice from various things
+    - The & indicates that slices are similar to references
+    - []s, with a range, let you define the length of the slice
+    - Slices have type &[T]
+  - str most primitive string type
+  - ‘unsized’ or ‘dynamically sized’ types
+  - unknowable at compile time
+  - not very useful by itself, but becomes useful when placed behind a reference, like &str
+  - Tuple ordered list of fixed size
+  - tuples are heterogeneous
+  - access the fields in a tuple through a destructuring let
+  - access fields of a tuple with indexing syntax
+- IF
+  - An if without an else always results in () as the value
+- Loop
+  - infinite
+  - while loops are the correct choice when you’re not sure how many times you need to loop
+  - for loop is used to loop a particular number of times
+  - `for var in expression {code}}`
+  - expression is an item that can be converted into an iterator using IntoIterator
+  - The iterator gives back a series of elements, one element per iteration of the loop
+  - value is then bound to the name var, which is valid for the loop body
+  - Once the body is over, the next value is fetched from the iterator, and we loop another time. When there are no more values, the for loop is over
+  - Enumerate
+    - keep track of how many times you have already looped
+    - `for (index, value) in (5..10).enumerate()`
+  - End
+    - while vs loop
+    - keep a dedicated mut boolean variable binding, done, to know when we should exit out
+    - help us with modifying iteration: break and continue
+    - continue goes to the next iteration
+  - Labels
+    - encounter situations where you have nested loops and need to specify which one your break or continue statement is for which loop
+- Vector
+  - dynamic or ‘growable’ array, implemented as the standard library type Vec<T>
+  - vec! macro
+  - always allocate their data on the heap, they must be able to know the size of T at compile time
+  - size of some things can't be known at compile time
+  - store a pointer to that thing, Box type works perfectly for this
+  - must index with the usize type `let i: usize = 0;v[i];`
+  - can iterate through its elements with for
+    - three versions `for i in &v; for i in &mut v; for i in v`
+    - cannot use the vector again once you have iterated by taking ownership of the vector
+    - can iterate the vector multiple times by taking a reference to the vector
+- Ownership
+  - Variable bindings have a property in Rust: they ‘have ownership’ of what they’re bound to
+  - means that when a binding goes out of scope, Rust will free the bound resources
+  - comes into scope, a new vector object is created on the stack
+  - allocates space on the heap for its elements
+  - When v goes out of scope clean up everything related to the vector
+  - even the heap-allocated memory. This happens deterministically, at the end of the scope.
+  - Semantics
+    - Move
+      - exactly one binding to any given resource
+      - When transfer ownership to something else, we say that we’ve ‘moved’ the thing we refer to
+      - `let v = vec![1, 2, 3];let mut v2 = v;`
+      - allocates memory for the vector object v as for normal bind
+      - in addition to that it also allocates some memory on the heap for the actual data ([1, 2, 3])
+      - copies the address of this heap allocation to an internal pointer, which is part of the vector object placed on the stack
+      - two parts of the vector (the one on the stack and one on the heap) must agree with each other at all times with regards to things like the length, capacity, etc.
+      - move v to v2, 
+      - Rust actually does a bitwise copy of the vector object v into the stack allocation represented by v2
+      - shallow copy does not create a copy of the heap allocation
+      - Rust forbids using v after we’ve done the move
+    - Copy
+      - when ownership is transferred to another binding, you cannot use the original binding
+      - there’s a trait that changes this behavior, and it’s called Copy
+      - All primitive types implement the Copy trait and their ownership is therefore not moved
+      - `let v = 1;let v2 = v;println!("v is: {}", v);`
+- Borrowing and their associated feature ‘references’
+  - &T type a ‘reference’, and rather than owning the resource, it borrows ownership. 
+  - A binding that borrows something does not deallocate the resource when it goes out of scope
+  - References are immutable, like bindings
+  - mut T. A ‘mutable reference’ allows you to mutate the resource you’re borrowing
+  - use asterisks to access the contents of a reference
+  - Rules
+    - any borrow must last for a scope no greater than that of the owne
+    - either one or more references (&T) to a resource
+    - or exactly one mutable reference (&mut T)
+    -  ‘data race’ when two or more pointers access the same memory location at the same time, where at least one of them is writing, and the operations are not synchronized
+    - Use scopes `{}` if stuck
+  - Reason
+    - iterator invalidation
+    - use after free or dangling
+    - `let y: &i32;let x = 5;y = &x;` y is declared before x, meaning that y lives longer than x, which is not allowed
+- Lifetimes
+  - advanced concept of borrowing
+  - lifetime annotations are descriptive, not prescriptive
+  - means that how long a reference is valid is determined by the code, not by the annotations
+  - annotations, however, give information about lifetimes to the compiler that uses them to check the validity of references
+  - Syntax
+    - A function can have ‘generic parameters’ between the <>s, of which lifetimes are one kind.
+    - `fn bar<'a>(...)'`
+    - need explicit lifetimes when working with structs that contain references
+    - `impl<'a> Foo<'a> {}`
+    - repeat 'a twice, like on functions: impl<'a> defines a lifetime 'a, and Foo<'a> uses it
+    - 'static
+    - ‘static’ is a special lifetime. It signals that something has the lifetime of the entire program
+    - String literals have the type &'static str because the reference is always alive: 
+    - they are baked into the data segment of the final binary'
+  - Lifetime Elision
+    - three easily memorizable and unambiguous rule
+    - input lifetime and output lifetime
+    - only things relating to references (such as a struct which contains a reference) need lifetimes.
+    - Didnt make sense what is happening
+- Mutability
+  - mutable variable binding. 
+  - allowed to change what the binding points to
+  - `fn main() {let mut x = 5;let y = &mut x;}`
+  - y is an immumtable binding to a mutable refernce 
+  - means y can only ever point/bound to x and no other binding 
+  - can only change the value binding x points to
+  - `fn main() {let mut x = 5;let mut y = &mut x;}`
+  - means y can point/bound to other bindings
+  - Exterior mutability
+    - mutability you get from mutable references (&mut T)
+    - checked and enforced at compile-time
+  - Interior mutability
+    - immutable reference (&T) but you can mutate the destination
+    - need mutable fields inside immutable data structures
+    - std::cell::Cell<T> and std::cell::RefCell<T>
+    - RefCell makes run-time borrow checks, while Cell does not
+    - {{file:~/vimwiki/screen-grabs/3349788_scrot.png}}
+    - [[https://ricardomartins.cc/2016/06/08/interior-mutability|Interior mutability in Rust]]
+  - above i super complex TODO
+- Structs
+  - convention, structs begin with a capital letter and are camel cased: PointInSpace
+  - Rust does not support field mutability at the language level
+  - `struct Point{mut x : i32}` ERROR
+  - Mutability is a property of the binding, not of the structure itself
+  - Your structure can still contain &mut references
+  - `struct PointRef<'a>{x:&'a mut i32'}`
+{{{rust
+struct Point{x:i32}
+struct PointRef<'a>{x:&'a mut i32}
+fn main(){
+  let mut point = Point {x:5}
+  let r = PointRef{x:&mut point.x}
+  *r.x=6;
+}
+}}}
+  - print `#[derive(Debug)]``println!("{:?}",point)`
+  - .. to indicate that you want to use a copy of some other struct for some of the values
+  - `point = Point3d { y: 1, .. origin  };`
+  - above can be used when self mutate
+  - Tuple Structs
+    - have a name, but their fields don't
+    - `let black = Color(0, 0, 0);`
+    - ‘newtype’ pattern
+    - tuple struct is very useful is when it has only one element
+  - ‘unit-like’ because it resembles the empty tuple, (), sometimes called ‘unit’
+  -  tuple struct, it defines a new type
+  - a library may ask you to create a structure that implements a certain trait to handle events
+  - If you don’t have any data you need to store in the structure, you can create a unit-like struct.
+- Enums
+  - represents data that is one of several possible variants
+  - Each variant in the enum can optionally have data associated with it
+{{{rust
+enum Message {
+    Quit,
+    ChangeColor(i32, i32, i32),
+    Move { x: i32, y: i32 },
+    Write(String),
+}
+}}}
+  - can have variants with no data (like unit-like structs), variants with named data, and variants with unnamed data (like tuple structs)
+  - :: syntax to use the name of each variant 
+  - `let y: BoardGameTurn = BoardGameTurn::Move { squares: 1  };`
+  - convert a vector of Strings into a vector of Message::Write
+{{{rust
+let v = vec!["Hello".to_string(), "World".to_string()];
+
+let v1: Vec<Message> = v.into_iter().map(Message::Write).collect();
+  }}}
+- Match
+  - replace complicated if/else groupings with something more powerful
+  - enforces ‘exhaustiveness checking’
+  - _ acts as a 'catch-all'
+  - nice way of converting something from one type to another
+  - match is also an expression `let number = match x{}`
+  - process the possible variants of an enum
+  - 
+- Patterns
+  - complicated, docs expect to make good use of
+  - use them in variable bindings, match expressions, and other places
+  - multiple patterns `1 | 2 => println!("one or two"),`
+  - _ in a pattern to disregard the type and value
+  - `Err(_)=> println!("")`
+  - _ never binds the value in the first place, which means that the value does not move
+{{{rust
+let tuple:(u32,String)=(5, String::from("five"));
+let(x,_s) = tuple;
+// error use of partially moved value
+println!("tuple = {}",tuple);
+
+let tuple:(u32,String)=(5, String::from("five"));
+// tuple not moved, u32 is a copy
+let(x,_) = tuple;
+// works
+println!("tuple = {}",tuple);
+}}}
+  - .. in a pattern to disregard multiple values
+  - `OptionalTuple::Value(..) => println!("Got a tuple!"),`
+  - ref and ref mut. skipped for now
+  - Ranges `1 ... 5 => println!("")`
+  - Bindings using @. wtf
+  - Guards 
+  - Mix and Match
+- Method Ayntax
+  - `foo.bar().baz()` 
+  - ‘method call syntax’ via the impl keyword
+  - Methods take a special first parameter, three variants: self, &self, and &mut self
+  - first parameter as being the foo in foo.bar()
+  - three variants correspond 
+    - self if it’s a value on the stack, 
+    - &self if it’s a reference, 
+    - &mut self if it’s a mutable reference
+{{{rust
+struct Circle {
+    x: f64,
+    y: f64,
+    radius: f64,
+}
+impl Circle {
+    fn reference(&self) {
+       println!("taking self by reference!");
+    }
+}
+impl Circle {
+    fn mutable_reference(&mut self) {
+       println!("taking self by mutable reference!");
+    }
+}
+impl Circle {
+    fn takes_ownership(self) {
+       println!("taking ownership of self!");
+    }
+}
+}}}
+	- Chaining.. return struct type to enable chaining
+  - Associated functions
+    - associated functions that do not take a self parameter
+    - `let c = Circle::new(0.0, 0.0, 2.0);`
+- Strings
+  - two main types of strings: &str and String
+  - &str first. These are called ‘string slices’
+  - fixed size, and cannot be mutated. It is a reference to a sequence of UTF-8 bytes
+  - `let greeting = "Hello there."; // greeting: &'static str'`
+  - "Hello there." is a string literal and 
+  - its type is &'static str'
+  - A string literal is a string slice that is statically allocated, 
+  - meaning that it’s saved inside our compiled program, 
+  - and exists for the entire duration it runs

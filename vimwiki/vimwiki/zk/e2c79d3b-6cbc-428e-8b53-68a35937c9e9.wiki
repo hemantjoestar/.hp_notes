@@ -6,8 +6,11 @@ Entry : 2022-08-07
 
 === References ===
 https://github.com/rust-cc/awesome-cryptography-rust
+https://scroll.io/blog/proofGeneration
+https://gist.github.com/armfazh/24dfbd03433e5a2e7ac132f1b46cb0e2
 - Aggregators
   - https://github.com/ingonyama-zk/ingopedia
+  - https://cryptographyinrustforhackers.com/
   - https://wiki.nikiv.dev/security/cryptography/zero-knowledge-proofs
   - https://github.com/ventali/awesome-zk
   - https://tlu.tarilabs.com/cryptography

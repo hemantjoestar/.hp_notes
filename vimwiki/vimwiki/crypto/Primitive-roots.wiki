@@ -1,0 +1,4 @@
+
+
+https://www.geeksforgeeks.org/primitive-root-of-a-prime-number-n-modulo-n/
+http://yancy.lol/rust/2022/10/22/primitive-roots-matter.html

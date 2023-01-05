@@ -11,4 +11,5 @@ Entry : 2022-10-10
 === ETH2.0 ===
 - [[Block-Proposals]]
 - [[Time-Slots-Epochs]]
+- https://inevitableeth.com/en/home/ethereum/upgrades/pbs
 

@@ -1,0 +1,18 @@
+
+one of the first public-key cryptosystems
+Rivest–Shamir–Adleman
+
+
+keys of length: 1024, 2048, 3072, 4096, 8129, 16384 or even more bits
+3072-bits and above are considered secure
+
+RSA Key Generation
+- very large integers e, d and n
+- n is called "modulus" and it defines the RSA key length 2048-bit
+- e is called "public key exponent". It is usually 65537 (0x010001), 24-bit
+- {n, e} is the public key
+- d is called "private key exponent" (the secret exponent) 2048-bit
+- {n, d} is the private key
+
+More stuff in pkcs file
+first factor p, second factor q, and 3 other integers from the RSA internal data structure

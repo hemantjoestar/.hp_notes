@@ -1,0 +1,24 @@
+- performing the Abelian Group operation on two identical elements
+- this operation is called 
+  - Squaring in multiplicative notation or $P^2 = P * P$
+  - Doubling in additive notation $2P = P + P$
+- generalize the concept of Doubling or Squaring or operation 
+- we will have the Scalar Multiplication or Exponentiation operation
+- represent the process of performing Abelian Group operations consecutively n times with the same element
+- "Scalar Multiplication" in additive notation $P + P + ... + P = nP$
+{{$
+\displaylines{
+O                   \quad Identity Element\\
+-P                  \quad Inverse Element\\
+}
+}}$
+- "Exponentiation" in multiplicative notation $P * P * ... * P = P^n$
+{{$
+\displaylines{
+1=P^0                \quad Identity Element\\
+P^{-1}                  \quad Inverse Element\\
+P^{-1} * P^{-1}=P^{ -2 }
+}
+}}$
+- Trapdoor Function - An operation that is much easier to perform than its reverse operation
+- Scalar Multiplication on Elliptic Curve is a good Trapdoor Function

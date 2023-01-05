@@ -10,6 +10,8 @@ Entry : 2022-08-15
 === Notes ===
 
 ===== Concepts =====
+- git Visual
+  - {{file:~/vimwiki/screen-grabs/FjJ62xKXkAYfFjt.jpeg}}
 - Perfect Commit
   - Staging area helps to select specific files or parts of files for next commit
   - {{file:~/vimwiki/screen-grabs/6478177_scrot.png}}

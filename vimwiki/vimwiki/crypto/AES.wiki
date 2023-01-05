@@ -1,0 +1,34 @@
+- symmetric key block cipher algorithm
+- block size of 128 bits
+- symmetric keys of length 128, 160, 192, 224 and 256 bits
+- TLS (Transport Layer Security) and SSL (Secure Sockets Layer)
+- modern CPU hardware implements
+
+
+- AES encryption, combined with CTR block mode and random IV causes the encryption algorithm to produce different encrypted ciphertext each time, when the same input data is encrypted
+- AES encryption in CBC mode uses a padding algorithm (like PKCS7 or ANSI X.923
+- help splitting the input data into blocks of fixed block-size (e.g. 128 bits) before passing the blocks to the AES-CBC algorithm
+- AES algorithm often is used along with a password-to-key derivation function, e.g. Scrypt(passwd) -> key or PBKDF2(passwd) -> key
+
+
+Integrated Message Authentication Code (MAC)
+- check the password validity
+- typically integrated in the algorithm's output
+- calculated from the input message, together with the encryption key
+- t is impossible to reveal the input message or the key, so the MAC itself is not a secret
+
+The AES Encryption Process
+1. Algorithm parameters are selected
+  1. ES, 128-bit, CTR mode + Scrypt + Scrypt parameters + MAC algorithm
+  2. same parameters for encryption and decryption
+2. encryption key is derived from the encryption password using a key-derivation function (KDF), e.g. Scrypt
+3. AES encryption algorithm. generates a random salt (IV) and uses it to transform the input msg using the encryption key
+4. output the ciphertext + the randomly generated IV (128-bit salt) + the MAC code
+5. HMAC code calculated from the input msg, using the encryption key (or some transformation of it) and some MAC function (like HMAC-SHA-256)
+
+The AES Decryption Process
+1. 3 inputs from above
+2. In case of authenticated encryption (like AES-GCM), the integrated MAC code is verified 
+3. In case of unauthenticated encryption
+  1. Calculate HMAC of the original message (obtained during the decryption)
+  2. Compare the encryption MAC ?? against what to compare

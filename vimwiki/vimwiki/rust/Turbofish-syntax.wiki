@@ -1,0 +1,18 @@
+
+https://techblog.tonsser.com/posts/what-is-rusts-turbofish
+
+
+- `::<SomeType>`
+- signalling to compiler about type based on function call
+{{{rust
+let even_numbers: Vec<i32> = ...
+// collect this iterator into a Vec<i32>
+let even_numbers = ...collect()::<Vec<i32>>()
+}}}
+- ::<> work on collect but not on into?
+- The answer is in the type signatures of those two functions.
+- `fn collect<B>(self) -> B`
+- `fn into(self) -> T`
+- collect has a generic type <B> is what allows you to use ::<>
+- a function like fn foo<A, B, C>() then able to call it like foo::<String, i32, f32>()
+- `struct SomeStruct<T>; SomeStruct::<String>::some_method()`

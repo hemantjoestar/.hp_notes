@@ -1,4 +1,4 @@
-:delete:switch:git:checkout:branch:log:tooling:
+:git:switch:log:branch:tooling:delete:checkout:
 
 = git-branch =
 

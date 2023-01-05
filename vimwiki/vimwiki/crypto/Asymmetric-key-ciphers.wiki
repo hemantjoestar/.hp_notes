@@ -1,0 +1,48 @@
+Asymmetric key cryptosystems / public-key cryptosystems
+
+provide 
+- key-pair generation (private + public key)
+- encryption algorithms RSA-OAEP and ECIES
+- digital signature algorithms DSA, ECDSA and EdDSA
+- key exchange algorithms  DHKE and ECDH
+
+A message encrypted by the public key is later decrypted by the private key. 
+A message signed by the private key is later verified by the public key
+
+
+RSA public-key cryptosystem is based on the mathematical concept of modular exponentiation (numbers raised to a power by modulus)
+along with some mathematical constructions and the integer factorization problem 
+(which is considered to be computationally infeasible for large enough keys)
+
+
+Curve25519 and Curve448
+algebraic structure of the elliptic curves over finite fields
+elliptic curve discrete logarithm problem (ECDLP), which is considered to be computationally infeasible for large keys
+smaller keys, shorter signatures and better performance
+
+
+Integrated encrypted schemes
+which combine asymmetric encryption with symmetric key ciphers
+
+KEM block (encapsulated key called "ephemeral symmetric key", with public key encryption) 
+DEM block (encapsulated data, with symmetric encryption)
+
+EIS schemes provide also message authentication
+DLIES (Discrete Logarithm Integrated Encryption Scheme) and ECIES (Elliptic Curve Integrated Encryption Scheme).
+
+Key wrapping refers to symmetric-key encryption of another key (which can be either a symmetric key or an asymmetric key)
+used to encrypt, integrity-protect and transport cryptographic keys
+
+digital signatures provide message authentication, integrity and non-repudiation
+RSA and ECC provide secure digital signature schemes like DSA, ECDSA and EdDSA
+
+
+Key Exchange Algorithms
+- exchanged between two parties, allowing the use of a cryptographic algorithm, in most cases symmetric encryption cipher
+- aptop connects to the home WiFi router, both parties agree on a session key, used to symmetrically encrypt the network traffic between them
+- Anonymous key exchange, like Diffie–Hellman (DHKE and ECDH),
+- Authenticated key agreement schemes authenticate the identities of parties involved in the key exchange PKI certificate
+
+
+[[RSA]]
+[[ECC]]

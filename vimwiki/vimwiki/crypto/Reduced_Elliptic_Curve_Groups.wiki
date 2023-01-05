@@ -1,0 +1,13 @@
+1. we know elliptic equations in 2-dimensional real number space to construct Abelian groups
+2. in 2-dimensional integer space?? No we cannot
+3. Solnt. we elliptic curves reduced by modular arithmetic of prime numbers
+4. However Abelian condition still left, Above only gives us integers ex. Closure of 2P might fail
+5. Problem being m used in calculations, if m an integer no probs, however m is rational as formula
+6. Applying modular arithmetic to rationals is tricky
+7. Modular Arithmetic Reduction on Rational Numbers = modular multiplication of the numerator and the multiplicative inverse of the denominator
+8. modular multiplicative inverse of an integer, use Extended Euclidean Algorithm
+9. Som we finally arrive at Reduced Elliptic Curve Group
+
+
+- Hasses theorem: order of group is bound by a range
+- EC can also be constructed from prime power numbers

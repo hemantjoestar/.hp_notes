@@ -1,0 +1,38 @@
+
+- geometric properties; 
+- geometric algorithm defining an addition operation; 
+- infinity point or identity element; 
+- commutativity and associativity of the addition operation
+
+- symmetric about the x-axis
+- straight line can only intersect with an elliptic curve at up to 3 locations
+- operation, called "addition", 
+- can be defined on an elliptic curve using a geometric algorithm called "rule of the chord"
+- infinity point can be considered as part of an elliptic curve and used as the "identity element" of the "addition" operation
+- "addition" operation is commutative and associative
+
+
+
+- $ y^2 = x^3 + ax + b $
+- sign "+" as the addition operator $ P + Q = R $
+- addition of points P and Q on an elliptic curve is a point R on the curve, 
+- which is the symmetrical point of -R, 
+- which is the third intersection of the curve and the straight line passing through P and Q
+- rule of the chord
+- add a point P on an elliptic curve to itself
+  - Draw a straight line passing P and tangent to the elliptic curve
+  - the second intersection of the straight line and the elliptic curve as -R
+  - symmetrical point of -R on the other side of the x-axis of the elliptic curve as R
+  - $ P + P = R; 2P = R $
+- In order to completely define the addition operation on an elliptic curve, 
+ 
+- we need to introduce a special point on the curve, the infinity point
+- $Q= -P; R=P+Q; -R=(\infty ,\infty );R=(\infty ,-\infty )$
+- the vertical line and the elliptic curve will eventually intersect at Infinity point $O$
+- Negation operation $Q = -P, if P + Q = O$
+- Subtraction $R = P - Q = P + (-Q), where (-Q) is the negation operation of Q$
+- "infinity point" is the "identity element"
+- "Zero element" would be much better since "Identity" more accurate for Mulitplication
+- $E + I = E,E - E = I,P + O = P,P - P = O$
+- Commutativity $P + Q = Q + P$
+- Associativity $P + (Q + S) = (P + Q) + S$

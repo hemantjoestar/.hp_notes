@@ -1,4 +1,4 @@
-:vimwiki:syntax_highlight:nested_syntax:preformatted_text:tooling:
+:vimwiki:tooling:preformatted_text:syntax_highlight:nested_syntax:
 
 = vimwiki-useful =
 

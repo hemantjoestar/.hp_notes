@@ -1,0 +1,15 @@
+- PRNG and CSPRNG
+- cryptography the randomness (entropy) plays very important role
+- pseudorandom number generator (PRNG) is used to stretch a small amount of initial randomness
+- PRNGs are not cryptographically secure and are different from CSPRNGs
+- PRNGs fucntions start from some initial entropy (seed) and calculate the next random number by some calculation which is unpredictable without knowing the seed
+- mot secure for crypto
+- cryptography cannot work without unpredictable randomness
+- hence CPRNGs, properties that make them suitable for use in cryptography
+  - next bit test
+  - state compromise extensions. knowing initial state is not enough
+- DEsigns
+  -  block ciphers
+  - number theory . IFP, DLP, ECDLP
+- OS randomness is usually accessible from /dev/random and /dev/urandom
+- 

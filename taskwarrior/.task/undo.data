@@ -1195,3 +1195,72 @@ time 1668953443
 old [description:"wowlabz-roadmap" diary_entry:"Y" entry:"1668953440" modified:"1668953443" project:"job" status:"pending" tmp_value_holder:"wowlabz-roadmap" uuid:"5889ac96-3671-43d6-92c3-84f38b1d1128"]
 new [description:"wowlabz-roadmap" diary_entry:"Y" entry:"1668953440" modified:"1668953443" project:"job" status:"pending" tags:"job" tags_job:"x" tmp_value_holder:"wowlabz-roadmap" uuid:"5889ac96-3671-43d6-92c3-84f38b1d1128"]
 ---
+time 1669224363
+old [description:"eip-1271" diary_entry:"N" entry:"1659958793" modified:"1659958793" project:"eth.erc" status:"pending" uuid:"3030e50d-93d4-413c-bc11-f8e2f47d5709"]
+new [description:"eip-1271" diary_entry:"N" entry:"1659958793" modified:"1669224363" project:"eth.erc" status:"pending" tmp_value_holder:"eip-1271" uuid:"3030e50d-93d4-413c-bc11-f8e2f47d5709"]
+---
+time 1669224364
+old [description:"eip-1271" diary_entry:"N" entry:"1659958793" modified:"1669224363" project:"eth.erc" status:"pending" tmp_value_holder:"eip-1271" uuid:"3030e50d-93d4-413c-bc11-f8e2f47d5709"]
+new [description:"eip-1271" diary_entry:"Y" entry:"1659958793" modified:"1669224364" project:"eth.erc" status:"pending" tmp_value_holder:"eip-1271" uuid:"3030e50d-93d4-413c-bc11-f8e2f47d5709"]
+---
+time 1669224364
+old [description:"eip-1271" diary_entry:"Y" entry:"1659958793" modified:"1669224364" project:"eth.erc" status:"pending" tmp_value_holder:"eip-1271" uuid:"3030e50d-93d4-413c-bc11-f8e2f47d5709"]
+new [description:"eip-1271" diary_entry:"Y" entry:"1659958793" modified:"1669224364" project:"eth.erc" status:"pending" tags:"erc,eth" tags_erc:"x" tags_eth:"x" tmp_value_holder:"eip-1271" uuid:"3030e50d-93d4-413c-bc11-f8e2f47d5709"]
+---
+time 1669359890
+new [description:"rust-learn" diary_entry:"N" entry:"1669359890" modified:"1669359890" project:"rust" status:"pending" uuid:"2fca7677-a463-4cd1-9641-0345fe8374d3"]
+---
+time 1669359899
+old [description:"rust-learn" diary_entry:"N" entry:"1669359890" modified:"1669359890" project:"rust" status:"pending" uuid:"2fca7677-a463-4cd1-9641-0345fe8374d3"]
+new [description:"rust-learn" diary_entry:"N" entry:"1669359890" modified:"1669359899" project:"rust" status:"pending" tmp_value_holder:"rust-learn" uuid:"2fca7677-a463-4cd1-9641-0345fe8374d3"]
+---
+time 1669359899
+old [description:"rust-learn" diary_entry:"N" entry:"1669359890" modified:"1669359899" project:"rust" status:"pending" tmp_value_holder:"rust-learn" uuid:"2fca7677-a463-4cd1-9641-0345fe8374d3"]
+new [description:"rust-learn" diary_entry:"Y" entry:"1669359890" modified:"1669359899" project:"rust" status:"pending" tmp_value_holder:"rust-learn" uuid:"2fca7677-a463-4cd1-9641-0345fe8374d3"]
+---
+time 1669359899
+old [description:"rust-learn" diary_entry:"Y" entry:"1669359890" modified:"1669359899" project:"rust" status:"pending" tmp_value_holder:"rust-learn" uuid:"2fca7677-a463-4cd1-9641-0345fe8374d3"]
+new [description:"rust-learn" diary_entry:"Y" entry:"1669359890" modified:"1669359899" project:"rust" status:"pending" tags:"rust" tags_rust:"x" tmp_value_holder:"rust-learn" uuid:"2fca7677-a463-4cd1-9641-0345fe8374d3"]
+---
+time 1669611196
+old [description:"rust-learn" diary_entry:"Y" entry:"1669359890" modified:"1669359899" project:"rust" status:"pending" tags:"rust" tags_rust:"x" tmp_value_holder:"rust-learn" uuid:"2fca7677-a463-4cd1-9641-0345fe8374d3"]
+new [description:"rust-learn" diary_entry:"Y" entry:"1669359890" modified:"1669611196" project:"rust" status:"pending" tags:"next,rust" tags_next:"x" tags_rust:"x" tmp_value_holder:"rust-learn" uuid:"2fca7677-a463-4cd1-9641-0345fe8374d3"]
+---
+time 1670217873
+new [description:"celestia" diary_entry:"N" entry:"1670217873" modified:"1670217873" project:"eth" status:"pending" uuid:"4dd9bfc1-8bce-44e1-ad8c-da95106a20d1"]
+---
+time 1670217879
+old [description:"celestia" diary_entry:"N" entry:"1670217873" modified:"1670217873" project:"eth" status:"pending" uuid:"4dd9bfc1-8bce-44e1-ad8c-da95106a20d1"]
+new [description:"celestia" diary_entry:"N" entry:"1670217873" modified:"1670217879" project:"eth" status:"pending" tmp_value_holder:"celestia" uuid:"4dd9bfc1-8bce-44e1-ad8c-da95106a20d1"]
+---
+time 1670217879
+old [description:"celestia" diary_entry:"N" entry:"1670217873" modified:"1670217879" project:"eth" status:"pending" tmp_value_holder:"celestia" uuid:"4dd9bfc1-8bce-44e1-ad8c-da95106a20d1"]
+new [description:"celestia" diary_entry:"Y" entry:"1670217873" modified:"1670217879" project:"eth" status:"pending" tmp_value_holder:"celestia" uuid:"4dd9bfc1-8bce-44e1-ad8c-da95106a20d1"]
+---
+time 1670217879
+old [description:"celestia" diary_entry:"Y" entry:"1670217873" modified:"1670217879" project:"eth" status:"pending" tmp_value_holder:"celestia" uuid:"4dd9bfc1-8bce-44e1-ad8c-da95106a20d1"]
+new [description:"celestia" diary_entry:"Y" entry:"1670217873" modified:"1670217879" project:"eth" status:"pending" tags:"eth" tags_eth:"x" tmp_value_holder:"celestia" uuid:"4dd9bfc1-8bce-44e1-ad8c-da95106a20d1"]
+---
+time 1670561907
+old [description:"eth-post-merge" diary_entry:"Y" entry:"1662039518" modified:"1662039526" project:"eth.pos" status:"pending" tags:"eth,pos" tags_eth:"x" tags_pos:"x" tmp_value_holder:"Eth" uuid:"54e9db81-c6f6-4bf8-bddc-cb084478dfd7"]
+new [description:"eth-post-merge" diary_entry:"Y" entry:"1662039518" modified:"1670561907" project:"eth.pos" status:"pending" tags:"eth,order_flow,pos" tags_eth:"x" tags_order_flow:"x" tags_pos:"x" tmp_value_holder:"Eth" uuid:"54e9db81-c6f6-4bf8-bddc-cb084478dfd7"]
+---
+time 1671457828
+new [description:"number-theory" diary_entry:"N" entry:"1671457828" modified:"1671457828" project:"crypto" status:"pending" uuid:"6238e929-ee90-4d9f-b569-c9170e1813da"]
+---
+time 1671457836
+old [description:"number-theory" diary_entry:"N" entry:"1671457828" modified:"1671457828" project:"crypto" status:"pending" uuid:"6238e929-ee90-4d9f-b569-c9170e1813da"]
+new [description:"number-theory" diary_entry:"N" entry:"1671457828" modified:"1671457836" project:"crypto" status:"pending" tmp_value_holder:"number-theory" uuid:"6238e929-ee90-4d9f-b569-c9170e1813da"]
+---
+time 1671457837
+old [description:"number-theory" diary_entry:"N" entry:"1671457828" modified:"1671457836" project:"crypto" status:"pending" tmp_value_holder:"number-theory" uuid:"6238e929-ee90-4d9f-b569-c9170e1813da"]
+new [description:"number-theory" diary_entry:"Y" entry:"1671457828" modified:"1671457837" project:"crypto" status:"pending" tmp_value_holder:"number-theory" uuid:"6238e929-ee90-4d9f-b569-c9170e1813da"]
+---
+time 1671457837
+old [description:"number-theory" diary_entry:"Y" entry:"1671457828" modified:"1671457837" project:"crypto" status:"pending" tmp_value_holder:"number-theory" uuid:"6238e929-ee90-4d9f-b569-c9170e1813da"]
+new [description:"number-theory" diary_entry:"Y" entry:"1671457828" modified:"1671457837" project:"crypto" status:"pending" tags:"crypto" tags_crypto:"x" tmp_value_holder:"number-theory" uuid:"6238e929-ee90-4d9f-b569-c9170e1813da"]
+---
+time 1671881838
+old [description:"evm-internals" diary_entry:"Y" entry:"1659703037" modified:"1662974720" project:"eth.evm" status:"pending" tags:"bloom_filters,eth,events,evm,rlp" tags_bloom_filters:"x" tags_eth:"x" tags_events:"x" tags_evm:"x" tags_rlp:"x" tmp_value_holder:"Evm" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+new [description:"evm-internals" diary_entry:"Y" entry:"1659703037" modified:"1671881838" project:"eth.evm" status:"pending" tags:"bloom_filters,eth,events,evm,rlp,trie" tags_bloom_filters:"x" tags_eth:"x" tags_events:"x" tags_evm:"x" tags_rlp:"x" tags_trie:"x" tmp_value_holder:"Evm" uuid:"d0707a3a-080d-40ce-9f83-91b3b0bc015b"]
+---

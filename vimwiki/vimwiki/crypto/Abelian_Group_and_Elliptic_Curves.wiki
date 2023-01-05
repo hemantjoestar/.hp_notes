@@ -1,0 +1,11 @@
+
+{{$
+\displaylines{
+P + Q = R                   \quad closure \\
+P + Q = Q + P               \quad commutativity \\
+(P + Q) + S = P + (Q + S)   \quad associativity \\
+P + ∞ = P                   \quad identity \\
+P + O = P                   \quad identity \\
+P + (-P) = ∞                \quad symmetry \\
+}
+}}$

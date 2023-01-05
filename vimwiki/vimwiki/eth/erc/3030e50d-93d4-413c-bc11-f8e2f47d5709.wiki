@@ -1,0 +1,10 @@
+:erc:eth:
+
+= eip-1271 =
+
+Entry : 2022-11-23
+
+=== References ===
+- 
+
+=== Notes ===

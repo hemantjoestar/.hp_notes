@@ -1,0 +1,23 @@
+- irreversible by design, which means that there is no fast algorithm to restore the input message from its hash value
+- implementation of the data structure "hash-table" (associative array) 
+- Better hash functions may use the Merkle–Damrd construction schemeg
+- hash functions transform input data of arbitrary size (e.g. a text message) to a result of fixed size (e.g. 256 bits), which is called hash value (or hash code, message digest, or simply hash)
+- Ideal cryptographic hash function
+  - Deterministic
+  - Quick
+  - HArd to Analyse
+  - Irreversible
+  - No collisions
+
+Secure Hash Algorithms
+- broken (like MD5 and SHA1)
+- still considered secure (like SHA-2, SHA-3 and BLAKE2)
+- SHA3-256 provides more cryptographic strength than SHA-256 for the same hash length (256 bits)
+- SHA-3 family of functions are representatives of the "Keccak" hashes family, which are based on the cryptographic concept "sponge construction"
+-  SHA-3 family of cryptographic hash functions are not vulnerable to the "length extension attack"
+- SHAKE128(msg, length) and SHAKE256(msg, length) are variants of the SHA3-256 and SHA3-512
+
+Calculating Cryptographic Hash Functions in Python
+- input data for hashing should be given as bytes sequence (bytes object)
+- The produced output data is also a bytes sequence, which can be printed as hex digits using binascii.hexlify()
+- 

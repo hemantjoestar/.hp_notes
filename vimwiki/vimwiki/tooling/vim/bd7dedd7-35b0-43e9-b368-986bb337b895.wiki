@@ -15,6 +15,7 @@ Entry : 2022-10-11
   - https://vdwaa.nl/vim-setup-2021.html
   - https://alpha2phi.medium.com/setting-up-neovim-for-rust-debugging-termdebug-and-vimspector-df749e1ba47c
   - https://dwaves.de/2021/07/24/how-to-step-debug-debugging-rust-in-vim-8-1/
+  - https://madskjeldgaard.dk/posts/rust-ycm/
 - Python
   - https://medium.com/nerd-for-tech/vim-as-an-ide-for-python-2021-f922da6d2cfe
   - https://stackabuse.com/vim-for-python-development/

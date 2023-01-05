@@ -1,4 +1,4 @@
-:exploits:solidity:eth:_1gwei:
+:exploits:solidity:eth:_1gwei:delegate_call:
 
 = solidity-resources =
 
@@ -9,6 +9,7 @@ Entry : 2022-08-06
 - https://inspexco.medium.com/cross-contract-reentrancy-attack-402d27a02a15
 - https://github.com/dragonfly-xyz/useful-solidity-patterns
 - https://github.com/JetJadeja/flashloan-workshop
+- https://blog.finxter.com/solidity-crash-course/
 
 === Notes ===
 
@@ -32,6 +33,8 @@ Entry : 2022-08-06
   - Bridge to L2s
   - Use Protocols
 
+Delegate call
+- https://twitter.com/prady_v/status/1608133771970371584
 == Language Quirks ==
 - [[https://forum.openzeppelin.com/t/a-collection-of-gas-optimisation-tricks/19966/3|generic writeup about common gas optimizations]]
 - [[https://twitter.com/Vinicius_Rod/status/1558120271361499136|in solidity, you dont use memory with uint256 type. it would raise an error when compiling]]

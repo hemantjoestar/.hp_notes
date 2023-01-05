@@ -1,0 +1,34 @@
+-  key establishment(key exchange, key negotiation)
+- shared secret becomes available to two parties, typically for encrypted communication.
+- Establishment techniques can be key agreement or key transport schemes
+
+- key agreement scheme both parties contribute to the negotiation of the shared secret
+- DHKE and ECDH
+- key transport scheme only one of the parties contributes to the shared secret and the other party obtains the secret from it
+- public-key cryptography,
+- rsa key exchange client encrypts random session key with pvt key
+
+- key exchange schemes securely exchange cryptographic keys between two parties, in a way that noone else can obtain a copy of the keys, 
+- encrypted conversation (e.g. during the TLS handshake phase), the parties first negotiate about the encryption keys (the shared secret)
+
+- key negotiation (key establishment) scheme 
+- is executed every time when a laptop connects to the Wi-Fi network or a Web browser opens a Web site through the https:// protocol
+- annonymous key-exchange protocol (like DHKE), a password or pre-shared key (PSK), a digital certificate or a combination of many elements
+
+- Authenticated Key Exchange (AKE) is the exchange of session key in a key exchange protocol which also authenticates the identities of the involved parties
+- password-authenticated key agreement (PAKE)
+- 
+- 
+- DHKE
+- securely exchange cryptographic keys (key agreement protocol) over a public (insecure) channel
+- overheard communication does not reveal the keys
+- encrypted communication (e.g. using a symmetric cipher like AES)
+- anonymous key agreement scheme
+- resistant to sniffing attacks (data interception)
+- discrete logarithms and modular exponentiations 
+- Discrete Logartihm Problem (DLP)
+- DHKE (following the RFC 3526) the base is g = 2 and the modulus p is a large prime number (1536 ... 8192 bits)
+- vulnerable to man-in-the-middle attacks, where a hacker can intercept and modify the messages exchanged between the parties.
+
+
+- ECDH is a variant of the classical DHKE protocol, where the modular exponentiation calculations are replaced with elliptic-curve

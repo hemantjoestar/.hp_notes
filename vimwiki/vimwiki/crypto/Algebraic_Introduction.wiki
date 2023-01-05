@@ -1,0 +1,13 @@
+- introduction of addition operations on elliptic curves
+- calculate addition operations by dividing the problem into 4 cases: 
+  - two symmetric points $R = P + (-P) = (\infty, \infty)$
+  - one infinity point, $R = P + O = P, or R = O + Q = Q$
+  - two identical points, 
+    - $R = 2P = (m^2-2x_{P}, m(x_{P}-x_{R})-y_{P})$
+    - m is the slope of the straight line passing P and tangent to the curve: $3(x_{P})^2+a)/2(y_{P})$
+  - and two distinct points
+    - $R = P + Q = (m^2-x_{P}-x_{Q}, m(x_{P}-x_{R})-y_{P})$
+    - m is the slope of the straight line passing P and Q: $(yP-yQ)/(xP-xQ)$
+  - Vieta's first formula is used to help calculating the addition operation: 
+  - The sum of 3 roots of a cubic equation is the negation of the coefficient of the second term.
+  - $4a^3 + 27b^2 != 0$ can be used to avoid elliptic curves with singularities

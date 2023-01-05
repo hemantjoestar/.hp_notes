@@ -1,0 +1,12 @@
+:crypto:
+
+= number-theory =
+
+Entry : 2022-12-19
+
+=== References ===
+- 
+
+=== Notes ===
+
+- [[Primitive-roots]]

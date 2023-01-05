@@ -1,0 +1,17 @@
+- Cryptography is the science of providing security and protection of information
+- deals with storing and transmitting data in a secure way, such that only those, for whom it is intended, can read and process it
+- encrypting and decrypting data using symmetric or asymmetric encryption
+- one or more keys are used to transform data from plain to encrypted form and back
+- Symmetric encryption (like AES, Twofish and ChaCha20)
+- asymmetric encryption uses a public-key cryptosystem (like RSA or ECC) and a key-pair: public key (encryption key) and corresponding private key (decryption key). 
+- Encryption algorithms are often combined in encryption schemes (like AES-256-CTR-HMAC-SHA-256, ChaCha20-Poly1305 or ECIES-secp256k1-AES-128-GCM)
+- key derivation algorithms (like PBKDF2 and Scrypt)
+-  means of digital signing of messages which guarantee message authenticity, integrity and non-repudiation
+- random numbers and deals with entropy (unpredictable randomness) and secure generation of random numbers (e.g. using CSPRNG)
+- key-exchange algorithms (like Diffie-Hellman key exchange and ECDH) and key establishment schemes, used to securely establish encryption keys between two parties that intend to transmit messages securely using encryption
+-  cryptographic hash functions (like SHA-3 and BLAKE2), which transform messages to message digest (hash of fixed length), which cannot be reversed back to the original message and almost uniquely identifies the input
+- Password hashing and password to key derivation functions (like Scrypt and Argon2) protect user passwords and password encrypted documents and data by securely deriving a hash (or key) from a text-based passwords, injecting random parameters (salt)
+- ncryption algorithms and random generators follow the Shannon's principles of confusion and diffusion. 
+  - Confusion means that each bit in the output form a cipher should depend on several parts of the key and input data and thus direct mapping cannot be established. 
+  - Diffusion means that changing one bit in the input should change approximately half of the bits in the output.
+These principles are incorporated in most hash functions, MAC algorithms, random number generators, symmetric and asymmetric ciphers.

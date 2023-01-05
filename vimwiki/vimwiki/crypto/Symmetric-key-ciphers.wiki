@@ -1,0 +1,96 @@
+- AES, ChaCha20, RC6, Twofish, CAST 
+- Symmetric key ciphers  use the same key (or password) to encrypt and decrypt data
+- often used in combination with other algorithms into a Symmetric encryption schemes
+- ChaCha20-Poly1305 and AES-128-GCM and AES-256-CTR-HMAC-SHA256
+- key derivation algorithms (like Scrypt and Argon2)
+- quantum-resistant
+
+
+- Symmetric encryption and decryption uses a secret key or passphrase (to derive the key from it)
+- 128 bits or 256 bits and is called "encryption key"
+- hex or base64-encoded integer number or is derived through a password-to-key derivation scheme
+
+Symmetric Encryption Uses a Set of Algorithms
+- password to key derivation algorithm: Scrypt or Argon2
+- Block cipher algorithm (like AES): to securely encrypt data blocks of fixed length using a secret key
+- Block to stream cipher transformation algorithm: to allow encrypting data of arbitrary size using a block cipher algorithm, (block cipher mode like CBC or CTR) + message padding algorithm like PKCS7 (in some modes)
+- message authentication: HMAC: to check whether after decryption the obtained result matches the original message before the encryption
+
+
+- configure and use symmetric block ciphers
+- securely encrypt and decrypt messages of arbitrary size
+
+
+
+Cipher Block modes
+- block
+  - encrypt a block of data of fixed size
+  -  key length may be different
+- stream
+  - encrypt data of arbitrary size
+- transform a block cipher into a stream cipher and encrypt data of arbitrary size
+- known as "block cipher modes of operation"
+  - AES-256-GCM
+  - AES-128-CTR
+  - Serpent-128-CBC
+- CBC, CTR and GCM modes supports "random access" decryption
+  - seeking at arbitrary time offset in a video player, playing an encrypted video stream 
+- CTR, GCM do not require padding at all, because they perform XOR between portions of the plaintext and the internal cipher's state at each step
+- The input data (before encryption) and the output data (after encryption) have the same length
+- can encrypt and decrypt the blocks in parallel (in multi-core CPUs)
+
+Correct use
+- require a random (unpredictable) initialization vector (IV), known also as nonce or salt at the start
+- CTR: 
+  - strong security, arbitrary input data length (without padding) and parallel processing capabilities
+  - It does not provide authentication and integrity, just encryption
+- GCM 
+  - all the advantages of the CTR mode and adds message authentication (produces a cryptographical message authentication tag). 
+  - GCM is fast and efficient way to implement authenticated encryption in symmetric ciphers
+  - highly recommended 
+- CBC
+  - block of fixed size
+  - padding algorithm should be used to make the last block the same length after splitting the input data into blocks
+  - vulnerable to the "padding oracle" attack, so its is better to avoid
+- insecure block mode is ECB 
+
+
+Authenticated Encryption
+- a scheme to encrypt data and simultaneously calculate an authentication code
+- to provide message authenticity and integrity
+- whether the decryption key / password was correct and whether the encrypted data was not tampered
+- similar concept 
+- authenticated encryption with associated data (AEAD)
+- more secure
+- ChaCha20-Poly1305 and AES-GCM) provide integrated authenticated encryption (AEAD)
+- AES-CBC and AES-CTR) need authentication to be added additionally (if you need it)
+
+
+Popular Symmetric Ciphers
+- AES/Rijndael
+  - block mode like AES-CTR or AES-GCM to process streaming data
+  - AES require also a random 128-bit initial vector (IV, nonce
+- Salsa20 / ChaCha20
+  - modern, fast, symmetric stream ciphers
+  - 128-bit or 256-bit symmetric secret key + randomly generated 64-bit nonce (initial vector)
+  - produces as output an encrypted stream of data with the same length as the input stream
+   
+Symmetric Encryption Schemes
+- ChaCha20-Poly1305
+- AES-256-GCM
+- both integrated authenticated AEAD encryption
+
+
+Ethereum wallet encryption
+- standard encrypted wallet file format for the Ethereum blockchain
+- AES-128-CTR cipher is combined with Scrypt and MAC
+- "UTC / JSON Wallet (Keystore File)" or "Web3 Secret Storage Definition"
+- Inside the UTC / JSON File
+  - Key-derivation function (KDF) used to transform the text-based wallet encryption password into an AES symmetric key
+  - KDF parameters - KDF function to derive the password (e.g. iterations count, salt, etc.)
+  - ciphertext - the encrypted wallet content encrypted 256-bit private key
+  - AES-128-CTR + initial vector (IV)
+  - (MAC) to check the message integrity after it is decrypted
+  - MAC by calculating keccak-256 hash of the concatenations of the second-leftmost 16 bytes of the derived key together with the full ciphertext
+  - 
+- 

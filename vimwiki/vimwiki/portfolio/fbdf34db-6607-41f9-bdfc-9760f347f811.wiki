@@ -4,6 +4,9 @@
 %% autocmd BufWritePre <buffer> :Vimwiki2HTML
 %% Vimwiki2HTMLBrowse, template has autoloader
 
+
+&#128075;
+<p style="font-size:100px">&#129409;</p>
 to mimic as much as possible
 https://standardresume.co/r/rootulp
 
@@ -69,6 +72,7 @@ Entry : 2022-08-02
 == Education ==
 *Master of Technology: IIT-Bombay Control and Computing: Dept. of Electrical Engg.*<br/>GPA: 8.04. July ’11 - July ’14
 
+[[https://www.ee.iitb.ac.in/~belur/|Advisor]]Eternally Grateful for giving me OSS<br/>
 Thesis : Polynomial matrix null space computation
 - BlockQR and SVD on GPU using OpenCL and clAMDBLAS
 - Block Toeplitz solutions in  Scipy
